@@ -1,13 +1,20 @@
 {
-  "header": {
+  "nav": {
     "home": "Home",
     "about": "About",
     "services": "Services",
-    "contact": "Contact",
-    "language": "Language"
+    "instructors": "Instructors",
+    "blog": "Blog",
+    "contact": "Contact"
   },
-  "title": "Start your career in IT",
-  "description": "Find your place in the IT field with practical courses led by professional developers.",
-  "viewCourses": "View Courses",
-  "freeConsultation": "Free Consultation"
+  "home": {
+    "hero": {
+      "title1": "In the IT field",
+      "title2": "your career",
+      "title3": "start",
+      "subtitle": "Find your place in the IT field through practical courses conducted by professional developers",
+      "btnCourses": "View Courses",
+      "btnConsult": "Free Consultation"
+    }
+  }
 }

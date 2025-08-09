@@ -1,12 +1,12 @@
 import { Award, BookOpen, Clock, Eye, Globe, Mail, MapPin, Phone, Target, Users } from "lucide-react";
 export const navItems = [
-    { name: 'Bosh sahifa', path: '/' },
-    { name: 'Kurslar', path: '/courses' },
-    { name: 'Biz haqimizda', path: '/about' },
-    { name: "O'qituvchilar", path: '/instructors' },
-    { name: 'Blog', path: '/blog' },
-    { name: 'Aloqa', path: '/contact' },
-  ];
+  { name: 'nav.home', path: '/' },
+  { name: 'nav.about', path: '/courses' },
+  { name: 'nav.services', path: '/about' },
+  { name: 'nav.instructors', path: '/instructors' },
+  { name: 'nav.blog', path: '/blog' },
+  { name: 'nav.contact', path: '/contact' },
+];
 
 
 export const courses = [

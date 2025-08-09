@@ -7,8 +7,10 @@ import { containerVariants, itemVariants } from '../type';
 
 import Statistika from '../components/homecomp/statistika';
 import Cta from '../components/homecomp/Cta';
+import { useTranslation } from 'react-i18next';
 
 const HomePage = () => { 
+  const {t} = useTranslation()
   return (
     <motion.div
       initial="hidden"
@@ -22,28 +24,29 @@ const HomePage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 text-white gap-12 items-center">
             <motion.div variants={itemVariants} className="text-center lg:text-left">
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-                IT sohasida
+                 {t('home.hero.title1')}
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600">
-                  karyerangizni
+                                  {t('home.hero.title2')}
                 </span>
-                boshlang
+                             {t('home.hero.title3')}
+
               </h1>
               <p className="text-xl lg:text-2xl mb-8   leading-relaxed">
-                Professional dasturchilar tomonidan olib boriladigan amaliy kurslar orqali IT sohasida o'z o'rningizni toping
+                {t('home.hero.subtitle')}
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Link
                   to="/courses"
                   className="group inline-flex items-center px-8 py-4 bg-orange-500 hover:bg-orange-600  font-semibold rounded-xl transition-all duration-300 transform hover:scale-105"
                 >
-                  Kurslarni ko'rish
+                  {t('home.hero.btnCourses')}
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <Link
                   to="/contact"
                   className="inline-flex items-center px-8 py-4 border-2 border-white  hover:bg-white hover:text-blue-900 font-semibold rounded-xl transition-all duration-300"
                 >
-                  Bepul maslahat
+                 {t('home.hero.btnConsult')}
                 </Link>
               </div>
             </motion.div>

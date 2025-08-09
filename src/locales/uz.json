@@ -1,13 +1,20 @@
 {
-  "header": {
+  "nav": {
     "home": "Bosh sahifa",
-    "about": "Haqqimizda",
+    "about": "Biz haqimizda",
     "services": "Xizmatlar",
-    "contact": "Aloqa",
-    "language": "Til"
+    "instructors": "O'qituvchilar",
+    "blog": "Blog",
+    "contact": "Aloqa"
   },
-  "title": "IT sohasida karyerangizni boshlang",
-  "description": "Professional dasturchilar tomonidan olib boriladigan amaliy kurslar orqali IT sohasida o'z o'rningizni toping.",
-  "viewCourses": "Kurslarni ko'rish",
-  "freeConsultation": "Bepul maslahat"
+   "home": {
+    "hero": {
+      "title1": "IT sohasida",
+      "title2": "karyerangizni",
+      "title3": "boshlang",
+      "subtitle": "Professional dasturchilar tomonidan olib boriladigan amaliy kurslar orqali IT sohasida o'z o'rningizni toping",
+      "btnCourses": "Kurslarni ko'rish",
+      "btnConsult": "Bepul maslahat"
+    }
+  }
 }

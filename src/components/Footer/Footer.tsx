@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import { Code, GraduationCap, Phone, Mail, MapPin, Facebook, Instagram, Youtube, Linkedin } from 'lucide-react';
+import {  Phone, Mail, MapPin, Facebook, Instagram, Youtube, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
