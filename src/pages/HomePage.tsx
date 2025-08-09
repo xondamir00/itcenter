@@ -57,7 +57,7 @@ const HomePage = () => {
                 <img
                   src="https://it-park.uz/storage/images/newsimage/IMG_6594_1603376676%20(%D0%9A%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C)_1603381811.jpg"
                   alt="IT ta'lim"
-                  className="w-full h-80 object-cover rounded-xl"
+                  className="w-full h-79 object-cover rounded-xl"
                 />
               </div>
             </motion.div>
