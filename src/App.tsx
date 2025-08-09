@@ -1,5 +1,5 @@
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as  Routes, Route } from 'react-router-dom';
 import {  AnimatePresence } from 'framer-motion';
 import Header from './shared/Header';
 import Footer from './components/Footer/Footer';
