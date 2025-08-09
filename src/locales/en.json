@@ -1,0 +1,13 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "title": "Start your career in IT",
+  "description": "Find your place in the IT field with practical courses led by professional developers.",
+  "viewCourses": "View Courses",
+  "freeConsultation": "Free Consultation"
+}
