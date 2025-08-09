@@ -27,13 +27,13 @@ const BlogPage = () => {
       initial="hidden"
       animate="visible"
       variants={containerVariants}
-      className="pt-16 min-h-screen bg-gray-50"
+      className="pt-16 min-h-screen "
     >
       {/* Header */}
-      <section className="bg-white py-16">
+      <section className=" py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div variants={itemVariants} className="text-center">
-            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold mb-6">
               IT Blog
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -44,7 +44,7 @@ const BlogPage = () => {
       </section>
 
       {/* Search and Filters */}
-      <section className="py-8 bg-white border-t">
+      <section className="py-8  border-t">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div variants={itemVariants} className="space-y-6">
             {/* Search */}
@@ -146,7 +146,7 @@ const BlogPage = () => {
               <motion.article
                 key={post.id}
                 variants={itemVariants}
-                className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"
+                className="bg-gray-300 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"
               >
                 <div className="relative">
                   <img

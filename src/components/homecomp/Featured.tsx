@@ -26,10 +26,10 @@ const Featured = () => {
   }, []);
   return (
     
-     <section className="py-20 bg-gray-50">
+     <section className="py-20 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div variants={itemVariants} className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold  mb-4">
               Mashhur kurslar
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -60,7 +60,7 @@ const Featured = () => {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{course.title}</h3>
+                  <h3 className="text-xl font-bold  mb-2">{course.title}</h3>
                   <p className="text-gray-600 mb-4 leading-relaxed h-[10vh]">{course.description}</p>
                   <div className="flex justify-between items-center mb-4">
                     <span className="text-sm text-gray-500">Davomiyligi: {course.duration}</span>

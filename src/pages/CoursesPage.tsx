@@ -37,13 +37,13 @@ const CoursesPage = () => {
       initial="hidden"
       animate="visible"
       variants={containerVariants}
-      className="pt-16 min-h-screen bg-gray-50"
+      className="pt-16 min-h-screen "
     >
       {/* Header */}
-      <section className="bg-white py-16">
+      <section className=" py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div variants={itemVariants} className="text-center">
-            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold   mb-6">
               Barcha kurslar
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -54,7 +54,7 @@ const CoursesPage = () => {
       </section>
 
       {/* Filters */}
-      <section className="py-8 bg-white border-t">
+      <section className="py-8  border-t">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div variants={itemVariants} className="space-y-6">
             {/* Search */}
@@ -73,8 +73,9 @@ const CoursesPage = () => {
             <div className="flex flex-wrap gap-4">
               <div className="flex items-center space-x-2">
                 <Filter className="h-5 w-5 text-gray-500" />
-                <span className="font-medium text-gray-700">Kategoriya:</span>
-                {categories.map(category => (
+                <span className="font-medium ">Kategoriya:</span>
+               <div className='w-full flex gap-3 items-center flex-wrap'>
+                 {categories.map(category => (
                   <button
                     key={category}
                     onClick={() => setSelectedCategory(category)}
@@ -87,13 +88,15 @@ const CoursesPage = () => {
                     {category}
                   </button>
                 ))}
+               </div>
               </div>
             </div>
 
             <div className="flex flex-wrap gap-4">
               <div className="flex items-center space-x-2">
-                <span className="font-medium text-gray-700">Daraja:</span>
-                {levels.map(level => (
+                <span className="font-medium ">Daraja:</span>
+               <div className='w-full flex items-center gap-3 flex-wrap'>
+                 {levels.map(level => (
                   <button
                     key={level}
                     onClick={() => setSelectedLevel(level)}
@@ -106,6 +109,7 @@ const CoursesPage = () => {
                     {level}
                   </button>
                 ))}
+               </div>
               </div>
             </div>
           </motion.div>

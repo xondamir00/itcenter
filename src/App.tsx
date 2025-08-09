@@ -13,8 +13,8 @@ import CourseDetailPage from './pages/CourseDetailPage';
 
 function App() {
   return (
-    <Router>
-      <div className="min-h-screen bg-gray-50">
+    
+      <div className="min-h-screen ">
         <Header />
         <AnimatePresence mode="wait">
           <Routes>
@@ -29,7 +29,7 @@ function App() {
         </AnimatePresence>
         <Footer />
       </div>
-    </Router>
+    
   );
 }
 

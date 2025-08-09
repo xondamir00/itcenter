@@ -69,10 +69,10 @@ const ContactPage = () => {
     <motion.div initial="hidden" animate="visible" variants={containerVariants} className="pt-16 min-h-screen">
       
       {/* Header */}
-      <section className="bg-gradient-to-br from-blue-900 to-blue-800 text-white py-16">
+      <section className="bg-gradient-to-br from-blue-900 to-blue-800  py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div variants={itemVariants} className="text-center">
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6">Biz bilan bog'laning</h1>
+            <h1 className="text-4xl lg:text-5xl font-bold text-white mb-6">Biz bilan bog'laning</h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
               Savollaringiz bormi? Biz sizga yordam berishga tayyormiz!
             </p>
@@ -81,7 +81,7 @@ const ContactPage = () => {
       </section>
 
       {/* Contact Info */}
-      <section className="py-20 bg-white">
+      <section className="py-20 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div variants={containerVariants} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             {contactInfo.map((info, index) => {
@@ -108,29 +108,29 @@ const ContactPage = () => {
       </section>
 
       {/* Contact Form & Map */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white my-5 rounded-2xl shadow-lg p-6">
+          <div className="bg-white dark:bg-transparent dark:border-2 border-white rounded-2xl my-5  shadow-lg p-6">
             <h3 className="text-xl text-center font-bold mb-6">Tezkor aloqa</h3>
-            <div className="space-y-4 flex w-full items-center justify-around">
-              <div className="flex items-center py-4 px-8 bg-green-50 rounded-lg hover:bg-green-100 transition-colors group">
+            <div className="space-y-4 flex w-full flex-wrap items-center justify-around">
+              <div className="flex items-center  py-4 px-8 bg-green-50 rounded-lg hover:bg-green-100 transition-colors group">
                 <Phone className="h-6 w-6 text-green-600 mr-4" />
                 <div>
-                  <p className="font-medium">Qo'ng'iroq qiling</p>
+                  <p className="font-medium text-black ">Qo'ng'iroq qiling</p>
                   <p className="text-sm text-gray-600">+998 (77) 030-43-21</p>
                 </div>
               </div>
               <div className="flex items-center py-4 px-9 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors group">
                 <Mail className="h-6 w-6 text-blue-600 mr-4" />
                 <div>
-                  <p className="font-medium">Email yozing</p>
+                  <p className="font-medium text-black">Email yozing</p>
                   <p className="text-sm text-gray-600">info@itmarkazi.uz</p>
                 </div>
               </div>
               <div className="flex items-center py-4 px-9 bg-purple-50 rounded-lg hover:bg-purple-100 transition-colors group">
                 <MessageCircle className="h-6 w-6 text-purple-600 mr-4" />
                 <div>
-                  <p className="font-medium">Telegram orqali</p>
+                  <p className="font-medium text-black">Telegram orqali</p>
                   <p className="text-sm text-gray-600">@itmarkazi_uz</p>
                 </div>
               </div>
@@ -140,7 +140,7 @@ const ContactPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <motion.div variants={itemVariants}>
-              <div className="bg-white rounded-2xl shadow-lg p-8">
+              <div className="bg-white rounded-2xl text-black shadow-lg p-8">
                 <h2 className="text-2xl font-bold mb-6">Xabar yuborish</h2>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

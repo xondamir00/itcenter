@@ -55,13 +55,13 @@ const InstructorsPage = () => {
       initial="hidden"
       animate="visible"
       variants={containerVariants}
-      className="pt-16 min-h-screen bg-gray-50"
+      className="pt-16 min-h-screen "
     >
       {/* Header */}
-      <section className="bg-white py-16">
+      <section className=" py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div variants={itemVariants} className="text-center">
-            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl lg:text-5xl font-bold  mb-6">
               Bizning o'qituvchilar
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -105,7 +105,7 @@ const InstructorsPage = () => {
               <motion.div
                 key={instructor.id}
                 variants={itemVariants}
-                className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"
+                className="dark:bg-gray-300 border rounded-2xl shadow-2xl hover:shadow-xl transition-all duration-300 overflow-hidden group"
               >
                 <div className="relative p-6 pb-0">
                   <div className="text-center mb-6">

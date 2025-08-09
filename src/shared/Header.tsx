@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Menu, X, Code, GraduationCap } from 'lucide-react';
 import { navItems } from '../constants';
+import { ModeToggle } from './mode-toggle';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,16 +25,16 @@ const Header = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-lg' : 'bg-white/90 backdrop-blur-md'
+        isScrolled ? 'bg-[#faf5f579] backdrop-blur-2xl max-w-7xl dark:bg-transparent dark:mt-0 dark:backdrop-blur-none mx-auto mt-5  rounded-2xl' : 'bg-white/90 dark:bg-transparent backdrop-blur-md dark:backdrop-blur-none'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 dark:bg-[#faf5f579] dark:backdrop-blur-2xl dark:rounded-2xl dark:mt-5 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="relative">
               <img className='w-[50px]' src="https://www.aziz-academy.uz/static/home/aziz2/itpark.png" alt="logo" />
             </div>
-            <span className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+            <span className="text-xl font-bold  group-hover:text-blue-600 transition-colors">
               IT Center
             </span>
           </Link>
@@ -44,10 +45,10 @@ const Header = () => {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`relative px-3 py-2 text-sm font-medium transition-all duration-200 ${
+                className={`relative px-3 py-2 text-xl font-medium transition-all duration-200 ${
                   location.pathname === item.path
                     ? 'text-blue-600'
-                    : 'text-gray-700 hover:text-blue-600'
+                    : ' hover:text-blue-600'
                 }`}
               >
                 {item.name}
@@ -62,7 +63,9 @@ const Header = () => {
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
-           
+            <div>
+            <ModeToggle/>
+          </div>
           </div>
 
           {/* Mobile menu button */}
@@ -99,7 +102,7 @@ const Header = () => {
               {item.name}
             </Link>
           ))}
-          
+         <ModeToggle/>
         </div>
       </motion.div>
     </motion.header>
