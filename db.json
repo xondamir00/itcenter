@@ -1,0 +1,420 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Frontend Development",
+      "description": "Html Css Javascript React.js yordamida zamonaviy veb-interfeyslari yaratishni o'rganing",
+      "fullDescription": "Ushbu kurs React.js ning barcha asosiy va ilg'or mavzularini qamrab oladi. Siz React hooks, context API, Redux, React Router kabi muhim texnologiyalarni o'rganasiz. Kurs davomida real loyihalar ustida ishlab, portfolio uchun professional loyihalar yaratasiz.",
+      "category": "Frontend",
+      "level": "Boshlang'ich",
+      "duration": "8 oy",
+      "students": 730,
+      "rating": 4.9,
+      "price": "325,000",
+      "originalPrice": "500,000",
+      "image": "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "instructor": {
+        "name": "Nodir",
+        "role": "Senior Frontend Developer",
+        "avatar": "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
+        "experience": "2+ yil",
+        "courses": 2,
+        "students": 250
+      },
+      "curriculum": [
+        {
+          "module": "Modul 1: React Asoslari",
+          "lessons": 8,
+          "duration": "3 hafta",
+          "topics": [
+            "React ga kirish",
+            "Components va JSX",
+            "Props va State",
+            "Event Handling",
+            "Conditional Rendering",
+            "Lists va Keys",
+            "Forms bilan ishlash",
+            "Lifecycle Methods"
+          ]
+        },
+        {
+          "module": "Modul 2: React Hooks",
+          "lessons": 6,
+          "duration": "2 hafta",
+          "topics": [
+            "useState Hook",
+            "useEffect Hook",
+            "useContext Hook",
+            "useReducer Hook",
+            "Custom Hooks",
+            "Hook Rules va Best Practices"
+          ]
+        },
+        {
+          "module": "Modul 3: State Management",
+          "lessons": 5,
+          "duration": "2 hafta",
+          "topics": [
+            "Context API",
+            "Redux fundamentals",
+            "Redux Toolkit",
+            "Middleware",
+            "Async Actions"
+          ]
+        },
+        {
+          "module": "Modul 4: Routing va Navigation",
+          "lessons": 4,
+          "duration": "1 hafta",
+          "topics": [
+            "React Router Setup",
+            "Route Configuration",
+            "Nested Routes",
+            "Protected Routes"
+          ]
+        },
+        {
+          "module": "Modul 5: Amaliy Loyiha",
+          "lessons": 10,
+          "duration": "4 hafta",
+          "topics": [
+            "Loyiha rejalashtirish",
+            "API Integration",
+            "Authentication",
+            "Responsive Design",
+            "Performance Optimization",
+            "Testing",
+            "Deployment",
+            "Portfolio tayyorlash"
+          ]
+        }
+      ],
+      "features": [
+        "Professional darajadagi bilimlar",
+        "Real loyihalar ustida amaliyot",
+        "Shaxsiy mentor yordami",
+        "Rasmiy sertifikat",
+        "Ish joyiga ko'mak",
+        "Lifetime access",
+        "24/7 qo'llab-quvvatlash",
+        "Online va offline darslar"
+      ],
+      "requirements": [
+        "HTML va CSS bilimi (boshlang'ich daraja)",
+        "JavaScript asoslari",
+        "Kompyuter va internet aloqasi",
+        "Ingliz tilini o'qish darajasi (texnik hujjatlar uchun)"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Backend Development",
+      "description": "Angular Node.js va Express.js bilan server tomonni professional darajada rivojlantiring",
+      "fullDescription": "Ushbu kursda siz Node.js, Express.js, MongoDB va Angular yordamida zamonaviy backend tizimlarini yaratishni o'rganasiz. API yaratish, autentifikatsiya, xavfsizlik va ma'lumotlar bazasi bilan ishlash chuqur o‘rganiladi.",
+      "category": "Backend",
+      "level": "O'rta",
+      "duration": "7 oy",
+      "students": 320,
+      "rating": 4.8,
+      "price": "325,000",
+      "originalPrice": "480,000",
+      "image": "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "instructor": {
+        "name": "Temur Axmatov",
+        "role": "Senior Backend Developer",
+        "avatar": "https://images.stockcake.com/public/e/7/1/e71ca2d8-cda0-461f-9d70-1e3c0dcb2d3f_large/handsome-man-portrait-stockcake.jpg",
+        "experience": "7+ yil",
+        "courses": 8,
+        "students": 900
+      },
+      "curriculum": [
+        {
+          "module": "Modul 1: Backend Asoslari",
+          "lessons": 6,
+          "duration": "3 hafta",
+          "topics": [
+            "Node.js ga kirish",
+            "Express.js asoslari",
+            "REST API yaratish",
+            "Middleware bilan ishlash",
+            "Ma'lumotlar bazasi bilan ulanish",
+            "Error handling"
+          ]
+        },
+        {
+          "module": "Modul 2: Angular Integratsiyasi",
+          "lessons": 5,
+          "duration": "2 hafta",
+          "topics": [
+            "Angular asoslari",
+            "Frontend-backend integratsiyasi",
+            "HTTP so'rovlar",
+            "Token asosida autentifikatsiya",
+            "Data binding va services"
+          ]
+        }
+      ],
+      "features": [
+        "Full-stack bilimlar",
+        "Real loyihalar",
+        "Ma'lumotlar bazasi bilan ishlash",
+        "Xavfsizlik asoslari",
+        "Rasmiy sertifikat"
+      ],
+      "requirements": [
+        "JavaScript asoslari",
+        "Frontend asoslari",
+        "Kompyuter va internet aloqasi"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Koreys Tili",
+      "description": "Koreys tilining asoslarini o‘zlashtirib, erkin gaplasha boshlang. Grammatika, talaffuz va kundalik iboralarni amaliy misollar bilan o‘rganing.",
+      "fullDescription": "Ushbu kurs Koreys tilini boshlang‘ich darajadan o‘rgatadi. Siz grammatika, talaffuz, so‘z boyligini oshirish va kundalik hayotda ishlatiladigan iboralarni o‘zlashtirasiz. Audio va video darslar yordamida talaffuzni mukammallashtirasiz.",
+      "category": "Koreys tili",
+      "level": "Boshlang'ich",
+      "duration": "6 oy",
+      "students": 380,
+      "rating": 4.8,
+      "price": "300,000",
+      "originalPrice": "400,000",
+      "image": "https://toping.uz/storage/articles/230/JeNBJeQgAAf2zTBSXAWCWftRzvoP2hyK.webp",
+      "instructor": {
+        "name": "Aziza",
+        "role": "Koreys tili o'qituvchisi",
+        "avatar": "https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&w=200",
+        "experience": "5+ yil",
+        "courses": 2,
+        "students": 500
+      },
+      "curriculum": [
+        {
+          "module": "Modul 1: Kirill va Hangul",
+          "lessons": 5,
+          "duration": "2 hafta",
+          "topics": [
+            "Hangul yozuv tizimi",
+            "Harf va tovushlar",
+            "Talaffuz asoslari",
+            "O‘qish va yozish",
+            "Oddiy so‘zlar"
+          ]
+        },
+        {
+          "module": "Modul 2: Grammatika Asoslari",
+          "lessons": 6,
+          "duration": "3 hafta",
+          "topics": [
+            "Gap tuzilishi",
+            "Ot va fe’llar",
+            "Fe’l zamonlari",
+            "Savol va javob tuzilishi",
+            "Oddiy iboralar"
+          ]
+        }
+      ],
+      "features": [
+        "Audio va video darslar",
+        "Amaliy suhbatlar",
+        "Talaffuz mashqlari",
+        "Koreya madaniyati bilan tanishish"
+      ],
+      "requirements": [
+        "O‘qish va yozishni bilish",
+        "Kompyuter yoki telefon",
+        "Internet aloqasi"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Kampyuter Savodxonligi",
+      "description": "Kompyuterdan samarali foydalanish, Microsoft Office dasturlari, internet va xavfsizlik asoslarini o‘rganing.",
+      "fullDescription": "Ushbu kurs boshlang‘ich foydalanuvchilar uchun mo‘ljallangan bo‘lib, kompyuterning asosiy funksiyalaridan tortib, Microsoft Word, Excel, PowerPoint dasturlari, fayl boshqaruvi va internet xavfsizligi haqida to‘liq bilim beradi.",
+      "category": "Kampyuter Savodxonligi",
+      "level": "Boshlang'ich",
+      "duration": "3 oy",
+      "students": 520,
+      "rating": 4.7,
+      "price": "150,000",
+      "originalPrice": "250,000",
+      "image": "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "instructor": {
+        "name": "Muxlisa",
+        "role": "IT Trainer",
+        "avatar": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=200",
+        "experience": "2+ yil",
+        "courses": 8,
+        "students": 320
+      },
+      "curriculum": [
+        {
+          "module": "Modul 1: Kompyuter Asoslari",
+          "lessons": 5,
+          "duration": "2 hafta",
+          "topics": [
+            "Kompyuter qismlari",
+            "Operatsion tizim bilan ishlash",
+            "Fayl va papkalar boshqaruvi",
+            "Dasturlarni o‘rnatish va o‘chirish",
+            "Xavfsizlik asoslari"
+          ]
+        },
+        {
+          "module": "Modul 2: Microsoft Office",
+          "lessons": 6,
+          "duration": "2 hafta",
+          "topics": [
+            "Word asoslari",
+            "Excel asoslari",
+            "PowerPoint asoslari",
+            "Jadvallar va diagrammalar",
+            "Hujjat formatlash",
+            "Ma’lumotlarni saqlash va almashish"
+          ]
+        }
+      ],
+      "features": [
+        "Boshlang‘ichdan professionalgacha bilim",
+        "Microsoft Office bo‘yicha amaliy mashg‘ulotlar",
+        "Kompyuter xavfsizligi bo‘yicha bilimlar",
+        "Rasmiy sertifikat"
+      ],
+      "requirements": [
+        "Kompyuter yoki noutbuk",
+        "Internet aloqasi"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "3d Max Dizayn",
+      "description": "3ds Max yordamida 3D modellashtirish, vizualizatsiya va animatsiya yaratishni o‘rganing.",
+      "fullDescription": "Bu kurs sizga 3ds Max dasturida 3D modellar yaratish, interyer va eksteryer dizayn, shuningdek, animatsiya va render qilish texnologiyalarini chuqur o‘rgatadi.",
+      "category": "3D Dizayn",
+      "level": "Boshlang'ich + O'rta",
+      "duration": "5 oy",
+      "students": 280,
+      "rating": 4.9,
+      "price": "400,000",
+      "originalPrice": "600,000",
+      "image": "https://images.pexels.com/photos/2566581/pexels-photo-2566581.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "instructor": {
+        "name": "Kamoliddin Raxmatov",
+        "role": "3D Artist",
+        "avatar": "https://images.pexels.com/photos/1701190/pexels-photo-1701190.jpeg?auto=compress&cs=tinysrgb&w=200",
+        "experience": "4 yil",
+        "courses": 4,
+        "students": 250
+      },
+      "curriculum": [
+        {
+          "module": "Modul 1: 3ds Max Asoslari",
+          "lessons": 5,
+          "duration": "2 hafta",
+          "topics": [
+            "3ds Max interfeysi",
+            "Asosiy vositalar",
+            "Oddiy shakllar yaratish",
+            "Materiallar bilan ishlash",
+            "Yoritish asoslari"
+          ]
+        },
+        {
+          "module": "Modul 2: Murakkab Modellashtirish",
+          "lessons": 6,
+          "duration": "3 hafta",
+          "topics": [
+            "Interyer modellashtirish",
+            "Eksteryer modellashtirish",
+            "Tekstura va materiallar",
+            "Kamera sozlamalari",
+            "Render qilish"
+          ]
+        }
+      ],
+      "features": [
+        "3D modellashtirish bo‘yicha amaliy mashg‘ulotlar",
+        "Interyer va eksteryer dizayn loyihalari",
+        "Animatsiya va render qilish texnologiyalari",
+        "Portfolio yaratish imkoniyati",
+        "Rasmiy sertifikat"
+      ],
+      "requirements": [
+        "Kompyuter yoki noutbuk",
+        "3ds Max dasturi (o‘rnatilgan)",
+        "Grafik karta va yaxshi texnik xususiyatlar"
+      ]
+    }
+  ],
+   "instructors": [
+    {
+      "id": 1,
+      "name": "Nodir",
+      "role": "Middle Frontend Developer",
+      "specialization": "React, Vue.js, Angular",
+      "experience": "2 yil",
+      "students": 250,
+      "rating": 4.0,
+      "courses": 3,
+      "image": "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
+      "bio": "Google va Microsoft kabi yirik kompaniyalarda ishlagan. Frontend texnologiyalari bo'yicha mutaxassis.",
+      "achievements": [
+        "Google Developer Expert",
+        "Microsoft MVP",
+        "50+ loyiha yaratgan"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Temur Axmatov",
+      "role": "Senior Backend Developer",
+      "specialization": "Node.js, Python, Java",
+      "experience": "7 yil",
+      "students": 480,
+      "rating": 5.0,
+      "courses": 8,
+      "image": "https://images.stockcake.com/public/e/7/1/e71ca2d8-cda0-461f-9d70-1e3c0dcb2d3f_large/handsome-man-portrait-stockcake.jpg",
+      "bio": "Angular Node.js va Express.js bilan server tomonni professional darajada rivojlantiring",
+      "achievements": [
+        "Angular",
+        "Node.js",
+        "1Express.js",
+        "va boshqalar"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Muxlisa",
+      "role": "Kampyuter Savodhonligi",
+      "specialization": "Microsoft Office, AI",
+      "experience": "2 yil",
+      "students": 320,
+      "rating": 4.5,
+      "courses": 3,
+      "image": "src/assets/muxlisa.jpg",
+      "bio": "Kompyuterdan samarali foydalanish, Microsoft Office dasturlari, internet va xavfsizlik asoslarini o‘rganing.",
+      "achievements": [
+        "Microsoft Office",
+        "AI"
+        
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Jahon",
+      "role": "Frontend Devoloper",
+      "specialization": "Html, Css, Javascript",
+      "experience": "1.5 yil",
+      "students": 100,
+      "rating": 3.8,
+      "courses": 3,
+      "image": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "bio": "Dizayn sohasida ko'p yillik tajribaga ega. Foydalanuvchi tajribasi va interfeys dizayni bo'yicha ekspert.",
+      "achievements": [
+        "Adobe Certified Expert",
+        "Design System Expert",
+        "UX Research Specialist"
+      ]
+    }
+  ]
+}
