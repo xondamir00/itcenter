@@ -102,7 +102,7 @@ const Header = () => {
                   : 'text-gray-700 hover:text-blue-600 hover:bg-gray-50'
               }`}
             >
-              {item.name}
+              {t(item.name)}
             </Link>
           ))}
          <div className='flex items-center gap-3'>
