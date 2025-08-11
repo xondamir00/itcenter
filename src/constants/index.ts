@@ -15,7 +15,7 @@ export const courses = [
     duration: '6 oy',
     level: 'Boshlang\'ich',
     image: 'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=500',
-    price: '1,500,000'
+    price: '325,000'
   },
   {
     id: 2,
@@ -24,17 +24,17 @@ export const courses = [
     duration: '8 oy',
     level: "O'rta",
     image: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=500',
-    price: '1,800,000'
+    price: '325,000'
   },
   {
     id: 3,
     name: 'Muxlisa',
-    title: 'Komp\'yuter Savodxonligi',
+    title: 'Kompyuter Savodxonligi',
     description: 'Microsoft Office, internet va xavfsizlik asoslarini o‘rganish',
-    duration: '4 oy',
+    duration: '2 oy',
     level: 'Boshlang\'ich',
-    image: 'https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=500',
-    price: '1,000,000'
+    image: 'https://bilgi.uz/upload/resize_cache/iblock/a47/jgri9zvx35kcmqp6gw33ejq021i9rgcc/780_470_2/ZuhrStar.jpg',
+    price: '250,000'
   },
   {
     id: 4,
@@ -42,17 +42,8 @@ export const courses = [
     description: 'Figma va Adobe XD yordamida foydalanuvchi interfeyslari yaratish',
     duration: '5 oy',
     level: 'Boshlang\'ich',
-    image: 'https://images.pexels.com/photos/3184451/pexels-photo-3184451.jpeg?auto=compress&cs=tinysrgb&w=500',
-    price: '1,200,000'
-  },
-  {
-    id: 5,
-    title: 'Data Science',
-    description: 'Python, Pandas, NumPy va Machine Learning asoslarini o\'rganish',
-    duration: '9 oy',
-    level: "Yuqori",
-    image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=500',
-    price: '2,500,000'
+    image: 'ttps://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600',
+    price: '350,000'
   },
   {
     id: 6,
@@ -62,7 +53,7 @@ export const courses = [
     duration: '6 oy',
     level: "Boshlang'ich",
     image: 'https://images.pexels.com/photos/4458420/pexels-photo-4458420.jpeg?auto=compress&cs=tinysrgb&w=500',
-    price: '1,800,000'
+    price: '300,000'
   }
 ];
 
@@ -378,7 +369,7 @@ export const stats2 = [
       "Kompyuter, ofis dasturlari va internetdan samarali foydalanishni o'rganing",
     fullDescription:
       "Kurs davomida siz Windows operatsion tizimi, Microsoft Word, Excel, PowerPoint, Google xizmatlari va internet xavfsizligi haqida bilib olasiz. Yangi boshlovchilar uchun mos va kundalik hayotda ham, ish jarayonida ham foydali bo‘ladi.",
-    category: "IT Asoslari",
+    category: "Kampyuter Savodxonligi",
     level: "Boshlang'ich",
     duration: "4 oy",
     students: 500,
@@ -386,7 +377,7 @@ export const stats2 = [
     price: "200,000",
     originalPrice: "300,000",
     image:
-      "https://images.pexels.com/photos/374748/pexels-photo-374748.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "https://bilgi.uz/upload/resize_cache/iblock/a47/jgri9zvx35kcmqp6gw33ejq021i9rgcc/780_470_2/ZuhrStar.jpg",
     instructor: {
       name: "Muxlisa",
       role: "IT O'qituvchi",
@@ -438,7 +429,7 @@ export const stats2 = [
       "Noldan koreys tilini o‘rganing va muloqot qila olish darajasiga chiqing",
     fullDescription:
       "Ushbu kursda siz koreys alifbosi, grammatikasi, talaffuzi va kundalik so‘zlashuv iboralarini o‘rganasiz. Til amaliyotlari va audio-video materiallar yordamida eshitish, gapirish, o‘qish va yozish ko‘nikmalaringizni rivojlantirasiz.",
-    category: "Til o‘rganish",
+    category: "Koreys Tili",
     level: "Boshlang'ich",
     duration: "6 oy",
     students: 450,
@@ -446,7 +437,7 @@ export const stats2 = [
     price: "300,000",
     originalPrice: "450,000",
     image:
-      "https://images.pexels.com/photos/3228764/pexels-photo-3228764.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "https://toping.uz/storage/articles/230/JeNBJeQgAAf2zTBSXAWCWftRzvoP2hyK.webp",
     instructor: {
       name: "Aziza",
       role: "Koreys Tili O'qituvchisi",

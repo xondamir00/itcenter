@@ -7,8 +7,8 @@ import { contactInfo } from '@/constants';
 const ContactPage = () => {
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
-    number: '',
+    phone: '',
+    surname: '',
     subject: '',
     message: ''
   });
@@ -22,8 +22,8 @@ const ContactPage = () => {
     const message = `
 📩 Yangi xabar:
 👤 Ism: ${formData.name}
-📞 Telefon: ${formData.number}
-📧 Email: ${formData.email}
+📞 Telefon: ${formData.surname}
+📧 Email: ${formData.phone}
 📝 Mavzu: ${formData.subject}
 💬 Xabar: ${formData.message}
     `;
@@ -44,8 +44,8 @@ const ContactPage = () => {
         alert("Ma'lumotlar botga yuborildi!");
         setFormData({
           name: '',
-          email: '',
-          number: '',
+          phone: '',
+          surname: '',
           subject: '',
           message: ''
         });
@@ -158,31 +158,31 @@ const ContactPage = () => {
                       />
                     </div>
                     <div>
-                      <label htmlFor="number" className="block text-sm font-medium text-gray-700 mb-2">Telefon raqami *</label>
+                      <label htmlFor="surname" className="block text-sm font-medium text-gray-700 mb-2">Surname</label>
                       <input
-                        type="number"
-                        id="number"
-                        name="number"
+                        type="text"
+                        id="surname"
+                        name="surname"
                         required
-                        value={formData.number}
+                        value={formData.surname}
                         onChange={handleInputChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
-                        placeholder="+998 __ ___ __ __"
+                        placeholder="Surname"
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">Email manzil *</label>
+                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">Telefon raqamingiz *</label>
                     <input
-                      type="email"
-                      id="email"
-                      name="email"
+                      type="tel"
+                      id="phonw"
+                      name="phone"
                       required
-                      value={formData.email}
+                      value={formData.phone}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
-                      placeholder="email@example.com"
+                      placeholder="+998 __ ___ ____"
                     />
                   </div>
 

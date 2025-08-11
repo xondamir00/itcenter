@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Search, Filter, Clock, Users, Star, ChevronRight } from 'lucide-react';
@@ -12,7 +12,7 @@ const CoursesPage = () => {
   const [selectedLevel, setSelectedLevel] = useState('Barchasi');
   const [searchTerm, setSearchTerm] = useState('');
 
-  const categories = ['Barchasi', 'Frontend', 'Backend', 'Koreys tili', 'Kampyuter Savodxonligi'];
+  const categories = ['Barchasi', 'Frontend', 'Backend', 'Koreys Tili', 'Kampyuter Savodxonligi'];
   const levels = ['Barchasi', "Boshlang'ich", "O'rta", "Ilg'or"];
 
   const filteredCourses = coursess.filter(course => {
@@ -46,11 +46,11 @@ const CoursesPage = () => {
         </div>
       </section>
 
-      {/* Filters */}
+     
       <section className="py-8  border-t">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div variants={itemVariants} className="space-y-6">
-            {/* Search */}
+      
             <div className="relative max-w-md">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
               <input
@@ -62,7 +62,7 @@ const CoursesPage = () => {
               />
             </div>
 
-            {/* Filter Buttons */}
+            
             <div className="flex flex-wrap gap-4">
               <div className="flex items-center space-x-2">
                 <Filter className="h-5 w-5 text-gray-500" />
@@ -109,7 +109,7 @@ const CoursesPage = () => {
         </div>
       </section>
 
-      {/* Courses Grid */}
+    
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
