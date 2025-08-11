@@ -107,7 +107,7 @@ const Header = () => {
               {t(item.name)}
             </Link>
           ))}
-         <div className='flex items-center gap-3'>
+         <div className='flex text-black items-center gap-3'>
             <div className='dark:text-white'>
               <ModeToggle />
             </div>
