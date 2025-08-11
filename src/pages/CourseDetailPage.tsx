@@ -1,55 +1,27 @@
 import { useParams, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { 
-  Clock, Users, Star, Calendar, CheckCircle, 
-  FileText, Award, ArrowLeft 
+import {
+  Clock, Users, Star, Calendar, CheckCircle,
+  FileText, Award, ArrowLeft
 } from 'lucide-react';
-import { containerVariants, itemVariants,type Course } from '../type/index';
-
+import { containerVariants, itemVariants, type Course } from '../type/index';
+import { coursess } from '@/constants';
 
 const CourseDetailPage = () => {
   const { id } = useParams();
   const [course, setCourse] = useState<Course | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch(`http://localhost:3000/courses/${id}`)
-      .then((res) => {
-        if (!res.ok) throw new Error('Maʼlumot olishda xatolik yuz berdi');
-        return res.json();
-      })
-      .then((data: Course) => {
-        setCourse(data);
-        setLoading(false);
-      })
-      .catch((err: Error) => {
-        setError(err.message);
-        setLoading(false);
-      });
+    const foundCourse = coursess.find((c) => c.id.toString() === id);
+    setCourse(foundCourse || null);
   }, [id]);
 
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center text-lg text-gray-600">
-        Yuklanmoqda...
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="min-h-screen flex items-center justify-center text-lg text-red-500">
-        {error}
-      </div>
-    );
-  }
-
+  
   if (!course) {
     return (
-      <div className="min-h-screen flex items-center justify-center text-lg text-gray-600">
-        Kurs topilmadi
+      <div className="pt-16 min-h-screen flex items-center justify-center">
+        <p className="text-gray-600 text-lg">Kurs topilmadi</p>
       </div>
     );
   }
@@ -95,7 +67,7 @@ const CourseDetailPage = () => {
                 <p className="text-xl text-gray-600 mb-6 leading-relaxed">
                   {course.description}
                 </p>
-                
+
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
                   <div className="flex items-center text-gray-600">
                     <Clock className="h-5 w-5 mr-2" />
@@ -137,7 +109,7 @@ const CourseDetailPage = () => {
               </motion.div>
             </div>
 
-            
+            {/* Right Sidebar */}
             <div className="lg:col-span-1">
               <motion.div variants={itemVariants} className="sticky top-24">
                 <div className="bg-white rounded-2xl shadow-lg overflow-hidden border">
@@ -147,7 +119,6 @@ const CourseDetailPage = () => {
                       alt={course.title}
                       className="w-full h-48 object-cover"
                     />
-                  
                   </div>
                   <div className="p-6">
                     <div className="text-center mb-6">
@@ -160,14 +131,13 @@ const CourseDetailPage = () => {
                       )}
                       <p className="text-sm text-green-600 font-medium">25% chegirma!</p>
                     </div>
-                    
+
                     <div className="space-y-3 mb-6">
-                      <Link to={'/contact'}>
-                      <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl transition-colors">
-                        Hoziroq yoziling
-                      </button>
+                      <Link to="/contact">
+                        <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl transition-colors">
+                          Hoziroq yoziling
+                        </button>
                       </Link>
-                     
                     </div>
 
                     <div className="space-y-2 text-sm text-gray-600">
@@ -201,17 +171,13 @@ const CourseDetailPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
-              {/* Description */}
               {course.fullDescription && (
                 <motion.div variants={itemVariants} className="bg-white rounded-xl p-6 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">Kurs haqida</h2>
-                  <p className="text-gray-600 leading-relaxed">
-                    {course.fullDescription}
-                  </p>
+                  <p className="text-gray-600 leading-relaxed">{course.fullDescription}</p>
                 </motion.div>
               )}
 
-              {/* Curriculum */}
               {course.curriculum && (
                 <motion.div variants={itemVariants} className="bg-white rounded-xl p-6 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-6">Kurs dasturi</h2>
@@ -243,7 +209,6 @@ const CourseDetailPage = () => {
                 </motion.div>
               )}
 
-           
               {course.requirements && (
                 <motion.div variants={itemVariants} className="bg-white rounded-xl p-6 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">Talablar</h2>
@@ -259,7 +224,6 @@ const CourseDetailPage = () => {
               )}
             </div>
 
-           
             {course.features && (
               <div className="lg:col-span-1">
                 <motion.div variants={itemVariants} className="bg-white rounded-xl p-6 shadow-sm">

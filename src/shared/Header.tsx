@@ -27,10 +27,10 @@ const Header = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-[#faf5f579] backdrop-blur-2xl max-w-7xl dark:bg-transparent dark:mt-0 dark:backdrop-blur-none mx-auto mt-5  rounded-2xl' : 'bg-white/90 dark:bg-transparent backdrop-blur-md dark:backdrop-blur-none'
+        isScrolled ? 'bg-white/90 backdrop-blur-md dark:backdrop-blur-none' : 'bg-white '
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 dark:bg-[#faf5f579] dark:backdrop-blur-2xl dark:rounded-2xl dark:mt-5 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 text-black sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="relative">
@@ -65,9 +65,11 @@ const Header = () => {
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
-            <div className='flex items-center gap-3'>
-              <LanguageSwitcher/>
-            <ModeToggle/>
+            <div className='flex  items-center gap-3'>
+              <LanguageSwitcher />
+            <div className='dark:text-white'>
+              <ModeToggle />
+            </div>
           </div>
           </div>
 
@@ -106,7 +108,9 @@ const Header = () => {
             </Link>
           ))}
          <div className='flex items-center gap-3'>
-          <ModeToggle/>
+            <div className='dark:text-white'>
+              <ModeToggle />
+            </div>
           <LanguageSwitcher/>
          </div>
         </div>

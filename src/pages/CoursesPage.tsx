@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Search, Filter, Clock, Users, Star, ChevronRight } from 'lucide-react';
 import { containerVariants, itemVariants } from '../type';
-import { type Course } from '../type/index';
+import { coursess } from '@/constants';
+
 
 const CoursesPage = () => {
-  const [courses, setCourses] = useState<Course[]>([]);
+  
   const [selectedCategory, setSelectedCategory] = useState('Barchasi');
   const [selectedLevel, setSelectedLevel] = useState('Barchasi');
   const [searchTerm, setSearchTerm] = useState('');
@@ -14,15 +15,7 @@ const CoursesPage = () => {
   const categories = ['Barchasi', 'Frontend', 'Backend', 'Koreys tili', 'Kampyuter Savodxonligi'];
   const levels = ['Barchasi', "Boshlang'ich", "O'rta", "Ilg'or"];
 
-  // Ma'lumotlarni db.json dan olish
-  useEffect(() => {
-    fetch('http://localhost:3000/courses')
-      .then(res => res.json())
-      .then((data: Course[]) => setCourses(data))
-      .catch(err => console.error("Ma'lumotlarni yuklashda xatolik:", err));
-  }, []);
-
-  const filteredCourses = courses.filter(course => {
+  const filteredCourses = coursess.filter(course => {
     const categoryMatch = selectedCategory === 'Barchasi' || course.category === selectedCategory;
     const levelMatch = selectedLevel === 'Barchasi' || course.level === selectedLevel;
     const searchMatch =

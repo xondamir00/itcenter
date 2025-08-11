@@ -1,54 +1,15 @@
-import { stats2 } from '@/constants';
+import {  instructorss, stats2 } from '@/constants';
 import { containerVariants, itemVariants } from '@/type';
 import { motion } from 'framer-motion';
 import { Star, Award, BookOpen, Users } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+
 
 // 1. Interfeys
-interface Instructor {
-  id: number;
-  name: string;
-  image: string;
-  role: string;
-  specialization: string;
-  courses: number;
-  students: number;
-  rating: number;
-  experience: string;
-  bio: string;
-  achievements: string[];
-}
 
 const InstructorsPage = () => {
   // 2. Tip bilan state
-  const [instructors, setInstructors] = useState<Instructor[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const fetchInstructors = async () => {
-      try {
-        const res = await fetch('http://localhost:3000/instructors');
-        if (!res.ok) throw new Error('Ma’lumot olishda xatolik');
-        const data: Instructor[] = await res.json();
-        setInstructors(data);
-      } catch (error) {
-        console.error('Instructors fetch error:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchInstructors();
-  }, []);
-
-  if (loading) {
-    return (
-      <div className="min-h-screen flex justify-center items-center text-lg">
-        Yuklanmoqda...
-      </div>
-    );
-  }
+  
 
   return (
     <motion.div
@@ -101,7 +62,7 @@ const InstructorsPage = () => {
             variants={containerVariants}
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
-            {instructors.map((instructor) => (
+            {instructorss.map((instructor) => (
               <motion.div
                 key={instructor.id}
                 variants={itemVariants}

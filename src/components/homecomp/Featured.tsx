@@ -3,27 +3,14 @@ import { Link } from "react-router-dom"
 
 import { motion } from 'framer-motion';
 
-import { containerVariants, itemVariants, type Course } from "../../type";
-import { useEffect, useState } from "react";
+import { containerVariants, itemVariants,  } from "../../type";
+import { courses,  } from "@/constants";
+  const threeCourses = courses.slice(0, 3);
   
 const Featured = () => {
-    const [courses, setCourses] = useState<Course[]>([]);
+    
   
-  useEffect(() => {
-    fetch("http://localhost:3000/courses?_limit=3")
-      .then((res) => {
-        if (!res.ok) throw new Error("Ma'lumot olishda xatolik");
-        return res.json();
-      })
-      .then((data:Course[]) => {
-        setCourses(data);
-        
-      })
-      .catch((err) => {
-        console.error(err);
-        
-      });
-  }, []);
+  
   return (
     
      <section className="py-20 ">
@@ -41,7 +28,7 @@ const Featured = () => {
             variants={containerVariants}
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
-            {courses.map((course) => (
+            {threeCourses.map((course) => (
               <motion.div
                 key={course.id}
                 variants={itemVariants}

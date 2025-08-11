@@ -1,9 +1,9 @@
 {
   "nav": {
     "home": "Home",
-    "about": "About",
-    "services": "Services",
-    "instructors": "Instructors",
+    "about": "Courses",
+    "services": "About",
+    "instructors": "Teachers",
     "blog": "Blog",
     "contact": "Contact"
   },

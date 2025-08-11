@@ -1,8 +1,8 @@
 {
   "nav": {
     "home": "Главная",
-    "about": "О нас",
-    "services": "Услуги",
+    "about": "курсы",
+    "services": "о нас",
     "contact": "Контакты",
     "language": "Язык"
   },
