@@ -1,11 +1,12 @@
 {
-  "nav": {
-    "home": "Главная",
-    "about": "курсы",
-    "services": "о нас",
-    "contact": "Контакты",
-    "language": "Язык"
-  },
+"nav": {
+  "home": "Главная",
+  "about": "Курсы",
+  "services": "О нас",
+  "instructors": "Преподаватели",
+  "blog": "Блог",
+  "contact": "Контакты"
+},
   "home": {
     "hero": {
       "title1": "В сфере IT",
@@ -14,6 +15,319 @@
       "subtitle": "Найдите своё место в сфере IT через практические курсы, проводимые профессиональными разработчиками",
       "btnCourses": "Посмотреть курсы",
       "btnConsult": "Бесплатная консультация"
+    }
+  },
+  "cta": {
+    "title": "Начните свою IT-карьеру сегодня!",
+    "description": "Профессиональные преподаватели, современные программы и практические проекты ждут вас",
+    "start_button": "Начать сейчас",
+    "consult_button": "Получить консультацию"
+  },
+    "featured": {
+    "title": "Популярные курсы",
+    "subtitle": "Получите глубокие знания и практические навыки в самых востребованных направлениях IT",
+    "duration": "Продолжительность",
+    "currency": "сум",
+    "details_button": "Подробнее",
+    "all_courses_button": "Все курсы"
+  },
+    "stats": {
+    "students": "Активные студенты",
+    "courses": "Количество курсов",
+    "certificates": "Сертификаты",
+    "experience": "Опыт преподавания",
+    "years": "{years}+ лет"
+  },
+   "footer": {
+    "logo_text": "IT Центр",
+    "description": "Современный образовательный IT центр. Подготовка профессиональных кадров в области программирования и компьютерной грамотности.",
+    "quick_links": "Быстрые ссылки",
+    "courses": "Курсы",
+    "about": "О нас",
+    "instructors": "Преподаватели",
+    "blog": "Блог",
+    "contact": "Контакты",
+    "popular_courses": "Популярные курсы",
+    "frontend": "Frontend разработка",
+    "backend": "Backend разработка",
+    "mobile": "Мобильная разработка",
+    "data_science": "Data Science",
+    "devops": "DevOps",
+    "contact_info": "Контактная информация",
+    "address": "г. Джизак, Зарбдарский район, Здание государственных услуг, 1 этаж",
+    "copyright": "IT Центр. Все права защищены."
+  },
+    "courses": {
+    "frontend": {
+      "title": "Frontend разработка",
+      "description": "Создание современных веб-сайтов на React, Vue.js, Angular"
+    },
+    "backend": {
+      "title": "Backend разработка",
+      "description": "Разработка серверной части с Node.js, Python, Java"
+    },
+    "computer_literacy": {
+      "title": "Компьютерная грамотность",
+      "description": "Изучение Microsoft Office, основ интернета и безопасности"
+    },
+    "ui_ux": {
+      "title": "UI/UX дизайн",
+      "description": "Создание пользовательских интерфейсов с Figma и Adobe XD"
+    },
+    "korean": {
+      "title": "Корейский язык",
+      "description": "Изучение начальной и средней грамматики и лексики корейского языка"
+    },
+    "duration": "{{months}} месяца",
+    "level": {
+      "beginner": "Начальный",
+      "intermediate": "Средний"
+    },
+    "price": "{{amount}} сум"
+  },
+    "about": {
+    "hero": {
+      "title": "О нас",
+      "subtitle": "С 2022 года мы готовим профессиональные кадры в сфере IT"
+    },
+    "story": {
+      "title": "Наша история",
+      "paragraph1": "IT Центр был основан в 2022 году небольшой группой разработчиков и специалистов в области образования. Наша цель — развивать качественное IT-образование в Узбекистане и готовить профессионалов.",
+      "paragraph2": "За 4 года мы успешно подготовили более 2500 студентов, и 95% из них нашли работу в IT. Сегодня мы предлагаем более 25 курсов и сотрудничаем с более чем 50 опытными преподавателями.",
+      "paragraph3": "Наши учебные программы соответствуют международным стандартам и основаны на новейших технологиях. Мы создаем условия для индивидуального подхода к каждому студенту и предоставляем возможность получить реальный опыт через практические проекты.",
+       "experienceYears": "7+",
+  "experienceLabel": "Лет опыта"
+    },
+    "values": {
+      "title": "Наши ценности",
+      "subtitle": "Основные принципы, которые направляют каждое наше решение и действие"
+    },
+    "achievements": {
+      "title": "Наши достижения",
+      "subtitle": "Посмотрите на наши успехи в цифрах"
+    },
+    "team": {
+      "title": "Наша команда",
+      "subtitle": "Сильная команда профессионалов и опытных специалистов"
+    }
+  },
+
+    "about2": {
+    "achievements": {
+      "title": "Наши достижения",
+      "subtitle": "Успехи наших студентов",
+      "items": [
+        { "number": "2500+", "label": "Успешных выпускников" },
+        { "number": "95%", "label": "Трудоустроенных выпускников" },
+        { "number": "25+", "label": "Профессиональных курсов" },
+        { "number": "50+", "label": "Опытных преподавателей" }
+      ]
+    },
+    "values": {
+      "title": "Наши ценности",
+      "subtitle": "Почему выбирают нас?",
+      "items": [
+        {
+          "title": "Наша цель",
+          "description": "Подготовка современных IT-кадров и помощь в их профессиональном развитии"
+        },
+        {
+          "title": "Наше видение",
+          "description": "Стать ведущим IT-учебным центром в Узбекистане и внедрить международные стандарты"
+        },
+        {
+          "title": "Качество",
+          "description": "Подготовка студентов к рынку труда через качественное обучение и практические навыки"
+        },
+        {
+          "title": "Глобальный подход",
+          "description": "Обучение на основе международных стандартов и новейших технологий"
+        }
+      ]
+    },
+    "team": {
+      "title": "Наша команда",
+      "subtitle": "Наши профессиональные преподаватели",
+      "members": [
+        {
+          "name": "Темур Ахматов",
+          "role": "Директор и Fullstack разработчик",
+          "description": "7 лет опыта в IT-сфере"
+        },
+        {
+          "name": "Нодир",
+          "role": "Frontend разработчик",
+          "description": "2 года опыта Frontend разработчика"
+        },
+        {
+          "name": "Мулиса",
+          "role": "Преподаватель компьютерной грамотности",
+          "description": "Специалист с 2-летним опытом"
+        },
+        {
+          "name": "Джахонгир",
+          "role": "Frontend разработчик",
+          "description": "Разработчик с 1.5 годами опыта"
+        }
+      ]
+    }
+  },
+
+   "instructorsPage": {
+    "header": {
+      "title": "Наши преподаватели",
+      "subtitle": "Самые опытные и профессиональные специалисты в IT обучат вас"
+    }
+  },
+  "statsLabels": {
+    "Muvaffaqiyatli bitiruvchi": "Успешные выпускники",
+    "Ish joylashgan bitiruvchilar": "Трудоустроенные выпускники",
+    "Professional kurslar": "Профессиональные курсы",
+    "Tajribali o'qituvchilar": "Опытные преподаватели"
+  },
+  "labels": {
+    "courses": "Курсы",
+    "students": "Студенты",
+    "rating": "рейтинг",
+    "experience": "опыт",
+    "achievements": "Достижения",
+    "enroll": "Записаться"
+  },
+  "join": {
+    "title": "Хотите стать преподавателем?",
+    "description": "Если вы хотите поделиться опытом в IT с другими, присоединяйтесь к нам!",
+    "button": "Подать заявку"
+  },
+
+
+  "instructors": [
+  {
+    "id": 1,
+    "name": "Нодир",
+    "role": "Middle Frontend Developer",
+    "specialization": "React, Vue.js, Angular",
+    "experience": "2 года",
+    "students": 250,
+    "rating": 4.0,
+    "courses": 3,
+    "image": "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
+    "bio": "Работал в крупных компаниях, таких как Google и Microsoft. Специалист по фронтенд технологиям.",
+    "achievements": [
+      "Google Developer Expert",
+      "Microsoft MVP",
+      "Создал более 50 проектов"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Тимур Ахматов",
+    "role": "Senior Backend Developer",
+    "specialization": "Node.js, Python, Java",
+    "experience": "7 лет",
+    "students": 480,
+    "rating": 5.0,
+    "courses": 8,
+    "image": "https://images.stockcake.com/public/e/7/1/e71ca2d8-cda0-461f-9d70-1e3c0dcb2d3f_large/handsome-man-portrait-stockcake.jpg",
+    "bio": "Профессиональная разработка серверной части на Angular, Node.js и Express.js",
+    "achievements": [
+      "Angular",
+      "Node.js",
+      "Express.js",
+      "и другие"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Мухлиса",
+    "role": "Компьютерная грамотность",
+    "specialization": "Microsoft Office, AI",
+    "experience": "2 года",
+    "students": 320,
+    "rating": 4.5,
+    "courses": 3,
+    "image": "src/assets/muxlisa.jpg",
+    "bio": "Эффективное использование компьютера, программы Microsoft Office, основы интернета и безопасности.",
+    "achievements": [
+      "Microsoft Office",
+      "AI"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Джахон",
+    "role": "Frontend Developer",
+    "specialization": "Html, Css, Javascript",
+    "experience": "1.5 года",
+    "students": 100,
+    "rating": 3.8,
+    "courses": 3,
+    "image": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "bio": "Имеет многолетний опыт работы в дизайне. Эксперт по пользовательскому опыту и дизайну интерфейса.",
+    "achievements": [
+      "Adobe Certified Expert",
+      "Design System Expert",
+      "UX Research Specialist"
+    ]
+  }
+],
+
+"statsLabels1": {
+    "teachersCount": "Количество преподавателей",
+    "yearsExperience": "Годы опыта",
+    "students": "Студенты",
+    "averageRating": "Средний рейтинг"
+  },
+
+  "contact": {
+    "header": {
+      "title": "Свяжитесь с нами",
+      "subtitle": "Есть вопросы? Мы готовы помочь!"
+    },
+    "info": {
+      "phone": "Телефонный номер",
+      "email": "Адрес электронной почты",
+      "address": "Адрес",
+      "workingHours": "Рабочее время"
+    },
+    "infoDesc": {
+      "phone": "Рабочие дни с 8:00 до 18:00",
+      "email": "Ответим в течение 24 часов",
+      "workingHours": "Воскресенье — выходной"
+    },
+    "quickContact": {
+      "title": "Быстрая связь",
+      "callUs": "Позвоните нам",
+      "writeEmail": "Напишите нам на Email",
+      "telegram": "Через Telegram"
+    },
+    "form": {
+      "title": "Отправить сообщение",
+      "name": "Имя и фамилия *",
+      "surname": "Фамилия *",
+      "phone": "Ваш номер телефона *",
+      "subject": "Тема *",
+      "subjectPlaceholder": "Выберите тему",
+      "subjectOptions": {
+        "courseInfo": "Информация о курсах",
+        "enrollment": "Регистрация",
+        "consultation": "Бесплатная консультация",
+        "partnership": "Сотрудничество",
+        "other": "Другое"
+      },
+      "message": "Текст сообщения *",
+      "submit": "Отправить сообщение",
+      "namePlaceholder": "Введите имя",
+      "surnamePlaceholder": "Введите фамилию",
+      "phonePlaceholder": "+998 __ ___ ____",
+      "messagePlaceholder": "Введите ваше сообщение..."
+    },
+    "alert": {
+      "success": "Данные успешно отправлены в бот!",
+      "error": "Произошла ошибка!"
+    },
+    "map": {
+      "title": "Наш адрес — 35X8+85M, Зарбдор, Джизакская область, Узбекистан",
+      "openLink": "Открыть в Google Maps"
     }
   }
 }

@@ -1,4 +1,5 @@
-import { Award, BookOpen, Clock, Eye, Globe, Mail, MapPin, Phone, Target, Users } from "lucide-react";
+import { Award, BookOpen, Clock, Eye, Globe, Mail, MapPin, Phone, Target, Users, } from "lucide-react";
+
 export const navItems = [
   { name: 'nav.home', path: '/' },
   { name: 'nav.about', path: '/courses' },
@@ -10,147 +11,152 @@ export const navItems = [
 export const courses = [
   {
     id: 1,
-    title: 'Frontend Development',
-    description: 'React, Vue.js, Angular asosida zamonaviy veb-saytlar yaratish',
-    duration: '6 oy',
-    level: 'Boshlang\'ich',
-    image: 'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=500',
-    price: '325,000'
+    title_key: 'courses.frontend.title',
+    description_key: 'courses.frontend.description',
+    duration_months: 6,
+    level_key: 'beginner', // courses.level.beginner deb ham yozsa bo'ladi
+    image: 'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg',
+    price_amount: '325,000'
   },
   {
     id: 2,
-    title: 'Backend Development',
-    description: 'Node.js, Python, Java bilan server tomonni rivojlantirish',
-    duration: '8 oy',
-    level: "O'rta",
-    image: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=500',
-    price: '325,000'
+    title_key: 'courses.backend.title',
+    description_key: 'courses.backend.description',
+    duration_months: 8,
+    level_key: 'intermediate',
+    image: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg',
+    price_amount: '325,000'
   },
   {
     id: 3,
-    name: 'Muxlisa',
-    title: 'Kompyuter Savodxonligi',
-    description: 'Microsoft Office, internet va xavfsizlik asoslarini o‘rganish',
-    duration: '2 oy',
-    level: 'Boshlang\'ich',
+    title_key: 'courses.computer_literacy.title',
+    description_key: 'courses.computer_literacy.description',
+    duration_months: 2,
+    level_key: 'beginner',
     image: 'https://bilgi.uz/upload/resize_cache/iblock/a47/jgri9zvx35kcmqp6gw33ejq021i9rgcc/780_470_2/ZuhrStar.jpg',
-    price: '250,000'
+    price_amount: '250,000'
   },
   {
     id: 4,
-    title: 'UI/UX Design',
-    description: 'Figma va Adobe XD yordamida foydalanuvchi interfeyslari yaratish',
-    duration: '5 oy',
-    level: 'Boshlang\'ich',
-    image: 'ttps://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600',
-    price: '350,000'
+    title_key: 'courses.ui_ux.title',
+    description_key: 'courses.ui_ux.description',
+    duration_months: 5,
+    level_key: 'beginner',
+    image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg',
+    price_amount: '350,000'
   },
   {
     id: 6,
-    name: 'Aziza',
-    title: 'Koreys Tili',
-    description: 'Koreys tilining boshlang‘ich va o‘rta darajadagi grammatikasi hamda so‘z boyligini o‘rganish',
-    duration: '6 oy',
-    level: "Boshlang'ich",
-    image: 'https://images.pexels.com/photos/4458420/pexels-photo-4458420.jpeg?auto=compress&cs=tinysrgb&w=500',
-    price: '300,000'
+    title_key: 'courses.korean.title',
+    description_key: 'courses.korean.description',
+    duration_months: 6,
+    level_key: 'beginner',
+    image: 'https://images.pexels.com/photos/4458420/pexels-photo-4458420.jpeg',
+    price_amount: '300,000'
   }
 ];
 
-  export const stats = [
-    { label: 'Faol talabalar', value: '2500+', icon: Users },
-    { label: 'Kurslar soni', value: '25+', icon: BookOpen },
-    { label: 'Sertifikatlar', value: '1800+', icon: Award },
-    { label: "O'qitish tajribasi", value: '5+ yil', icon: Clock },
-  ];
 
+export const statsData = [
+  { 
+    label: 'stats.students', 
+    value: '2500+', 
+    icon: Users
+  },
+  { 
+    label: 'stats.courses', 
+    value: '25+', 
+    icon: BookOpen 
+  },
+  { 
+    label: 'stats.certificates', 
+    value: '1800+', 
+    icon: Award 
+  },
+  { 
+    label: 'stats.experience', 
+    value: 'stats.years', 
+    years: 5,
+    icon: Clock 
+  }
+];
 export const stats2 = [
-            { number: '50+', label: "O'qituvchilar soni" },
-              { number: '100+', label: 'Yillik tajriba' },
-              { number: '2500+', label: 'Talabalar' },
-              { number: '4.8', label: "O'rtacha reyting" }
-]
+  { number: '50+', labelKey: "statsLabels1.teachersCount" },       // O'qituvchilar soni
+  { number: '100+', labelKey: "statsLabels1.yearsExperience" },    // Yillik tajriba
+  { number: '2500+', labelKey: "statsLabels1.students" },          // Talabalar
+  { number: '4.8', labelKey: "statsLabels1.averageRating" }        // O'rtacha reyting
+];
 
- export  const contactInfo = [
-    {
-      icon: Phone,
-      title: 'Telefon raqami',
-      details: ['+998 (77) 030-43-21', '+998 (93) 030-43-21'],
-      description: 'Ish kunlari 8:00 dan 18:00 gacha'
-    },
-    {
-      icon: Mail,
-      title: 'Email manzili',
-      details: ['info@itmarkazi.uz', 'admin@itmarkazi.uz'],
-      description: '24 soat ichida javob beramiz'
-    },
-    {
-      icon: MapPin,
-      title: 'Manzil',
-      details: ['Jizzax sh, Zarbdor tumani', 'Davlat xizmatlari binosi, 1-qavat'],
-      
-    },
-    {
-      icon: Clock,
-      title: 'Ish vaqti',
-      details: ['Dushanba - Shanba: 8:00 - 18:00'],
-      description: 'Yakshanba dam olish kuni'
-    }
-  ];
-  export const oqituvchilar = [
-              {
-                name: 'Temur Ahmatov',
-                role: ' Direktor va Fullstack Dasturchi',
-                image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
-                description: '7 yillik IT sohasidagi tajriba'
-              },
-              {
-                name: 'Nodir',
-                role: 'Frontend dasturchi',
-                image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
-                description: '2 yillik Frondend Dasturchi'
-              },
-              {
-                name: 'Muhlisa',
-                role: 'Kampyuter Savodhonlik Oqituvchi',
-                image: 'https://images.pexels.com/photos/3727463/pexels-photo-3727463.jpeg?auto=compress&cs=tinysrgb&w=400',
-                description: '2 Yillik Tajribaga Ega Mutahasis'
-              },
-              {
-                name: 'Jahongir',
-                role: 'Frondend Dasturchi',
-                image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
-                description: '1.5 yillik tajribaga ega dasturchi'
-              },
-            ]
-            export const values = [
-    {
-      icon: Target,
-      title: 'Maqsadimiz',
-      description: 'Zamonaviy IT kadrlarni tayyorlash va ularning professional rivojlanishiga yordam berish'
-    },
-    {
-      icon: Eye,
-      title: 'Vizyonimiz',
-      description: "O'zbekistondagi eng yetakchi IT ta'lim markaziga aylanish va xalqaro standartlarni joriy etish"
-    },
-    {
-      icon: Award,
-      title: 'Sifat',
-      description: 'Yuqori sifatli ta\'lim va amaliy ko\'nikmalar orqali talabalarni ish bozorига tayyorlash'
-    },
-    {
-      icon: Globe,
-      title: 'Global yondashuv',
-      description: 'Xalqaro standartlar va eng yangi texnologiyalar asosida ta\'lim berish'
-    }
-  ];
-  export   const achievements = [
-    { number: '2500+', label: 'Muvaffaqiyatli bitiruvchi' },
-    { number: '95%', label: 'Ish joylashgan bitiruvchilar' },
-    { number: '25+', label: 'Professional kurslar' },
-    { number: '50+', label: 'Tajribali o\'qituvchilar' }
-  ];
+
+
+export const contactInfo = [
+  {
+    icon: Phone,
+    titleKey: 'contact.info.phone',
+    details: ['+998 (77) 030-43-21', '+998 (93) 030-43-21'],
+    descriptionKey: 'contact.infoDesc.phone',
+  },
+  {
+    icon: Mail,
+    titleKey: 'contact.info.email',
+    details: ['info@itmarkazi.uz', 'admin@itmarkazi.uz'],
+    descriptionKey: 'contact.infoDesc.email',
+  },
+  {
+    icon: MapPin,
+    titleKey: 'contact.info.address',
+    details: ['Jizzax sh, Zarbdor tumani', 'Davlat xizmatlari binosi, 1-qavat'],
+  },
+  {
+    icon: Clock,
+    titleKey: 'contact.info.workingHours',
+    details: ['Dushanba - Shanba: 8:00 - 18:00'],
+    descriptionKey: 'contact.infoDesc.workingHours',
+  },
+];
+
+
+export const achievements = [
+  { number: '2500+', labelKey: 'about2.achievements.items.0.label' },
+  { number: '95%', labelKey: 'about2.achievements.items.1.label' },
+  { number: '25+', labelKey: 'about2.achievements.items.2.label' },
+  { number: '50+', labelKey: 'about2.achievements.items.3.label' }
+];
+
+export const values = [
+  { icon: Target, titleKey: 'about2.values.items.0.title', descriptionKey: 'about2.values.items.0.description' },
+  { icon: Eye, titleKey: 'about2.values.items.1.title', descriptionKey: 'about2.values.items.1.description' },
+  { icon: Award, titleKey: 'about2.values.items.2.title', descriptionKey: 'about2.values.items.2.description' },
+  { icon: Globe, titleKey: 'about2.values.items.3.title', descriptionKey: 'about2.values.items.3.description' }
+];
+
+export const oqituvchilar = [
+  {
+    image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+    nameKey: 'about2.team.members.0.name',
+    roleKey: 'about2.team.members.0.role',
+    descriptionKey: 'about2.team.members.0.description'
+  },
+  {
+    image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
+    nameKey: 'about2.team.members.1.name',
+    roleKey: 'about2.team.members.1.role',
+    descriptionKey: 'about2.team.members.1.description'
+  },
+  {
+    image: 'https://images.pexels.com/photos/3727463/pexels-photo-3727463.jpeg?auto=compress&cs=tinysrgb&w=400',
+    nameKey: 'about2.team.members.2.name',
+    roleKey: 'about2.team.members.2.role',
+    descriptionKey: 'about2.team.members.2.description'
+  },
+  {
+    image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
+    nameKey: 'about2.team.members.3.name',
+    roleKey: 'about2.team.members.3.role',
+    descriptionKey: 'about2.team.members.3.description'
+  }
+];
+
 
 
   export   const blogPosts = [
@@ -651,64 +657,72 @@ export const instructorss = [
   {
     id: 1,
     name: "Nodir",
-    role: "Middle Frontend Developer",
-    specialization: "React, Vue.js, Angular",
-    experience: "2 yil",
+    image:
+      "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
+    role_key: "instructors.1.role",
+    specialization_key: "instructors.1.specialization",
+    experience_key: "instructors.1.experience",
+    bio_key: "instructors.1.bio",
+    achievements_keys: [
+      "instructors.1.achievements.0",
+      "instructors.1.achievements.1",
+      "instructors.1.achievements.2"
+    ],
     students: 250,
     rating: 4.0,
     courses: 3,
-    image:
-      "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
-    bio: "Google va Microsoft kabi yirik kompaniyalarda ishlagan. Frontend texnologiyalari bo'yicha mutaxassis.",
-    achievements: [
-      "Google Developer Expert",
-      "Microsoft MVP",
-      "50+ loyiha yaratgan",
-    ],
   },
   {
     id: 2,
-    name: "Temur Axmatov",
-    role: "Senior Backend Developer",
-    specialization: "Node.js, Python, Java",
-    experience: "7 yil",
+    name: "Timur Axmatov",
+    image:
+      "https://images.stockcake.com/public/e/7/1/e71ca2d8-cda0-461f-9d70-1e3c0dcb2d3f_large/handsome-man-portrait-stockcake.jpg",
+    role_key: "instructors.2.role",
+    specialization_key: "instructors.2.specialization",
+    experience_key: "instructors.2.experience",
+    bio_key: "instructors.2.bio",
+    achievements_keys: [
+      "instructors.2.achievements.0",
+      "instructors.2.achievements.1",
+      "instructors.2.achievements.2",
+      "instructors.2.achievements.3"
+    ],
     students: 480,
     rating: 5.0,
     courses: 8,
-    image:
-      "https://images.stockcake.com/public/e/7/1/e71ca2d8-cda0-461f-9d70-1e3c0dcb2d3f_large/handsome-man-portrait-stockcake.jpg",
-    bio: "Angular Node.js va Express.js bilan server tomonni professional darajada rivojlantiring",
-    achievements: ["Angular", "Node.js", "1Express.js", "va boshqalar"],
   },
   {
     id: 3,
     name: "Muxlisa",
-    role: "Kampyuter Savodhonligi",
-    specialization: "Microsoft Office, AI",
-    experience: "2 yil",
+    image: "src/assets/muxlisa.jpg",
+    role_key: "instructors.3.role",
+    specialization_key: "instructors.3.specialization",
+    experience_key: "instructors.3.experience",
+    bio_key: "instructors.3.bio",
+    achievements_keys: [
+      "instructors.3.achievements.0",
+      "instructors.3.achievements.1"
+    ],
     students: 320,
     rating: 4.5,
     courses: 3,
-    image: "src/assets/muxlisa.jpg",
-    bio: "Kompyuterdan samarali foydalanish, Microsoft Office dasturlari, internet va xavfsizlik asoslarini o‘rganing.",
-    achievements: ["Microsoft Office", "AI"],
   },
   {
     id: 4,
     name: "Jahon",
-    role: "Frontend Devoloper",
-    specialization: "Html, Css, Javascript",
-    experience: "1.5 yil",
+    image:
+      "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400",
+    role_key: "instructors.4.role",
+    specialization_key: "instructors.4.specialization",
+    experience_key: "instructors.4.experience",
+    bio_key: "instructors.4.bio",
+    achievements_keys: [
+      "instructors.4.achievements.0",
+      "instructors.4.achievements.1",
+      "instructors.4.achievements.2"
+    ],
     students: 100,
     rating: 3.8,
     courses: 3,
-    image:
-      "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400",
-    bio: "Dizayn sohasida ko'p yillik tajribaga ega. Foydalanuvchi tajribasi va interfeys dizayni bo'yicha ekspert.",
-    achievements: [
-      "Adobe Certified Expert",
-      "Design System Expert",
-      "UX Research Specialist",
-    ],
   },
-] 
+];

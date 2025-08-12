@@ -68,7 +68,7 @@ const HomePage = () => {
   <Statistika/>
      <Featured/>
       <Cta/>
-    </motion.div>
+    </motion.div> 
   );
 };
 

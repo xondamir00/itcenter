@@ -16,5 +16,318 @@
       "btnCourses": "View Courses",
       "btnConsult": "Free Consultation"
     }
+  },
+  "cta": {
+    "title": "Start your IT career today!",
+    "description": "Professional instructors, modern programs and practical projects are waiting for you",
+    "start_button": "Get started now",
+    "consult_button": "Get consultation"
+  }, "featured": {
+    "title": "Popular courses",
+    "subtitle": "Gain in-depth knowledge and practical skills in the most in-demand IT fields",
+    "duration": "Duration",
+    "currency": "UZS",
+    "details_button": "More details",
+    "all_courses_button": "All courses"
+  },
+    "stats": {
+    "students": "Active students",
+    "courses": "Number of courses",
+    "certificates": "Certificates issued",
+    "experience": "Teaching experience",
+    "years": "{years}+ years"
+  },
+  "footer": {
+    "logo_text": "IT Center",
+    "description": "Modern IT education center. Training professionals in programming and computer literacy.",
+    "quick_links": "Quick Links",
+    "courses": "Courses",
+    "about": "About Us",
+    "instructors": "Instructors",
+    "blog": "Blog",
+    "contact": "Contact",
+    "popular_courses": "Popular Courses",
+    "frontend": "Frontend Development",
+    "backend": "Backend Development",
+    "mobile": "Mobile Development",
+    "data_science": "Data Science",
+    "devops": "DevOps",
+    "contact_info": "Contact Information",
+    "address": "Jizzakh city, Zarbdor district, Government services building, 1st floor",
+    "copyright": "IT Center. All rights reserved."
+  },
+   "courses": {
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Building modern websites with React, Vue.js, Angular"
+    },
+    "backend": {
+      "title": "Backend Development",
+      "description": "Server-side development with Node.js, Python, Java"
+    },
+    "computer_literacy": {
+      "title": "Computer Literacy",
+      "description": "Learning Microsoft Office, internet and security basics"
+    },
+    "ui_ux": {
+      "title": "UI/UX Design",
+      "description": "Creating user interfaces with Figma and Adobe XD"
+    },
+    "korean": {
+      "title": "Korean Language",
+      "description": "Learning beginner and intermediate Korean grammar and vocabulary"
+    },
+    "duration": "{{months}} months",
+    "level": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate"
+    },
+    "price": "{{amount}} UZS"
+  },
+
+   "about": {
+    "hero": {
+      "title": "About Us",
+      "subtitle": "Since 2022, we have been training professional specialists in the IT field"
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "The IT Center was founded in 2022 by a small group of developers and education experts. Our main goal was to develop high-quality IT education in Uzbekistan and prepare skilled professionals.",
+      "paragraph2": "Over 4 years, we have successfully trained more than 2,500 students, with 95% of them finding jobs in the IT industry. Today, we offer over 25 courses and collaborate with more than 50 experienced instructors.",
+      "paragraph3": "Our educational programs meet international standards and are based on the latest technologies. We ensure an individual approach for each student and provide opportunities to gain real-world experience through practical projects.",
+       "experienceYears": "7+",
+  "experienceLabel": "Years of experience"
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "The core principles that guide every decision and action we take"
+    },
+    "achievements": {
+      "title": "Our Achievements",
+      "subtitle": "See our successes through numbers"
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "A strong team of professional and experienced specialists"
+    }
+  },
+
+
+   "about2": {
+    "achievements": {
+      "title": "Our Achievements",
+      "subtitle": "Successes of our students",
+      "items": [
+        { "number": "2500+", "label": "Successful Graduates" },
+        { "number": "95%", "label": "Employed Graduates" },
+        { "number": "25+", "label": "Professional Courses" },
+        { "number": "50+", "label": "Experienced Instructors" }
+      ]
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "Why choose us?",
+      "items": [
+        {
+          "title": "Our Goal",
+          "description": "Preparing modern IT professionals and supporting their career growth"
+        },
+        {
+          "title": "Our Vision",
+          "description": "To become the leading IT education center in Uzbekistan and implement international standards"
+        },
+        {
+          "title": "Quality",
+          "description": "Preparing students for the job market through high-quality education and practical skills"
+        },
+        {
+          "title": "Global Approach",
+          "description": "Providing education based on international standards and the latest technologies"
+        }
+      ]
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Our professional instructors",
+      "members": [
+        {
+          "name": "Temur Ahmatov",
+          "role": "Director and Fullstack Developer",
+          "description": "7 years experience in IT field"
+        },
+        {
+          "name": "Nodir",
+          "role": "Frontend Developer",
+          "description": "2 years Frontend Developer experience"
+        },
+        {
+          "name": "Muhlisa",
+          "role": "Computer Literacy Instructor",
+          "description": "Specialist with 2 years experience"
+        },
+        {
+          "name": "Jahongir",
+          "role": "Frontend Developer",
+          "description": "Developer with 1.5 years experience"
+        }
+      ]
+    }
+    
+  },
+
+
+  "instructorsPage": {
+    "header": {
+      "title": "Our Instructors",
+      "subtitle": "The most experienced and professional experts in IT will teach you"
+    }
+  },
+  "statsLabels": {
+    "Muvaffaqiyatli bitiruvchi": "Successful Graduates",
+    "Ish joylashgan bitiruvchilar": "Employed Graduates",
+    "Professional kurslar": "Professional Courses",
+    "Tajribali o'qituvchilar": "Experienced Instructors"
+  },
+  "labels": {
+    "courses": "Courses",
+    "students": "Students",
+    "rating": "rating",
+    "experience": "experience",
+    "achievements": "Achievements",
+    "enroll": "Enroll Now"
+  },
+  "join": {
+    "title": "Want to become an instructor?",
+    "description": "If you want to share your IT experience with others, join us!",
+    "button": "Apply Now"
+  },
+ "instructors": [
+  {
+    "id": 1,
+    "name": "Nodir",
+    "role": "Middle Frontend Developer",
+    "specialization": "React, Vue.js, Angular",
+    "experience": "2 years",
+    "students": 250,
+    "rating": 4.0,
+    "courses": 3,
+    "image": "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
+    "bio": "Worked at large companies like Google and Microsoft. Specialist in frontend technologies.",
+    "achievements": [
+      "Google Developer Expert",
+      "Microsoft MVP",
+      "Created 50+ projects"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Timur Akhmatov",
+    "role": "Senior Backend Developer",
+    "specialization": "Node.js, Python, Java",
+    "experience": "7 years",
+    "students": 480,
+    "rating": 5.0,
+    "courses": 8,
+    "image": "https://images.stockcake.com/public/e/7/1/e71ca2d8-cda0-461f-9d70-1e3c0dcb2d3f_large/handsome-man-portrait-stockcake.jpg",
+    "bio": "Develop professional server-side applications with Angular, Node.js and Express.js",
+    "achievements": [
+      "Angular",
+      "Node.js",
+      "Express.js",
+      "and others"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Muxlisa",
+    "role": "Computer Literacy",
+    "specialization": "Microsoft Office, AI",
+    "experience": "2 years",
+    "students": 320,
+    "rating": 4.5,
+    "courses": 3,
+    "image": "src/assets/muxlisa.jpg",
+    "bio": "Learn effective computer use, Microsoft Office applications, basics of internet and security.",
+    "achievements": [
+      "Microsoft Office",
+      "AI"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Jahon",
+    "role": "Frontend Developer",
+    "specialization": "Html, Css, Javascript",
+    "experience": "1.5 years",
+    "students": 100,
+    "rating": 3.8,
+    "courses": 3,
+    "image": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "bio": "Has many years of experience in design. Expert in user experience and interface design.",
+    "achievements": [
+      "Adobe Certified Expert",
+      "Design System Expert",
+      "UX Research Specialist"
+    ]
+  }
+],
+
+  "statsLabels1": {
+    "teachersCount": "Number of Teachers",
+    "yearsExperience": "Years of Experience",
+    "students": "Students",
+    "averageRating": "Average Rating"
+  },
+   "contact": {
+    "header": {
+      "title": "Contact Us",
+      "subtitle": "Have questions? We're ready to help!"
+    },
+    "info": {
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "address": "Address",
+      "workingHours": "Working Hours"
+    },
+    "infoDesc": {
+      "phone": "Working days from 8:00 to 18:00",
+      "email": "We respond within 24 hours",
+      "workingHours": "Sunday is a day off"
+    },
+    "quickContact": {
+      "title": "Quick Contact",
+      "callUs": "Call Us",
+      "writeEmail": "Write Email",
+      "telegram": "Via Telegram"
+    },
+    "form": {
+      "title": "Send Message",
+      "name": "Name and Surname *",
+      "surname": "Surname *",
+      "phone": "Your Phone Number *",
+      "subject": "Subject *",
+      "subjectPlaceholder": "Select Subject",
+      "subjectOptions": {
+        "courseInfo": "Course Information",
+        "enrollment": "Enrollment",
+        "consultation": "Free Consultation",
+        "partnership": "Partnership",
+        "other": "Other"
+      },
+      "message": "Message Text *",
+      "submit": "Send Message",
+      "namePlaceholder": "Enter your name",
+      "surnamePlaceholder": "Enter your surname",
+      "phonePlaceholder": "+998 __ ___ ____",
+      "messagePlaceholder": "Write your message..."
+    },
+    "alert": {
+      "success": "Information sent to bot successfully!",
+      "error": "An error occurred!"
+    },
+    "map": {
+      "title": "Our address — 35X8+85M, Zarbdor, Jizzakh region, Uzbekistan",
+      "openLink": "Open in Google Maps"
+    }
   }
 }

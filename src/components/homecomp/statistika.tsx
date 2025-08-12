@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-import { stats } from '../../constants';
+import { statsData } from '../../constants/index';
 import { containerVariants, itemVariants } from '../../type';
 
 
@@ -12,7 +12,7 @@ const Statistika = () => {
           variants={containerVariants}
           className="grid grid-cols-2 lg:grid-cols-4 gap-8"
         >
-          {stats.map((stat, index) => {
+          {statsData.map((stat, index) => {
             const Icon = stat.icon;
             return (
               <motion.div

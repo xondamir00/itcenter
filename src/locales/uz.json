@@ -16,5 +16,344 @@
       "btnCourses": "Kurslarni ko'rish",
       "btnConsult": "Bepul maslahat"
     }
-  }
+  },
+  "cta": {
+    "title": "IT karyerangizni bugun boshlang!",
+    "description": "Professional o'qituvchilar, zamonaviy dasturlar va amaliy loyihalar sizni kutmoqda",
+    "start_button": "Hoziroq boshlang",
+    "consult_button": "Maslahat oling"
+  },
+    "featured": {
+    "title": "Mashhur kurslar",
+    "subtitle": "IT sohasining eng so'ralgan yo'nalishlarida chuqur bilim va amaliy ko'nikmalar oling",
+    "duration": "Davomiyligi",
+    "currency": "so'm",
+    "details_button": "Batafsil ma'lumot",
+    "all_courses_button": "Barcha kurslar"
+  },
+    "stats": {
+    "students": "Faol talabalar",
+    "courses": "Kurslar soni",
+    "certificates": "Sertifikatlar",
+    "experience": "O'qitish tajribasi",
+    "years": "{years}+ yil"
+  },
+   "footer": {
+    "logo_text": "IT Markazi",
+    "description": "Zamonaviy IT ta'lim markazi. Dasturlash va kompyuter savodxonligi yo'nalishida professional kadrlar tayyorlash.",
+    "quick_links": "Tez havolalar",
+    "courses": "Kurslar",
+    "about": "Biz haqimizda",
+    "instructors": "O'qituvchilar",
+    "blog": "Blog",
+    "contact": "Aloqa",
+    "popular_courses": "Mashhur kurslar",
+    "frontend": "Frontend Dasturlash",
+    "backend": "Backend Dasturlash",
+    "mobile": "Mobil Dasturlash",
+    "data_science": "Data Science",
+    "devops": "DevOps",
+    "contact_info": "Aloqa ma'lumotlari",
+    "address": "Jizzax sh, Zarbdor tumani, Davlat xizmatlari binosi, 1-qavat",
+    "copyright": "IT Markazi. Barcha huquqlar himoyalangan."
+  },
+   "courses": {
+    "frontend": {
+      "title": "Frontend Dasturlash",
+      "description": "React, Vue.js, Angular asosida zamonaviy veb-saytlar yaratish"
+    },
+    "backend": {
+      "title": "Backend Dasturlash",
+      "description": "Node.js, Python, Java bilan server tomonni rivojlantirish"
+    },
+    "computer_literacy": {
+      "title": "Kompyuter Savodxonligi",
+      "description": "Microsoft Office, internet va xavfsizlik asoslarini o'rganish"
+    },
+    "ui_ux": {
+      "title": "UI/UX Dizayn",
+      "description": "Figma va Adobe XD yordamida foydalanuvchi interfeyslari yaratish"
+    },
+    "korean": {
+      "title": "Koreys Tili",
+      "description": "Koreys tilining boshlang'ich va o'rta darajadagi grammatikasi hamda so'z boyligini o'rganish"
+    },
+    "duration": "{{months}} oy",
+    "level": {
+      "beginner": "Boshlang'ich",
+      "intermediate": "O'rta"
+    },
+    "price": "{{amount}} so'm"
+  },
+
+    "about": {
+    "hero": {
+      "title": "Biz haqimizda",
+      "subtitle": "2022-yildan beri IT sohasida professional kadrlar tayyorlayotgan yetakchi ta'lim markazi"
+    },
+    "story": {
+      "title": "Bizning hikoyamiz",
+      "paragraph1": "IT Markazi 2022-yilda kichik bir guruh dasturchi va ta'lim sohasidagi mutaxassislar tomonidan tashkil etildi. Bizning asosiy maqsadimiz O'zbekistonda sifatli IT ta'limni rivojlantirish va professional kadrlar tayyorlash edi.",
+      "paragraph2": "4 yil davomida biz 2500 dan ortiq talabani muvaffaqiyatli tayyorladik va ularning 95% i IT sohasida o'z ish joylarini topdi. Bugun biz 25 dan ortiq kurslar taklif qilamiz va 50 dan ortiq tajribali o'qituvchi bilan hamkorlik qilamiz.",
+      "paragraph3": "Bizning ta'lim dasturlarimiz xalqaro standartlarga mos keladi va eng yangi texnologiyalarga asoslanadi. Har bir talaba uchun individual yondashuv va amaliy loyihalar orqali real tajriba olish imkoniyatini yaratamiz.",
+      "experienceYears": "7+",
+      "experienceLabel": "Yillik tajriba"
+    },
+    "values": {
+      "title": "Bizning qadriyatlarimiz",
+      "subtitle": "Har bir qaror va harakatimizda yo'llovchi bo'lgan asosiy tamoyillarimiz"
+    },
+    "achievements": {
+      "title": "Bizning yutuqlarimiz",
+      "subtitle": "Raqamlar orqali bizning muvaffaqiyatlarimizni ko'ring"
+    },
+    "team": {
+      "title": "Bizning jamoa",
+      "subtitle": "Professional va tajribali mutaxassislardan iborat kuchli jamoa"
+    }
+  },
+
+    "about2": {
+    "achievements": {
+      "title": "Bizning yutuqlarimiz",
+      "subtitle": "O'quvchilarimizning muvaffaqiyatlari",
+      "items": [
+        { "number": "2500+", "label": "Muvaffaqiyatli bitiruvchi" },
+        { "number": "95%", "label": "Ish joylashgan bitiruvchilar" },
+        { "number": "25+", "label": "Professional kurslar" },
+        { "number": "50+", "label": "Tajribali o'qituvchilar" }
+      ]
+    },
+    "values": {
+      "title": "Qadriyatlarimiz",
+      "subtitle": "Nima uchun bizni tanlaysiz?",
+      "items": [
+        {
+          "title": "Maqsadimiz",
+          "description": "Zamonaviy IT kadrlarni tayyorlash va ularning professional rivojlanishiga yordam berish"
+        },
+        {
+          "title": "Vizyonimiz",
+          "description": "O'zbekistondagi eng yetakchi IT ta'lim markaziga aylanish va xalqaro standartlarni joriy etish"
+        },
+        {
+          "title": "Sifat",
+          "description": "Yuqori sifatli ta'lim va amaliy ko'nikmalar orqali talabalarni ish bozoriga tayyorlash"
+        },
+        {
+          "title": "Global yondashuv",
+          "description": "Xalqaro standartlar va eng yangi texnologiyalar asosida ta'lim berish"
+        }
+      ]
+    },
+    "team": {
+      "title": "Jamoamiz",
+      "subtitle": "Bizning professional o'qituvchilarimiz",
+      "members": [
+        {
+          "name": "Temur Ahmatov",
+          "role": "Direktor va Fullstack Dasturchi",
+          "description": "7 yillik IT sohasidagi tajriba"
+        },
+        {
+          "name": "Nodir",
+          "role": "Frontend dasturchi",
+          "description": "2 yillik Frontend Dasturchi"
+        },
+        {
+          "name": "Muhlisa",
+          "role": "Kampyuter Savodhonlik Oqituvchi",
+          "description": "2 Yillik Tajribaga Ega Mutahasis"
+        },
+        {
+          "name": "Jahongir",
+          "role": "Frontend Dasturchi",
+          "description": "1.5 yillik tajribaga ega dasturchi"
+        }
+      ]
+    }
+
+
+    
+  },
+
+    "instructorsPage": {
+    "header": {
+      "title": "Bizning o'qituvchilar",
+      "subtitle": "IT sohasining eng tajribali va professional mutaxassislari sizni o'qitadi"
+    }
+  },
+  "statsLabels": {
+    "Muvaffaqiyatli bitiruvchi": "Muvaffaqiyatli bitiruvchi",
+    "Ish joylashgan bitiruvchilar": "Ish joylashgan bitiruvchilar",
+    "Professional kurslar": "Professional kurslar",
+    "Tajribali o'qituvchilar": "Tajribali o'qituvchilar"
+  },
+  "labels": {
+    "courses": "Kurslar",
+    "students": "Talabalar",
+    "rating": "reyting",
+    "experience": "tajriba",
+    "achievements": "Yutuqlari",
+    "enroll": "Kursga yozdirish"
+  },
+  "join": {
+    "title": "O'qituvchi bo'lishni xohlaysizmi?",
+    "description": "IT sohasidagi tajribangizni boshqalar bilan bo'lishishni istasangiz, bizga qo'shiling!",
+    "button": "Ariza qoldirish"
+  },
+
+
+
+  "instructors": [
+    {
+      "id": 1,
+      "name": "Nodir",
+      "role": "Middle Frontend Developer",
+      "specialization": "React, Vue.js, Angular",
+      "experience": "2 yil",
+      "students": 250,
+      "rating": 4.0,
+      "courses": 3,
+      "image": "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
+      "bio": "Google va Microsoft kabi yirik kompaniyalarda ishlagan. Frontend texnologiyalari bo'yicha mutaxassis.",
+      "achievements": [
+        "Google Developer Expert",
+        "Microsoft MVP",
+        "50+ loyiha yaratgan"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Timur Axmatov",
+      "role": "Senior Backend Developer",
+      "specialization": "Node.js, Python, Java",
+      "experience": "7 yil",
+      "students": 480,
+      "rating": 5.0,
+      "courses": 8,
+      "image": "https://images.stockcake.com/public/e/7/1/e71ca2d8-cda0-461f-9d70-1e3c0dcb2d3f_large/handsome-man-portrait-stockcake.jpg",
+      "bio": "Angular Node.js va Express.js bilan server tomonni professional darajada rivojlantiring",
+      "achievements": [
+        "Angular",
+        "Node.js",
+        "Express.js",
+        "va boshqalar"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Muxlisa",
+      "role": "Kompyuter Savodxonligi",
+      "specialization": "Microsoft Office, AI",
+      "experience": "2 yil",
+      "students": 320,
+      "rating": 4.5,
+      "courses": 3,
+      "image": "src/assets/muxlisa.jpg",
+      "bio": "Kompyuterdan samarali foydalanish, Microsoft Office dasturlari, internet va xavfsizlik asoslarini o‘rganing.",
+      "achievements": [
+        "Microsoft Office",
+        "AI"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Jahon",
+      "role": "Frontend Developer",
+      "specialization": "Html, Css, Javascript",
+      "experience": "1.5 yil",
+      "students": 100,
+      "rating": 3.8,
+      "courses": 3,
+      "image": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400",
+      "bio": "Dizayn sohasida ko'p yillik tajribaga ega. Foydalanuvchi tajribasi va interfeys dizayni bo'yicha ekspert.",
+      "achievements": [
+        "Adobe Certified Expert",
+        "Design System Expert",
+        "UX Research Specialist"
+      ]
+    }
+  ],
+
+   "statsLabels1": {
+    "teachersCount": "O'qituvchilar soni",
+    "yearsExperience": "Yillik tajriba",
+    "students": "Talabalar",
+    "averageRating": "O'rtacha reyting"
+  },
+
+    "contact": {
+    "header": {
+      "title": "Biz bilan bog'laning",
+      "subtitle": "Savollaringiz bormi? Biz sizga yordam berishga tayyormiz!"
+    },
+    "info": {
+      "phone": "Telefon raqami",
+      "email": "Email manzili",
+      "address": "Manzil",
+      "workingHours": "Ish vaqti"
+    },
+    "infoDesc": {
+      "phone": "Ish kunlari 8:00 dan 18:00 gacha",
+      "email": "24 soat ichida javob beramiz",
+      "workingHours": "Yakshanba dam olish kuni"
+    },
+    "quickContact": {
+      "title": "Tezkor aloqa",
+      "callUs": "Qo'ng'iroq qiling",
+      "writeEmail": "Email yozing",
+      "telegram": "Telegram orqali"
+    },
+    "form": {
+      "title": "Xabar yuborish",
+      "name": "Ism va familiya *",
+      "surname": "Familiya *",
+      "phone": "Telefon raqamingiz *",
+      "subject": "Mavzu *",
+      "subjectPlaceholder": "Mavzuni tanlang",
+      "subjectOptions": {
+        "courseInfo": "Kurslar haqida ma'lumot",
+        "enrollment": "Ro'yxatdan o'tish",
+        "consultation": "Bepul maslahat",
+        "partnership": "Hamkorlik",
+        "other": "Boshqa"
+      },
+      "message": "Xabar matni *",
+      "submit": "Xabar yuborish",
+      "namePlaceholder": "Ismingizni kiriting",
+      "surnamePlaceholder": "Familiyangizni kiriting",
+      "phonePlaceholder": "+998 __ ___ ____",
+      "messagePlaceholder": "Xabaringizni yozing..."
+    },
+    "alert": {
+      "success": "Ma'lumotlar botga yuborildi!",
+      "error": "Xatolik yuz berdi!"
+    },
+    "map": {
+      "title": "Bizning manzil — 35X8+85M, Зарбдор, Jizzax viloyati, Ўзбекистон",
+      "openLink": "Open in Google Maps"
+    }
+  },
+   "coursess": {
+    "headerTitlee": "All Courses",
+    "headerDescriptionn": "Gain professional skills in all IT directions",
+    "searchPlaceholder": "Search courses...",
+    "categoryLabel": "Category:",
+    "levelLabel": "Level:",
+    "all": "All",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "students": "students",
+    "priceSuffix": "UZS",
+    "details": "Details",
+    "noCourses": "No courses found"
+  },
+  "categories": {
+    "Frontend": "Frontend",
+    "Backend": "Backend",
+    "Korean": "Korean Language",
+    "ComputerLiteracy": "Computer Literacy"
+}
 }
