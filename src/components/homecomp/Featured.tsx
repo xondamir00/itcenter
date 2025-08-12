@@ -37,21 +37,21 @@ const Featured = () => {
                 <div className="relative overflow-hidden">
                   <img
                     src={course.image}
-                    alt={course.title}
+                    alt={course.title_key}
                     className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute top-4 left-4">
                     <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-                      {course.level}
+                      {course.level_key}
                     </span>
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold  mb-2">{course.title}</h3>
-                  <p className="text-gray-600 mb-4 leading-relaxed h-[10vh]">{course.description}</p>
+                  <h3 className="text-xl font-bold  mb-2">{course.title_key}</h3>
+                  <p className="text-gray-600 mb-4 leading-relaxed h-[10vh]">{course.description_key}</p>
                   <div className="flex justify-between items-center mb-4">
-                    <span className="text-sm text-gray-500">Davomiyligi: {course.duration}</span>
-                    <span className="text-2xl font-bold text-blue-600">{course.price} so'm</span>
+                    <span className="text-sm text-gray-500">Davomiyligi: {course.duration_months}</span>
+                    <span className="text-2xl font-bold text-blue-600">{course.price_amount} so'm</span>
                   </div>
                   <Link
                     to={`/course/${course.id}`}
