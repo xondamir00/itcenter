@@ -5,10 +5,11 @@ import { motion } from 'framer-motion';
 
 import { containerVariants, itemVariants,  } from "../../type";
 import { courses,  } from "@/constants";
+import { useTranslation } from "react-i18next";
   const threeCourses = courses.slice(0, 3);
   
 const Featured = () => {
-    
+const {t} = useTranslation()    
   
   
   return (
@@ -47,11 +48,11 @@ const Featured = () => {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold  mb-2">{course.title_key}</h3>
-                  <p className="text-gray-600 mb-4 leading-relaxed h-[10vh]">{course.description_key}</p>
+                  <h3 className="text-xl font-bold  mb-2">{t(course.title_key)}</h3>
+                  <p className="text-gray-600 mb-4 leading-relaxed h-[10vh]">{t(course.description_key)}</p>
                   <div className="flex justify-between items-center mb-4">
                     <span className="text-sm text-gray-500">Davomiyligi: {course.duration_months}</span>
-                    <span className="text-2xl font-bold text-blue-600">{course.price_amount} so'm</span>
+                    <span className="text-2xl font-bold text-blue-600">{t(course.price_amount)} so'm</span>
                   </div>
                   <Link
                     to={`/course/${course.id}`}

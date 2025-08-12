@@ -36,7 +36,7 @@
     "courses": "Kurslar soni",
     "certificates": "Sertifikatlar",
     "experience": "O'qitish tajribasi",
-    "years": "{years}+ yil"
+    "years": "5+ yil"
   },
    "footer": {
     "logo_text": "IT Markazi",
@@ -258,8 +258,8 @@
       ]
     },
     {
-      "id": 4,
-      "name": "Jahon",
+      "id":4,
+      "name": "Jahongir",
       "role": "Frontend Developer",
       "specialization": "Html, Css, Javascript",
       "experience": "1.5 yil",

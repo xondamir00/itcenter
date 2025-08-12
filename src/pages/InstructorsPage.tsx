@@ -61,7 +61,7 @@ const InstructorsPage: React.FC = () => {
                 className="text-center"
               >
                 <div className="text-3xl lg:text-4xl font-bold text-white mb-2">
-                  {stat.number}
+                  {t(stat.number)}
                 </div>
                 <div className="text-blue-100 font-medium">
                   {t(stat.labelKey)}
@@ -89,11 +89,11 @@ const InstructorsPage: React.FC = () => {
                   <div className="text-center mb-6">
                     <img
                       src={instructor.image}
-                      alt={instructor.name}
+                      alt={t(instructor.name)}
                       className="w-24 h-24 rounded-full mx-auto object-cover shadow-lg group-hover:scale-105 transition-transform duration-300"
                     />
                     <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-4 mb-1">
-                      {instructor.name}
+                      {t(instructor.name)}
                     </h3>
                     <p className="text-blue-600 font-medium mb-2">
                       {t(instructor.role_key)}

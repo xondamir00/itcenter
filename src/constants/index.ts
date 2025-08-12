@@ -708,21 +708,21 @@ export const instructorss = [
     courses: 3,
   },
   {
-    id: 4,
-    name: "Jahon",
-    image:
-      "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400",
-    role_key: "instructors.4.role",
-    specialization_key: "instructors.4.specialization",
-    experience_key: "instructors.4.experience",
-    bio_key: "instructors.4.bio",
-    achievements_keys: [
-      "instructors.4.achievements.0",
-      "instructors.4.achievements.1",
-      "instructors.4.achievements.2"
-    ],
-    students: 100,
-    rating: 3.8,
-    courses: 3,
-  },
+  id: 4,
+  name: "Jahongir",
+  image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400",
+  role_key: "instructors.4.role",
+  specialization_key: "instructors.4.specialization",
+  experience_key: "instructors.4.experience",
+  bio_key: "instructors.4.bio",
+  achievements_keys: [
+    "instructors.4.achievements.0",
+    "instructors.4.achievements.1",
+    "instructors.4.achievements.2"
+  ],
+  students: 100,
+  rating: 3.8,
+  courses: 3,
+}
+
 ];
