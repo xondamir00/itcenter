@@ -13,10 +13,19 @@ const CourseDetailPage = () => {
   const {t} = useTranslation()
   const { id } = useParams();
   const [course, setCourse] = useState<Course | null>(null);
-  useEffect(() => {
-    const foundCourse = coursess.find((c) => c.id.toString() === id);
-    setCourse(foundCourse || null);
-  }, [id]);
+useEffect(() => {
+  if (!id) {
+    setCourse(null);
+    return;
+  }
+
+  const foundCourse = coursess.find(
+    (c) => c.id.toString() === id
+  ) as Course | undefined;
+
+  setCourse(foundCourse ?? null);
+}, [id]);
+
 
   
   if (!course) {
