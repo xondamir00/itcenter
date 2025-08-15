@@ -149,12 +149,7 @@ export const oqituvchilar = [
     roleKey: 'about2.team.members.2.role',
     descriptionKey: 'about2.team.members.2.description'
   },
-  {
-    image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400',
-    nameKey: 'about2.team.members.3.name',
-    roleKey: 'about2.team.members.3.role',
-    descriptionKey: 'about2.team.members.3.description'
-  }
+  
 ];
 
 

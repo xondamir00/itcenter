@@ -32,7 +32,7 @@ const ContactPage = () => {
     const message = `
 📩 Yangi xabar:
 👤 Ism: ${formData.name}
-📞 Telefon: ${formData.surname}
+👤 Familiya: ${formData.surname}
 📧 Email: ${formData.phone}
 📝 Mavzu: ${formData.subject}
 💬 Xabar: ${formData.message}
