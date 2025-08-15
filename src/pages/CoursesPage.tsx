@@ -7,7 +7,7 @@ import { coursess } from "@/constants";
 import { useTranslation } from "react-i18next";
 
 const categories = ['Barchasi', 'Frontend', 'Backend', 'Koreys Tili', 'Kampyuter Savodxonligi'];
-const levels = ['Barchasi', "Boshlang'ich", "O'rta", "Ilg'or"];
+const levels = ['Barchasi', "Boshlang'ich", "O'rta", "Yuqori"];
 
 const CoursesPage = () => {
   const { t } = useTranslation();
@@ -41,10 +41,10 @@ const CoursesPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div variants={itemVariants} className="text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              {t('coursess.headerTitlee') || "Barcha kurslar"}
+              {t('courses.frontend.title') || "Barcha kurslar"}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-             {t("coursess.headerDescriptionn") || "IT sohasining barcha yo'nalishlarida professional ko'nikmalar oling"}
+             {t("courses.frontend.description") || "IT sohasining barcha yo'nalishlarida professional ko'nikmalar oling"}
             </p>
           </motion.div>
         </div>
@@ -77,10 +77,10 @@ const CoursesPage = () => {
                       className={`px-4 py-2 rounded-xl font-medium transition-colors ${
                         selectedCategory === category
                           ? 'bg-blue-600 text-white'
-                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                          : 'bg-gray-100 text-gray-700 border hover:bg-gray-200'
                       }`}
                     >
-                      {category}
+                      {t(category)}
                     </button>
                   ))}
                 </div>
@@ -98,10 +98,10 @@ const CoursesPage = () => {
                       className={`px-4 py-2 rounded-xl font-medium transition-colors ${
                         selectedLevel === level
                           ? 'bg-blue-600 text-white'
-                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                          : 'bg-gray-100 text-gray-700 border hover:bg-gray-200'
                       }`}
                     >
-                      {level}
+                      {t(level)}
                     </button>
                   ))}
                 </div>
@@ -129,23 +129,23 @@ const CoursesPage = () => {
                   />
                   <div className="absolute top-4 left-4">
                     <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-                      {course.level}
+                      {t(course.level)}
                     </span>
                   </div>
                   <div className="absolute top-4 right-4">
                     <span className="bg-white/90 text-gray-900 px-2 py-1 rounded-full text-sm font-medium">
-                      {course.category}
+                      {t(course.category)}
                     </span>
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{course.title}</h3>
-                  <p className="text-gray-600 mb-4 h-[10vh]">{course.description}</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">{t(course.title)}</h3>
+                  <p className="text-gray-600 mb-4  lg:h-[10vh]">{t(course.description)}</p>
 
                   <div className="flex items-center justify-between mb-4 text-sm text-gray-500">
                     <div className="flex items-center">
                       <Clock className="h-4 w-4 mr-1" />
-                      {course.duration}
+                      {t(course.duration)}
                     </div>
                     <div className="flex items-center">
                       <Users className="h-4 w-4 mr-1" />

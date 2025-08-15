@@ -133,11 +133,11 @@ const InstructorsPage: React.FC = () => {
                 </div>
 
                 <div className="px-6 pb-6">
-                  <p className="text-gray-600 dark:text-gray-300 h-[8vh] text-sm mb-4 leading-relaxed overflow-hidden">
+                  <p className="text-gray-600 dark:text-gray-300 lg:h-[8vh] text-sm mb-4 leading-relaxed overflow-hidden">
                     {t(instructor.bio_key)}
                   </p>
 
-                  <div className="space-y-2 h-[10vh] overflow-auto">
+                  <div className="space-y-2 h-[12vh] ">
                     <div className="flex items-center text-xs text-gray-600 dark:text-gray-300 mb-2">
                       <Award className="h-3 w-3 mr-1 text-orange-500" />
                       <span className="font-medium">
@@ -147,7 +147,7 @@ const InstructorsPage: React.FC = () => {
                     {(instructor.achievements_keys || []).map((key, index) => (
                       <div
                         key={index}
-                        className="flex items-center text-xs text-gray-600 dark:text-gray-300"
+                        className="flex items-center  text-xs text-gray-600 dark:text-gray-300"
                       >
                         <div className="w-1 h-1 bg-blue-600 rounded-full mr-2"></div>
                         {t(key)}

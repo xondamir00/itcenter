@@ -234,384 +234,574 @@ export const oqituvchilar = [
     }
   ];
 
-  export const coursess = [
+//   export const coursess = [
+//   {
+//     id: 1,
+//     title: "card.frontend.title",
+//     description:
+//       "card.frontend.description",
+//     fullDescription:
+//       "Ushbu kurs React.js ning barcha asosiy va ilg'or mavzularini qamrab oladi. Siz React hooks, context API, Redux, React Router kabi muhim texnologiyalarni o'rganasiz. Kurs davomida real loyihalar ustida ishlab, portfolio uchun professional loyihalar yaratasiz.",
+//     category: "Frontend",
+//     level: "card.level.beginner",
+//     duration: "8 oy",
+//     students: 730,
+//     rating: 4.9,
+//     price: "325,000",
+//     originalPrice: "500,000",
+//     image:
+//       "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=500",
+//     instructor: {
+//       name: "Nodir",
+//       role: "Senior Frontend Developer",
+//       avatar:
+//         "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
+//       experience: "2+ yil",
+//       courses: 2,
+//       students: 250,
+//     },
+//     curriculum: [
+//       {
+//         module: "Modul 1: React Asoslari",
+//         lessons: 8,
+//         duration: "3 hafta",
+//         topics: [
+//           "React ga kirish",
+//           "Components va JSX",
+//           "Props va State",
+//           "Event Handling",
+//           "Conditional Rendering",
+//           "Lists va Keys",
+//           "Forms bilan ishlash",
+//           "Lifecycle Methods",
+//         ],
+//       },
+//       {
+//         module: "Modul 2: React Hooks",
+//         lessons: 6,
+//         duration: "2 hafta",
+//         topics: [
+//           "useState Hook",
+//           "useEffect Hook",
+//           "useContext Hook",
+//           "useReducer Hook",
+//           "Custom Hooks",
+//           "Hook Rules va Best Practices",
+//         ],
+//       },
+//     ],
+//     features: [
+//       "Professional darajadagi bilimlar",
+//       "Real loyihalar ustida amaliyot",
+//       "Shaxsiy mentor yordami",
+//       "Rasmiy sertifikat",
+//       "Ish joyiga ko'mak",
+//     ],
+//     requirements: [
+//       "HTML va CSS bilimi (boshlang'ich daraja)",
+//       "JavaScript asoslari",
+//       "Kompyuter va internet aloqasi",
+//     ],
+//   },
+//   {
+//     id: 2,
+//     title: "Backend Development",
+//     description:
+//       "Angular Node.js va Express.js bilan server tomonni professional darajada rivojlantiring",
+//     fullDescription:
+//       "Ushbu kursda siz Node.js, Express.js, MongoDB va Angular yordamida zamonaviy backend tizimlarini yaratishni o'rganasiz. API yaratish, autentifikatsiya, xavfsizlik va ma'lumotlar bazasi bilan ishlash chuqur o‘rganiladi.",
+//     category: "Backend",
+//     level: "O'rta",
+//     duration: "7 oy",
+//     students: 320,
+//     rating: 4.8,
+//     price: "325,000",
+//     originalPrice: "480,000",
+//     image:
+//       "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=500",
+//     instructor: {
+//       name: "Temur Axmatov",
+//       role: "Senior Backend Developer",
+//       avatar:
+//         "https://images.stockcake.com/public/e/7/1/e71ca2d8-cda0-461f-9d70-1e3c0dcb2d3f_large/handsome-man-portrait-stockcake.jpg",
+//       experience: "7+ yil",
+//       courses: 8,
+//       students: 900,
+//     },
+//     curriculum: [
+//       {
+//         module: "Modul 1: Backend Asoslari",
+//         lessons: 6,
+//         duration: "3 hafta",
+//         topics: [
+//           "Node.js ga kirish",
+//           "Express.js asoslari",
+//           "REST API yaratish",
+//           "Middleware bilan ishlash",
+//           "Ma'lumotlar bazasi bilan ulanish",
+//           "Error handling",
+//         ],
+//       },
+//       {
+//         module: "Modul 2: Angular Integratsiyasi",
+//         lessons: 5,
+//         duration: "2 hafta",
+//         topics: [
+//           "Angular asoslari",
+//           "Frontend-backend integratsiyasi",
+//           "HTTP so'rovlar",
+//           "Token asosida autentifikatsiya",
+//           "Data binding va services",
+//         ],
+//       },
+//     ],
+//     features: [
+//       "Full-stack bilimlar",
+//       "Real loyihalar",
+//       "Ma'lumotlar bazasi bilan ishlash",
+//       "Xavfsizlik asoslari",
+//       "Rasmiy sertifikat",
+//     ],
+//     requirements: [
+//       "JavaScript asoslari",
+//       "Frontend asoslari",
+//       "Kompyuter va internet aloqasi",
+//     ],
+//   },
+//   {
+//     id: 3,
+//     title: "Kompyuter Savodxonligi",
+//     description:
+//       "Kompyuter, ofis dasturlari va internetdan samarali foydalanishni o'rganing",
+//     fullDescription:
+//       "Kurs davomida siz Windows operatsion tizimi, Microsoft Word, Excel, PowerPoint, Google xizmatlari va internet xavfsizligi haqida bilib olasiz. Yangi boshlovchilar uchun mos va kundalik hayotda ham, ish jarayonida ham foydali bo‘ladi.",
+//     category: "Kampyuter Savodxonligi",
+//     level: "Boshlang'ich",
+//     duration: "4 oy",
+//     students: 500,
+//     rating: 4.7,
+//     price: "200,000",
+//     originalPrice: "300,000",
+//     image:
+//       "https://bilgi.uz/upload/resize_cache/iblock/a47/jgri9zvx35kcmqp6gw33ejq021i9rgcc/780_470_2/ZuhrStar.jpg",
+//     instructor: {
+//       name: "Muxlisa",
+//       role: "IT O'qituvchi",
+//       avatar:
+//         "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=500",
+//       experience: "3+ yil",
+//       courses: 3,
+//       students: 400,
+//     },
+//     curriculum: [
+//       {
+//         module: "Modul 1: Kompyuter Asoslari",
+//         lessons: 5,
+//         duration: "2 hafta",
+//         topics: [
+//           "Windows asoslari",
+//           "Fayl va papkalar bilan ishlash",
+//           "Klaviatura va sichqoncha amaliyoti",
+//           "Dasturlarni o‘rnatish va o‘chirish",
+//           "Internet asoslari",
+//         ],
+//       },
+//       {
+//         module: "Modul 2: Ofis Dasturlari",
+//         lessons: 6,
+//         duration: "2 hafta",
+//         topics: [
+//           "Microsoft Word",
+//           "Microsoft Excel",
+//           "Microsoft PowerPoint",
+//           "Google Docs",
+//           "Google Sheets",
+//           "Google Slides",
+//         ],
+//       },
+//     ],
+//     features: [
+//       "Yangi boshlovchilar uchun mos",
+//       "Amaliy mashg'ulotlar",
+//       "Oson tushunarli darslar",
+//       "Sertifikat",
+//     ],
+//     requirements: ["Kompyuter va internet aloqasi"],
+//   },
+//   {
+//     id: 4,
+//     title: "Koreys Tili",
+//     description:
+//       "Noldan koreys tilini o‘rganing va muloqot qila olish darajasiga chiqing",
+//     fullDescription:
+//       "Ushbu kursda siz koreys alifbosi, grammatikasi, talaffuzi va kundalik so‘zlashuv iboralarini o‘rganasiz. Til amaliyotlari va audio-video materiallar yordamida eshitish, gapirish, o‘qish va yozish ko‘nikmalaringizni rivojlantirasiz.",
+//     category: "Koreys Tili",
+//     level: "Boshlang'ich",
+//     duration: "6 oy",
+//     students: 450,
+//     rating: 4.9,
+//     price: "300,000",
+//     originalPrice: "450,000",
+//     image:
+//       "https://toping.uz/storage/articles/230/JeNBJeQgAAf2zTBSXAWCWftRzvoP2hyK.webp",
+//     instructor: {
+//       name: "Aziza",
+//       role: "Koreys Tili O'qituvchisi",
+//       avatar:
+//         "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=500",
+//       experience: "5+ yil",
+//       courses: 5,
+//       students: 800,
+//     },
+//     curriculum: [
+//       {
+//         module: "Modul 1: Kirish",
+//         lessons: 4,
+//         duration: "2 hafta",
+//         topics: [
+//           "Hangul alifbosi",
+//           "Tovushlar va talaffuz",
+//           "O‘zini tanishtirish",
+//           "Oddiy salomlashuvlar",
+//         ],
+//       },
+//       {
+//         module: "Modul 2: Grammatik Asoslar",
+//         lessons: 6,
+//         duration: "3 hafta",
+//         topics: [
+//           "Otlar va fe’llar",
+//           "Gap tuzilishi",
+//           "Zamonlar",
+//           "Savol va inkor gaplar",
+//           "Sanash va vaqt",
+//           "Kunlik iboralar",
+//         ],
+//       },
+//     ],
+//     features: [
+//       "Talaffuz va tinglash mashqlari",
+//       "Audio-video materiallar",
+//       "Amaliy suhbat darslari",
+//       "Sertifikat",
+//     ],
+//     requirements: ["Qiziqish va muntazam mashq qilish istagi"],
+//   },
+//   {
+//     id: 5,
+//     title: "UI/UX Design",
+//     description:
+//       "Figma va Adobe XD yordamida foydalanuvchi interfeyslari yaratishni o‘rganing",
+//     fullDescription:
+//       "Kurs davomida siz zamonaviy UI/UX dizayn prinsiplari, rang tanlash, tipografiya va foydalanuvchi tajribasini oshirish usullarini o‘rganasiz. Real loyihalarda ishlash orqali portfoliongizni boyitasiz.",
+//     category: "Dizayn",
+//     level: "Boshlang'ich",
+//     duration: "5 oy",
+//     students: 380,
+//     rating: 4.8,
+//     price: "250,000",
+//     originalPrice: "400,000",
+//     image:
+//       "https://images.pexels.com/photos/3184451/pexels-photo-3184451.jpeg?auto=compress&cs=tinysrgb&w=500",
+//     instructor: {
+//       name: "Dilshod",
+//       role: "UI/UX Dizayner",
+//       avatar:
+//         "https://images.pexels.com/photos/3775534/pexels-photo-3775534.jpeg?auto=compress&cs=tinysrgb&w=500",
+//       experience: "4+ yil",
+//       courses: 4,
+//       students: 600,
+//     },
+//     curriculum: [
+//       {
+//         module: "Modul 1: Dizayn Asoslari",
+//         lessons: 5,
+//         duration: "2 hafta",
+//         topics: [
+//           "UI va UX farqi",
+//           "Dizayn prinsiplari",
+//           "Ranglar nazariyasi",
+//           "Tipografiya",
+//           "Layout va grid tizimlari",
+//         ],
+//       },
+//       {
+//         module: "Modul 2: Figma Asoslari",
+//         lessons: 6,
+//         duration: "3 hafta",
+//         topics: [
+//           "Figma interfeysi",
+//           "Frame va komponentlar",
+//           "Style va effektlar",
+//           "Prototype yaratish",
+//           "Responsive dizayn",
+//           "Amaliy loyiha",
+//         ],
+//       },
+//     ],
+//     features: [
+//       "Portfolioga ega bo‘lish imkoniyati",
+//       "Real loyihalarda amaliyot",
+//       "Mentor yordami",
+//       "Sertifikat",
+//     ],
+//     requirements: ["Kompyuter va internet aloqasi", "Ijodkorlik"],
+//   },
+//   {
+//     id: 6,
+//     title: "Data Science",
+//     description:
+//       "Python, Pandas, NumPy va Machine Learning asoslarini o‘rganing",
+//     fullDescription:
+//       "Kurs davomida siz ma’lumotlarni tahlil qilish, tozalash, vizualizatsiya qilish va mashinani o‘qitish asoslarini o‘rganasiz. Real datasetlar ustida ishlash orqali amaliy ko‘nikmalarga ega bo‘lasiz.",
+//     category: "Data",
+//     level: "Yuqori",
+//     duration: "9 oy",
+//     students: 210,
+//     rating: 4.9,
+//     price: "400,000",
+//     originalPrice: "600,000",
+//     image:
+//       "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=500",
+//     instructor: {
+//       name: "Javlon",
+//       role: "Data Scientist",
+//       avatar:
+//         "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=500",
+//       experience: "6+ yil",
+//       courses: 6,
+//       students: 450,
+//     },
+//     curriculum: [
+//       {
+//         module: "Modul 1: Python Asoslari",
+//         lessons: 5,
+//         duration: "3 hafta",
+//         topics: [
+//           "Python sintaksisi",
+//           "Ma’lumot turlari",
+//           "Funksiyalar",
+//           "Modullar",
+//           "Fayllar bilan ishlash",
+//         ],
+//       },
+//       {
+//         module: "Modul 2: Data Analysis Kutubxonalari",
+//         lessons: 6,
+//         duration: "3 hafta",
+//         topics: [
+//           "NumPy asoslari",
+//           "Pandas bilan ishlash",
+//           "Matplotlib va Seaborn",
+//           "Ma’lumotlarni tozalash",
+//           "Vizualizatsiya",
+//           "Statistik tahlil",
+//         ],
+//       },
+//     ],
+//     features: [
+//       "Amaliy datasetlar bilan ishlash",
+//       "Mashina o‘qitish asoslari",
+//       "Portfolio loyihasi",
+//       "Sertifikat",
+//     ],
+//     requirements: [
+//       "Python asoslari",
+//       "Matematika va statistika bilimlari",
+//       "Kompyuter va internet aloqasi",
+//     ],
+//   },
+// ];
+export const coursess = [
+  
   {
     id: 1,
-    title: "Frontend Development",
-    description:
-      "Html Css Javascript React.js yordamida zamonaviy veb-interfeyslari yaratishni o'rganing",
-    fullDescription:
-      "Ushbu kurs React.js ning barcha asosiy va ilg'or mavzularini qamrab oladi. Siz React hooks, context API, Redux, React Router kabi muhim texnologiyalarni o'rganasiz. Kurs davomida real loyihalar ustida ishlab, portfolio uchun professional loyihalar yaratasiz.",
+    title: "card.frontend.title",
+    description: "card.frontend.description",
+    fullDescription: "card.frontend.fullDescription",
     category: "Frontend",
     level: "Boshlang'ich",
-    duration: "8 oy",
-    students: 730,
-    rating: 4.9,
+    duration: "card.frontend.duration",
+    students: "80",
+    rating: "4.2",
     price: "325,000",
     originalPrice: "500,000",
-    image:
-      "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=500",
+    image: "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
     instructor: {
-      name: "Nodir",
-      role: "Senior Frontend Developer",
-      avatar:
-        "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
+      name: "card.frontend.name",
+      role: "card.frontend.role",
+      avatar: "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
       experience: "2+ yil",
-      courses: 2,
-      students: 250,
+      courses: "1+ yil",
+      students: "250",
     },
     curriculum: [
       {
-        module: "Modul 1: React Asoslari",
-        lessons: 8,
-        duration: "3 hafta",
+        module: "card.frontend.module1.name",
+        lessons: "8",
+        duration: "card.frontend.module1.duration",
         topics: [
-          "React ga kirish",
-          "Components va JSX",
-          "Props va State",
-          "Event Handling",
-          "Conditional Rendering",
-          "Lists va Keys",
-          "Forms bilan ishlash",
-          "Lifecycle Methods",
+          "card.frontend.topics.module1",
+          "card.frontend.topics.module2",
+          "card.frontend.topics.module3",
+          "card.frontend.topics.module4",
+          "card.frontend.topics.module5",
+          "card.frontend.topics.module6",
+          "card.frontend.topics.module7",
+          "card.frontend.topics.module8",
         ],
       },
       {
-        module: "Modul 2: React Hooks",
-        lessons: 6,
-        duration: "2 hafta",
+        module: "card.frontend.module2.module",
+        lessons: "6",
+        duration: "card.frontend.module2.duration",
         topics: [
-          "useState Hook",
-          "useEffect Hook",
-          "useContext Hook",
-          "useReducer Hook",
-          "Custom Hooks",
-          "Hook Rules va Best Practices",
+        "card.frontend.topics2.module1",
+          "card.frontend.topics2.module2",
+          "card.frontend.topics2.module3",
+          "card.frontend.topics2.module4",
+          "card.frontend.topics2.module5",
+          "card.frontend.topics2.module6",
         ],
       },
     ],
     features: [
-      "Professional darajadagi bilimlar",
-      "Real loyihalar ustida amaliyot",
-      "Shaxsiy mentor yordami",
-      "Rasmiy sertifikat",
-      "Ish joyiga ko'mak",
+      "card.frontend.features.item1",
+      "card.frontend.features.item2",
+      "card.frontend.features.item3",
+      "card.frontend.features.item4",
+      "card.frontend.features.item5",
     ],
     requirements: [
-      "HTML va CSS bilimi (boshlang'ich daraja)",
-      "JavaScript asoslari",
-      "Kompyuter va internet aloqasi",
+      "card.frontend.requirements.item1",
+      "card.frontend.requirements.item2",
+      "card.frontend.requirements.item3",
     ],
   },
   {
     id: 2,
-    title: "Backend Development",
-    description:
-      "Angular Node.js va Express.js bilan server tomonni professional darajada rivojlantiring",
-    fullDescription:
-      "Ushbu kursda siz Node.js, Express.js, MongoDB va Angular yordamida zamonaviy backend tizimlarini yaratishni o'rganasiz. API yaratish, autentifikatsiya, xavfsizlik va ma'lumotlar bazasi bilan ishlash chuqur o‘rganiladi.",
+    title: "card.backend.title",
+    description: "card.backend.description",
+    fullDescription: "card.backend.fullDescription",
     category: "Backend",
-    level: "O'rta",
-    duration: "7 oy",
-    students: 320,
-    rating: 4.8,
+    level: "Yuqori",
+    duration: "8 oy",
+    students: "35",
+    rating: "4.8",
     price: "325,000",
     originalPrice: "480,000",
-    image:
-      "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=500",
+    image: "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=500",
     instructor: {
-      name: "Temur Axmatov",
-      role: "Senior Backend Developer",
-      avatar:
-        "https://images.stockcake.com/public/e/7/1/e71ca2d8-cda0-461f-9d70-1e3c0dcb2d3f_large/handsome-man-portrait-stockcake.jpg",
-      experience: "7+ yil",
-      courses: 8,
-      students: 900,
+      name: "card.backend.name",
+      role: "card.backend.role",
+      avatar: "https://images.stockcake.com/public/e/7/1/e71ca2d8-cda0-461f-9d70-1e3c0dcb2d3f_large/handsome-man-portrait-stockcake.jpg",
+      experience: "6+ yil",
+      students: "350",
     },
     curriculum: [
       {
-        module: "Modul 1: Backend Asoslari",
-        lessons: 6,
-        duration: "3 hafta",
+        module: "card.backend.module1.title",
+        duration: "card.backend.module1.duration",
         topics: [
-          "Node.js ga kirish",
-          "Express.js asoslari",
-          "REST API yaratish",
-          "Middleware bilan ishlash",
-          "Ma'lumotlar bazasi bilan ulanish",
-          "Error handling",
+          "card.backend.topics.module1",
+          "card.backend.topics.module2",
+          "card.backend.topics.module3",
+          "card.backend.topics.module4",
+          "card.backend.topics.module5",
+          "card.backend.topics.module6",
         ],
       },
       {
-        module: "Modul 2: Angular Integratsiyasi",
-        lessons: 5,
-        duration: "2 hafta",
+        module: "card.backend.module2.module",
+        
+        duration: "card.backend.module2.module",
         topics: [
-          "Angular asoslari",
-          "Frontend-backend integratsiyasi",
-          "HTTP so'rovlar",
-          "Token asosida autentifikatsiya",
-          "Data binding va services",
+          "card.backend.topics2.module1",
+          "card.backend.topics2.module2",
+          "card.backendtopics2.module3",
+          "card.backend.topics2.module4",
+          "card.backend.topics2.module5",
         ],
       },
     ],
     features: [
-      "Full-stack bilimlar",
-      "Real loyihalar",
-      "Ma'lumotlar bazasi bilan ishlash",
-      "Xavfsizlik asoslari",
-      "Rasmiy sertifikat",
+      "card.backend.features.item1",
+      "card.backend.features.item2",
+      "card.backend.features.item3",
+      "card.backend.features.item4",
+      "card.backend.features.item5",
     ],
     requirements: [
-      "JavaScript asoslari",
-      "Frontend asoslari",
-      "Kompyuter va internet aloqasi",
+      "card.backend.requirements.item1",
+      "card.backend.requirements.item2",
+      "card.backend.requirements.item3",
     ],
-  },
-  {
+  },{
     id: 3,
-    title: "Kompyuter Savodxonligi",
-    description:
-      "Kompyuter, ofis dasturlari va internetdan samarali foydalanishni o'rganing",
-    fullDescription:
-      "Kurs davomida siz Windows operatsion tizimi, Microsoft Word, Excel, PowerPoint, Google xizmatlari va internet xavfsizligi haqida bilib olasiz. Yangi boshlovchilar uchun mos va kundalik hayotda ham, ish jarayonida ham foydali bo‘ladi.",
+    title: "card.computers.title",
+    description: "card.computers.description",
+    fullDescription: "card.computers.fullDescription",
     category: "Kampyuter Savodxonligi",
     level: "Boshlang'ich",
     duration: "4 oy",
-    students: 500,
-    rating: 4.7,
+    students: "80",
+    rating: "4.5",
     price: "200,000",
     originalPrice: "300,000",
-    image:
-      "https://bilgi.uz/upload/resize_cache/iblock/a47/jgri9zvx35kcmqp6gw33ejq021i9rgcc/780_470_2/ZuhrStar.jpg",
+    image: "https://bilgi.uz/upload/resize_cache/iblock/a47/jgri9zvx35kcmqp6gw33ejq021i9rgcc/780_470_2/ZuhrStar.jpg",
     instructor: {
-      name: "Muxlisa",
-      role: "IT O'qituvchi",
-      avatar:
-        "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=500",
-      experience: "3+ yil",
-      courses: 3,
-      students: 400,
+      name: "card.computers.name",
+      role: "card.computers.role",
+      avatar: "https://bilgi.uz/upload/resize_cache/iblock/a47/jgri9zvx35kcmqp6gw33ejq021i9rgcc/780_470_2/ZuhrStar.jpg",
+      experience: "2+ yil",
+      
+      students: "80",
     },
     curriculum: [
       {
-        module: "Modul 1: Kompyuter Asoslari",
-        lessons: 5,
-        duration: "2 hafta",
+        module: "card.computers.module1.name",
+        
+        duration: "card.computers.module1.duration",
         topics: [
-          "Windows asoslari",
-          "Fayl va papkalar bilan ishlash",
-          "Klaviatura va sichqoncha amaliyoti",
-          "Dasturlarni o‘rnatish va o‘chirish",
-          "Internet asoslari",
+          "card.computers.topics.module1",
+          "card.computers.topics.module2",
+          "card.computers.topics.module3",
+          "card.computers.topics.module4",
+          "card.computers.topics.module5"
+          
         ],
       },
       {
-        module: "Modul 2: Ofis Dasturlari",
-        lessons: 6,
-        duration: "2 hafta",
+        module: "card.computers.module2.module",
+        
+        duration: "card.computers.module2.duration",
         topics: [
-          "Microsoft Word",
-          "Microsoft Excel",
-          "Microsoft PowerPoint",
-          "Google Docs",
-          "Google Sheets",
-          "Google Slides",
+          "card.computers.topic2.module1",
+          "card.computers.topic2.module2",
+          "card.computers.topic2.module3",
+          "card.computers.topic2.module4",
+          "card.computers.topic2.module5",
+          "card.computers.topic2.module6",
         ],
       },
     ],
     features: [
-      "Yangi boshlovchilar uchun mos",
-      "Amaliy mashg'ulotlar",
-      "Oson tushunarli darslar",
-      "Sertifikat",
-    ],
-    requirements: ["Kompyuter va internet aloqasi"],
-  },
-  {
-    id: 4,
-    title: "Koreys Tili",
-    description:
-      "Noldan koreys tilini o‘rganing va muloqot qila olish darajasiga chiqing",
-    fullDescription:
-      "Ushbu kursda siz koreys alifbosi, grammatikasi, talaffuzi va kundalik so‘zlashuv iboralarini o‘rganasiz. Til amaliyotlari va audio-video materiallar yordamida eshitish, gapirish, o‘qish va yozish ko‘nikmalaringizni rivojlantirasiz.",
-    category: "Koreys Tili",
-    level: "Boshlang'ich",
-    duration: "6 oy",
-    students: 450,
-    rating: 4.9,
-    price: "300,000",
-    originalPrice: "450,000",
-    image:
-      "https://toping.uz/storage/articles/230/JeNBJeQgAAf2zTBSXAWCWftRzvoP2hyK.webp",
-    instructor: {
-      name: "Aziza",
-      role: "Koreys Tili O'qituvchisi",
-      avatar:
-        "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=500",
-      experience: "5+ yil",
-      courses: 5,
-      students: 800,
-    },
-    curriculum: [
-      {
-        module: "Modul 1: Kirish",
-        lessons: 4,
-        duration: "2 hafta",
-        topics: [
-          "Hangul alifbosi",
-          "Tovushlar va talaffuz",
-          "O‘zini tanishtirish",
-          "Oddiy salomlashuvlar",
-        ],
-      },
-      {
-        module: "Modul 2: Grammatik Asoslar",
-        lessons: 6,
-        duration: "3 hafta",
-        topics: [
-          "Otlar va fe’llar",
-          "Gap tuzilishi",
-          "Zamonlar",
-          "Savol va inkor gaplar",
-          "Sanash va vaqt",
-          "Kunlik iboralar",
-        ],
-      },
-    ],
-    features: [
-      "Talaffuz va tinglash mashqlari",
-      "Audio-video materiallar",
-      "Amaliy suhbat darslari",
-      "Sertifikat",
-    ],
-    requirements: ["Qiziqish va muntazam mashq qilish istagi"],
-  },
-  {
-    id: 5,
-    title: "UI/UX Design",
-    description:
-      "Figma va Adobe XD yordamida foydalanuvchi interfeyslari yaratishni o‘rganing",
-    fullDescription:
-      "Kurs davomida siz zamonaviy UI/UX dizayn prinsiplari, rang tanlash, tipografiya va foydalanuvchi tajribasini oshirish usullarini o‘rganasiz. Real loyihalarda ishlash orqali portfoliongizni boyitasiz.",
-    category: "Dizayn",
-    level: "Boshlang'ich",
-    duration: "5 oy",
-    students: 380,
-    rating: 4.8,
-    price: "250,000",
-    originalPrice: "400,000",
-    image:
-      "https://images.pexels.com/photos/3184451/pexels-photo-3184451.jpeg?auto=compress&cs=tinysrgb&w=500",
-    instructor: {
-      name: "Dilshod",
-      role: "UI/UX Dizayner",
-      avatar:
-        "https://images.pexels.com/photos/3775534/pexels-photo-3775534.jpeg?auto=compress&cs=tinysrgb&w=500",
-      experience: "4+ yil",
-      courses: 4,
-      students: 600,
-    },
-    curriculum: [
-      {
-        module: "Modul 1: Dizayn Asoslari",
-        lessons: 5,
-        duration: "2 hafta",
-        topics: [
-          "UI va UX farqi",
-          "Dizayn prinsiplari",
-          "Ranglar nazariyasi",
-          "Tipografiya",
-          "Layout va grid tizimlari",
-        ],
-      },
-      {
-        module: "Modul 2: Figma Asoslari",
-        lessons: 6,
-        duration: "3 hafta",
-        topics: [
-          "Figma interfeysi",
-          "Frame va komponentlar",
-          "Style va effektlar",
-          "Prototype yaratish",
-          "Responsive dizayn",
-          "Amaliy loyiha",
-        ],
-      },
-    ],
-    features: [
-      "Portfolioga ega bo‘lish imkoniyati",
-      "Real loyihalarda amaliyot",
-      "Mentor yordami",
-      "Sertifikat",
-    ],
-    requirements: ["Kompyuter va internet aloqasi", "Ijodkorlik"],
-  },
-  {
-    id: 6,
-    title: "Data Science",
-    description:
-      "Python, Pandas, NumPy va Machine Learning asoslarini o‘rganing",
-    fullDescription:
-      "Kurs davomida siz ma’lumotlarni tahlil qilish, tozalash, vizualizatsiya qilish va mashinani o‘qitish asoslarini o‘rganasiz. Real datasetlar ustida ishlash orqali amaliy ko‘nikmalarga ega bo‘lasiz.",
-    category: "Data",
-    level: "Yuqori",
-    duration: "9 oy",
-    students: 210,
-    rating: 4.9,
-    price: "400,000",
-    originalPrice: "600,000",
-    image:
-      "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=500",
-    instructor: {
-      name: "Javlon",
-      role: "Data Scientist",
-      avatar:
-        "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=500",
-      experience: "6+ yil",
-      courses: 6,
-      students: 450,
-    },
-    curriculum: [
-      {
-        module: "Modul 1: Python Asoslari",
-        lessons: 5,
-        duration: "3 hafta",
-        topics: [
-          "Python sintaksisi",
-          "Ma’lumot turlari",
-          "Funksiyalar",
-          "Modullar",
-          "Fayllar bilan ishlash",
-        ],
-      },
-      {
-        module: "Modul 2: Data Analysis Kutubxonalari",
-        lessons: 6,
-        duration: "3 hafta",
-        topics: [
-          "NumPy asoslari",
-          "Pandas bilan ishlash",
-          "Matplotlib va Seaborn",
-          "Ma’lumotlarni tozalash",
-          "Vizualizatsiya",
-          "Statistik tahlil",
-        ],
-      },
-    ],
-    features: [
-      "Amaliy datasetlar bilan ishlash",
-      "Mashina o‘qitish asoslari",
-      "Portfolio loyihasi",
-      "Sertifikat",
+      "card.computers.features.item1",
+      "card.computers.features.item2",
+      "card.computers.features.item3",
+      "card.computers.features.item4",
+      "card.computers.features.item5",
     ],
     requirements: [
-      "Python asoslari",
-      "Matematika va statistika bilimlari",
-      "Kompyuter va internet aloqasi",
+      "card.computers.requirements.item1",
+      "card.computers.requirements.item2",
+      "card.computers.requirements.item3",
+      "card.computers.requirements.item4",
     ],
   },
+  
 ];
+
 
 
 
@@ -652,77 +842,56 @@ export const instructors = [
 ];
 
 // instructors.ts
-
 export const instructorss = [
   {
     id: 1,
     name: "Nodir",
-    image:
-      "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
-    role_key: "instructors.1.role",
-    specialization_key: "instructors.1.specialization",
-    experience_key: "instructors.1.experience",
-    bio_key: "instructors.1.bio",
+    image: "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
+    role_key: "instructors.nodir.role",
+    specialization_key: "instructors.nodir.specialization",
+    experience_key: "instructors.nodir.experience",
+    bio_key: "instructors.nodir.bio",
     achievements_keys: [
-      "instructors.1.achievements.0",
-      "instructors.1.achievements.1",
-      "instructors.1.achievements.2"
+      "instructors.nodir.achievements.item1",
+      "instructors.nodir.achievements.item2",
+      "instructors.nodir.achievements.item3"
     ],
     students: 250,
     rating: 4.0,
-    courses: 3,
+    courses: 3
   },
   {
     id: 2,
     name: "Timur Axmatov",
-    image:
-      "https://images.stockcake.com/public/e/7/1/e71ca2d8-cda0-461f-9d70-1e3c0dcb2d3f_large/handsome-man-portrait-stockcake.jpg",
-    role_key: "instructors.2.role",
-    specialization_key: "instructors.2.specialization",
-    experience_key: "instructors.2.experience",
-    bio_key: "instructors.2.bio",
+    image: "https://images.stockcake.com/public/e/7/1/e71ca2d8-cda0-461f-9d70-1e3c0dcb2d3f_large/handsome-man-portrait-stockcake.jpg",
+    role_key: "instructors.temur.role",
+    specialization_key: "instructors.temur.specialization",
+    experience_key: "instructors.temur.experience",
+    bio_key: "instructors.temur.bio",
     achievements_keys: [
-      "instructors.2.achievements.0",
-      "instructors.2.achievements.1",
-      "instructors.2.achievements.2",
-      "instructors.2.achievements.3"
+      "instructors.temur.achievements.item1",
+      "instructors.temur.achievements.item2",
+      "instructors.temur.achievements.item3",
+      "instructors.temur.achievements.item4"
     ],
     students: 480,
     rating: 5.0,
-    courses: 8,
+    courses: 8
   },
   {
     id: 3,
     name: "Muxlisa",
     image: "src/assets/muxlisa.jpg",
-    role_key: "instructors.3.role",
-    specialization_key: "instructors.3.specialization",
-    experience_key: "instructors.3.experience",
-    bio_key: "instructors.3.bio",
+    role_key: "instructors.muxlisa.role",
+    specialization_key: "instructors.muxlisa.specialization",
+    experience_key: "instructors.muxlisa.experience",
+    bio_key: "instructors.muxlisa.bio",
     achievements_keys: [
-      "instructors.3.achievements.0",
-      "instructors.3.achievements.1"
+      "instructors.muxlisa.achievements.item1",
+      "instructors.muxlisa.achievements.item2"
     ],
     students: 320,
     rating: 4.5,
-    courses: 3,
-  },
-  {
-  id: 4,
-  name: "Jahongir",
-  image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400",
-  role_key: "instructors.4.role",
-  specialization_key: "instructors.4.specialization",
-  experience_key: "instructors.4.experience",
-  bio_key: "instructors.4.bio",
-  achievements_keys: [
-    "instructors.4.achievements.0",
-    "instructors.4.achievements.1",
-    "instructors.4.achievements.2"
-  ],
-  students: 100,
-  rating: 3.8,
-  courses: 3,
-}
-
+    courses: 3
+  }
 ];

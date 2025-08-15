@@ -7,11 +7,12 @@ import {
 } from 'lucide-react';
 import { containerVariants, itemVariants, type Course } from '../type/index';
 import { coursess } from '@/constants';
+import { useTranslation } from 'react-i18next';
 
 const CourseDetailPage = () => {
+  const {t} = useTranslation()
   const { id } = useParams();
   const [course, setCourse] = useState<Course | null>(null);
-
   useEffect(() => {
     const foundCourse = coursess.find((c) => c.id.toString() === id);
     setCourse(foundCourse || null);
@@ -55,23 +56,23 @@ const CourseDetailPage = () => {
               <motion.div variants={itemVariants}>
                 <div className="flex items-center space-x-2 mb-4">
                   <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-medium">
-                    {course.category}
+                    {t(course.category)}
                   </span>
                   <span className="bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-medium">
-                    {course.level}
+                    {t(course.level)}
                   </span>
                 </div>
                 <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                  {course.title}
+                  {t(course.title)}
                 </h1>
                 <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-                  {course.description}
+                  {t(course.description)}
                 </p>
 
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
                   <div className="flex items-center text-gray-600">
                     <Clock className="h-5 w-5 mr-2" />
-                    <span>{course.duration}</span>
+                    <span>{t(course.duration)}</span>
                   </div>
                   <div className="flex items-center text-gray-600">
                     <Users className="h-5 w-5 mr-2" />
@@ -96,8 +97,8 @@ const CourseDetailPage = () => {
                       className="w-12 h-12 rounded-full object-cover"
                     />
                     <div>
-                      <h3 className="font-semibold text-gray-900">{course.instructor.name}</h3>
-                      <p className="text-sm text-gray-600">{course.instructor.role}</p>
+                      <h3 className="font-semibold text-gray-900">{t(course.instructor.name)}</h3>
+                      <p className="text-sm text-gray-600">{t(course.instructor.role)}</p>
                       <div className="flex items-center space-x-4 text-xs text-gray-500 mt-1">
                         <span>{course.instructor.experience} tajriba</span>
                         <span>{course.instructor.courses} kurs</span>
@@ -141,10 +142,7 @@ const CourseDetailPage = () => {
                     </div>
 
                     <div className="space-y-2 text-sm text-gray-600">
-                      <div className="flex items-center">
-                        <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                        30 kunlik pul qaytarish kafolati
-                      </div>
+                     
                       <div className="flex items-center">
                         <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
                         Lifetime access
@@ -174,7 +172,7 @@ const CourseDetailPage = () => {
               {course.fullDescription && (
                 <motion.div variants={itemVariants} className="bg-white rounded-xl p-6 shadow-sm">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">Kurs haqida</h2>
-                  <p className="text-gray-600 leading-relaxed">{course.fullDescription}</p>
+                  <p className="text-gray-600 leading-relaxed">{t(course.fullDescription)}</p>
                 </motion.div>
               )}
 
@@ -186,10 +184,10 @@ const CourseDetailPage = () => {
                       <div key={index} className="border border-gray-200 rounded-lg">
                         <div className="p-4 bg-gray-50 border-b">
                           <div className="flex items-center justify-between">
-                            <h3 className="font-semibold text-gray-900">{module.module}</h3>
+                            <h3 className="font-semibold text-gray-900">{t(module.module)}</h3>
                             <div className="flex items-center space-x-4 text-sm text-gray-600">
                               <span>{module.lessons} dars</span>
-                              <span>{module.duration}</span>
+                              <span>{t(module.duration)}</span>
                             </div>
                           </div>
                         </div>
@@ -198,7 +196,7 @@ const CourseDetailPage = () => {
                             {module.topics.map((topic, topicIndex) => (
                               <div key={topicIndex} className="flex items-center text-sm text-gray-600">
                                 <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
-                                {topic}
+                                {t(topic)}
                               </div>
                             ))}
                           </div>
@@ -216,7 +214,7 @@ const CourseDetailPage = () => {
                     {course.requirements.map((req, index) => (
                       <li key={index} className="flex items-start text-gray-600">
                         <FileText className="h-5 w-5 text-blue-600 mr-2" />
-                        {req}
+                        {t(req)}
                       </li>
                     ))}
                   </ul>
@@ -235,7 +233,7 @@ const CourseDetailPage = () => {
                     {course.features.map((feature, index) => (
                       <li key={index} className="flex items-start text-gray-600">
                         <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
-                        {feature}
+                        {t(feature)}
                       </li>
                     ))}
                   </ul>

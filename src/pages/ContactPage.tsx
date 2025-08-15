@@ -1,3 +1,10 @@
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Phone, Mail, Send, MessageCircle, } from 'lucide-react';
@@ -16,8 +23,8 @@ const ContactPage = () => {
     message: '',
   });
 
-  const BOT_TOKEN = "YOUR_BOT_TOKEN_HERE";
-  const CHAT_ID = "YOUR_CHAT_ID_HERE";
+  const BOT_TOKEN = "8264244301:AAEIIfsLMHtTC6kNQxDquYxLKdf8Flt2dWA";
+  const CHAT_ID = "6300197609";
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -203,23 +210,45 @@ const ContactPage = () => {
                   </div>
 
                   <div>
-                    <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">{t('contact.form.subject', 'Mavzu *')}</label>
-                    <select
-                      id="subject"
-                      name="subject"
-                      required
-                      value={formData.subject}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
-                    >
-                      <option value="">{t('contact.form.subjectPlaceholder', 'Mavzuni tanlang')}</option>
-                      <option value="course-info">{t('contact.form.subjectOptions.courseInfo', 'Kurslar haqida ma\'lumot')}</option>
-                      <option value="enrollment">{t('contact.form.subjectOptions.enrollment', "Ro'yxatdan o'tish")}</option>
-                      <option value="consultation">{t('contact.form.subjectOptions.consultation', 'Bepul maslahat')}</option>
-                      <option value="partnership">{t('contact.form.subjectOptions.partnership', 'Hamkorlik')}</option>
-                      <option value="other">{t('contact.form.subjectOptions.other', 'Boshqa')}</option>
-                    </select>
-                  </div>
+  <label
+    htmlFor="subject"
+    className="block text-sm font-medium text-gray-700 mb-2"
+  >
+    {t("contact.form.subject", "Mavzu *")}
+  </label>
+<Select
+  name="subject"
+  value={formData.subject}
+  onValueChange={(value) =>
+    setFormData((prev) => ({ ...prev, subject: value }))
+  }
+>
+  <SelectTrigger className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors">
+    <SelectValue
+      placeholder={t("contact.form.subjectPlaceholder", "Mavzuni tanlang")}
+    />
+  </SelectTrigger>
+
+  <SelectContent>
+    <SelectItem value="course-info">
+      {t("contact.form.subjectOptions.courseInfo", "Kurslar haqida ma'lumot")}
+    </SelectItem>
+    <SelectItem value="enrollment">
+      {t("contact.form.subjectOptions.enrollment", "Ro'yxatdan o'tish")}
+    </SelectItem>
+    <SelectItem value="consultation">
+      {t("contact.form.subjectOptions.consultation", "Bepul maslahat")}
+    </SelectItem>
+    <SelectItem value="partnership">
+      {t("contact.form.subjectOptions.partnership", "Hamkorlik")}
+    </SelectItem>
+    <SelectItem value="other">
+      {t("contact.form.subjectOptions.other", "Boshqa")}
+    </SelectItem>
+  </SelectContent>
+</Select>
+
+</div>
 
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">{t('contact.form.message', 'Xabar matni *')}</label>

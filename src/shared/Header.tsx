@@ -36,19 +36,19 @@ const Header = () => {
             <div className="relative">
               <img className='w-[50px]' src="https://www.aziz-academy.uz/static/home/aziz2/itpark.png" alt="logo" />
             </div>
-            <span className="text-xl font-bold   group-hover:text-blue-600 transition-colors">
+            <span className="text-[15px] lg:text-xl font-bold   group-hover:text-blue-600 transition-colors">
               IT Center
             </span>
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center ">
             {navItems.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
-                className={`relative px-3 py-2 text-xl font-medium transition-all duration-200 ${
-                  location.pathname === item.path
+                className={`relative px-1 lg:px-3 py-2 text-[15px] lg:text-xl font-medium transition-all duration-200 ${
+                location.pathname === item.path
                     ? 'text-blue-600'
                     : ' hover:text-blue-600'
                 }`}
@@ -57,7 +57,7 @@ const Header = () => {
                 {location.pathname === item.path && (
                   <motion.div
                     layoutId="underline"
-                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-600"
+                    className="absolute bottom-0  left-0 right-0 h-0.5 bg-blue-600"
                   />
                 )}
               </Link>

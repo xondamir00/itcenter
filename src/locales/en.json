@@ -329,5 +329,40 @@
       "title": "Our address — 35X8+85M, Zarbdor, Jizzakh region, Uzbekistan",
       "openLink": "Open in Google Maps"
     }
-  }
+  },
+  
+   "card": {
+      "frontend": {
+        "title": "Frontend Development",
+        "description": "Learn to build modern web interfaces using HTML, CSS, JavaScript, and React.js"
+        
+      },
+      "backend": {
+        "title": "Backend Development",
+        "description": "Master server-side development with Angular, Node.js, and Express.js"
+      },
+      "computers": {
+        "title": "Computer Literacy",
+        "description": "Learn to effectively use computers, office software, and the internet"
+      },
+      "korean": {
+        "title": "Korean Language",
+        "description": "Learn Korean from scratch and reach conversational fluency"
+      },
+      "uiux": {
+        "title": "UI/UX Design",
+        "description": "Learn to create user interfaces with Figma and Adobe XD"
+      },
+      "datascience": {
+        "title": "Data Science",
+        "description": "Learn the basics of Python, Pandas, NumPy, and Machine Learning"
+      },
+      "level": {
+        "beginner": "Beginner",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced"
+      }
+    }
+
+
 }

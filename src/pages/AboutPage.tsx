@@ -41,7 +41,7 @@ const AboutPage = () => {
                 alt={t('about.story.imageAlt')}
                 className="w-full h-96 object-cover rounded-2xl shadow-lg"
               />
-              <div className="absolute -bottom-6 -right-6 bg-blue-600 text-white p-6 rounded-xl shadow-lg">
+              <div className="absolute bottom-0 right-0 md:-bottom-6 md:-right-6  bg-blue-600 text-white p-6 rounded-xl shadow-lg">
                 <TrendingUp className="h-8 w-8 mb-2" />
                 <div className="text-2xl font-bold">{t('about.story.experienceYears')}</div>
                 <div className="text-sm">{t('about.story.experienceLabel')}</div>

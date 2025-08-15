@@ -84,7 +84,7 @@ const BlogPage = () => {
         <section className="py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div variants={itemVariants}>
-              <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+              <div className="bg-white dark:bg-gray-300 rounded-2xl shadow-lg overflow-hidden">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
                   <div className="relative">
                     <img
@@ -146,7 +146,7 @@ const BlogPage = () => {
               <motion.article
                 key={post.id}
                 variants={itemVariants}
-                className="bg-gray-300 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"
+                className="bg-white dark:bg-gray-300 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden group"
               >
                 <div className="relative">
                   <img

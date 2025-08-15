@@ -7,7 +7,7 @@
     "blog": "Blog",
     "contact": "Aloqa"
   },
-   "home": {
+  "home": {
     "hero": {
       "title1": "IT sohasida",
       "title2": "karyerangizni",
@@ -23,7 +23,7 @@
     "start_button": "Hoziroq boshlang",
     "consult_button": "Maslahat oling"
   },
-    "featured": {
+  "featured": {
     "title": "Mashhur kurslar",
     "subtitle": "IT sohasining eng so'ralgan yo'nalishlarida chuqur bilim va amaliy ko'nikmalar oling",
     "duration": "Davomiyligi",
@@ -31,14 +31,14 @@
     "details_button": "Batafsil ma'lumot",
     "all_courses_button": "Barcha kurslar"
   },
-    "stats": {
+  "stats": {
     "students": "Faol talabalar",
     "courses": "Kurslar soni",
     "certificates": "Sertifikatlar",
     "experience": "O'qitish tajribasi",
     "years": "5+ yil"
   },
-   "footer": {
+  "footer": {
     "logo_text": "IT Markazi",
     "description": "Zamonaviy IT ta'lim markazi. Dasturlash va kompyuter savodxonligi yo'nalishida professional kadrlar tayyorlash.",
     "quick_links": "Tez havolalar",
@@ -57,7 +57,7 @@
     "address": "Jizzax sh, Zarbdor tumani, Davlat xizmatlari binosi, 1-qavat",
     "copyright": "IT Markazi. Barcha huquqlar himoyalangan."
   },
-   "courses": {
+  "courses": {
     "frontend": {
       "title": "Frontend Dasturlash",
       "description": "React, Vue.js, Angular asosida zamonaviy veb-saytlar yaratish"
@@ -85,8 +85,7 @@
     },
     "price": "{{amount}} so'm"
   },
-
-    "about": {
+  "about": {
     "hero": {
       "title": "Biz haqimizda",
       "subtitle": "2022-yildan beri IT sohasida professional kadrlar tayyorlayotgan yetakchi ta'lim markazi"
@@ -112,16 +111,27 @@
       "subtitle": "Professional va tajribali mutaxassislardan iborat kuchli jamoa"
     }
   },
-
-    "about2": {
+  "about2": {
     "achievements": {
       "title": "Bizning yutuqlarimiz",
       "subtitle": "O'quvchilarimizning muvaffaqiyatlari",
       "items": [
-        { "number": "2500+", "label": "Muvaffaqiyatli bitiruvchi" },
-        { "number": "95%", "label": "Ish joylashgan bitiruvchilar" },
-        { "number": "25+", "label": "Professional kurslar" },
-        { "number": "50+", "label": "Tajribali o'qituvchilar" }
+        {
+          "number": "2500+",
+          "label": "Muvaffaqiyatli bitiruvchi"
+        },
+        {
+          "number": "95%",
+          "label": "Ish joylashgan bitiruvchilar"
+        },
+        {
+          "number": "25+",
+          "label": "Professional kurslar"
+        },
+        {
+          "number": "50+",
+          "label": "Tajribali o'qituvchilar"
+        }
       ]
     },
     "values": {
@@ -172,12 +182,8 @@
         }
       ]
     }
-
-
-    
   },
-
-    "instructorsPage": {
+  "instructorsPage": {
     "header": {
       "title": "Bizning o'qituvchilar",
       "subtitle": "IT sohasining eng tajribali va professional mutaxassislari sizni o'qitadi"
@@ -202,11 +208,9 @@
     "description": "IT sohasidagi tajribangizni boshqalar bilan bo'lishishni istasangiz, bizga qo'shiling!",
     "button": "Ariza qoldirish"
   },
-
-
-
-  "instructors": [
-    {
+  
+  "instructors": {
+    "nodir": {
       "id": 1,
       "name": "Nodir",
       "role": "Middle Frontend Developer",
@@ -217,13 +221,13 @@
       "courses": 3,
       "image": "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
       "bio": "Google va Microsoft kabi yirik kompaniyalarda ishlagan. Frontend texnologiyalari bo'yicha mutaxassis.",
-      "achievements": [
-        "Google Developer Expert",
-        "Microsoft MVP",
-        "50+ loyiha yaratgan"
-      ]
+      "achievements": {
+        "item1": "Google Developer Expert",
+        "item2": "Microsoft MVP",
+        "item3": "50+ loyiha yaratgan"
+      }
     },
-    {
+    "temur": {
       "id": 2,
       "name": "Timur Axmatov",
       "role": "Senior Backend Developer",
@@ -233,15 +237,15 @@
       "rating": 5.0,
       "courses": 8,
       "image": "https://images.stockcake.com/public/e/7/1/e71ca2d8-cda0-461f-9d70-1e3c0dcb2d3f_large/handsome-man-portrait-stockcake.jpg",
-      "bio": "Angular Node.js va Express.js bilan server tomonni professional darajada rivojlantiring",
-      "achievements": [
-        "Angular",
-        "Node.js",
-        "Express.js",
-        "va boshqalar"
-      ]
+      "bio": "Angular, Node.js va Express.js bilan server tomonni professional darajada rivojlantiring",
+      "achievements": {
+        "item1": "Angular",
+        "item2": "Node.js",
+        "item3": "Express.js",
+        "item4": "va boshqalar"
+      }
     },
-    {
+    "muxlisa": {
       "id": 3,
       "name": "Muxlisa",
       "role": "Kompyuter Savodxonligi",
@@ -252,38 +256,21 @@
       "courses": 3,
       "image": "src/assets/muxlisa.jpg",
       "bio": "Kompyuterdan samarali foydalanish, Microsoft Office dasturlari, internet va xavfsizlik asoslarini o‘rganing.",
-      "achievements": [
-        "Microsoft Office",
-        "AI"
-      ]
-    },
-    {
-      "id":4,
-      "name": "Jahongir",
-      "role": "Frontend Developer",
-      "specialization": "Html, Css, Javascript",
-      "experience": "1.5 yil",
-      "students": 100,
-      "rating": 3.8,
-      "courses": 3,
-      "image": "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400",
-      "bio": "Dizayn sohasida ko'p yillik tajribaga ega. Foydalanuvchi tajribasi va interfeys dizayni bo'yicha ekspert.",
-      "achievements": [
-        "Adobe Certified Expert",
-        "Design System Expert",
-        "UX Research Specialist"
-      ]
+      "achievements": {
+        "item1": "Microsoft Office",
+        "item2": "AI"
+      }
     }
-  ],
+  
+},
 
-   "statsLabels1": {
+  "statsLabels1": {
     "teachersCount": "O'qituvchilar soni",
     "yearsExperience": "Yillik tajriba",
     "students": "Talabalar",
     "averageRating": "O'rtacha reyting"
   },
-
-    "contact": {
+  "contact": {
     "header": {
       "title": "Biz bilan bog'laning",
       "subtitle": "Savollaringiz bormi? Biz sizga yordam berishga tayyormiz!"
@@ -335,7 +322,7 @@
       "openLink": "Open in Google Maps"
     }
   },
-   "coursess": {
+  "coursess": {
     "headerTitlee": "All Courses",
     "headerDescriptionn": "Gain professional skills in all IT directions",
     "searchPlaceholder": "Search courses...",
@@ -355,5 +342,155 @@
     "Backend": "Backend",
     "Korean": "Korean Language",
     "ComputerLiteracy": "Computer Literacy"
-}
+  },
+  
+  "card": {
+  "levels": {
+    "all": "Barchasi",
+    "beginner": "Boshlang'ich",
+    "intermediate": "O'rta",
+    "advanced": "Yuqori"
+},
+    "frontend": {
+      "title": "Frontend Dasturlash",
+      "description": "HTML, CSS, JavaScript va React.js yordamida zamonaviy veb-interfeyslar yaratishni o'rganing",
+      "fullDescription": "Ushbu kurs React.js ning barcha asosiy va ilg'or mavzularini qamrab oladi. Siz React hooks, context API, Redux, React Router kabi muhim texnologiyalarni o'rganasiz. Kurs davomida real loyihalar ustida ishlab, portfolio uchun professional loyihalar yaratasiz.1",
+      "category": "Frontend",
+      "duration": "8 oy",
+      "name": "Nodir",
+      "role": "Middle Frontend Dovoloper",
+      "module1": {
+        "name": "Modul 1: React Asoslari",
+        "duration": "3 hafta"
+      },
+      "topics": {
+        "module1": "React ga kirish",
+        "module2": "Components va JSX",
+        "module3": "Props va State",
+        "module4": "Event Handling",
+        "module5": "Conditional Rendering",
+        "module6": "Lists va Keys",
+        "module7": "Forms bilan ishlash",
+        "module8": "Lifecycle Methods"
+      },
+      "module2": {
+        "module": "Modul 2: React Hooks",
+        "duration": "2 hafta"
+      },
+      "topics2": {
+        "module1": "useState Hook",
+        "module2": "useEffect Hook",
+        "module3": "useContext Hook",
+        "module4": "useReducer Hook",
+        "module5": "Custom Hooks",
+        "module6": "Hook Rules va Best Practices"
+      },
+      "features": {
+        "item1": "Professional darajadagi bilimlar",
+        "item2": "Real loyihalar ustida amaliyot",
+        "item3": "Shaxsiy mentor yordami",
+        "item4": "Rasmiy sertifikat",
+        "item5": "Ish joyiga ko'mak"
+      },
+      "requirements": {
+        "item1": "HTML va CSS bilimi (boshlang'ich daraja)",
+        "item2": "JavaScript asoslari",
+        "item3": "Kompyuter va internet aloqasi"
+      }
+    },
+    "backend": {
+      "title": "Backend Dasturlash",
+      "description": "Server tomonini ishlab chiqish bo‘yicha chuqur bilim oling. Node.js, Python va SQL bilan ishlash, API yaratish, xavfsizlik va ma’lumotlar bazasi boshqaruvini o‘rganing",
+       "fullDescription":"Ushbu kursda siz Node.js, Express.js, MongoDB va Angular yordamida zamonaviy backend tizimlarini yaratishni o'rganasiz. API yaratish, autentifikatsiya, xavfsizlik va ma'lumotlar bazasi bilan ishlash chuqur o‘rganiladi.",
+        "category": "Backend",
+         "name": "Temur Axmatov",
+      "role": "Senior Backend Developer",
+      "module1": {
+        "name": "Modul 1: Backend Asoslari",
+        "duration": "3 hafta"
+      },
+      "topics": {
+        "module1": "Node.js ga kirish",
+        "module2": "Express.js asoslari",
+        "module3": "REST API yaratish",
+        "module4": "Middleware bilan ishlash",
+        "module5": "Ma'lumotlar bazasi bilan ulanish",
+        "module6": "Error handling"
+      },
+      "module2": {
+        "module": "Modul 2: Angular Integratsiyasi",
+        "duration": "2 hafta"
+      },
+      "topics2": {
+        "module1": "Angular asoslari",
+        "module2": "Frontend-backend integratsiyasi",
+        "module3": "HTTP so'rovlar",
+        "module4": "Token asosida autentifikatsiya",
+        "module5": "Data binding va services"
+      },
+      "features": {
+        "item1": "Full-stack bilimlar",
+        "item2": "Real loyihalar",
+        "item3": "Ma'lumotlar bazasi bilan ishlash",
+        "item4": "Xavfsizlik asoslari",
+        "item5": "Rasmiy sertifikat"
+      },
+      "requirements": {
+        "item1": "JavaScript asoslari",
+        "item2": "Frontend asoslari",
+        "item3": "Kompyuter va internet aloqasi"
+      }
+
+    },
+    "computers": {
+      "title": "Kompyuter Savodxonligi",
+      "description": "Kompyuter, ofis dasturlari va internetdan samarali foydalanishni o'rganing",
+    "fullDescription":"Kurs davomida siz Windows operatsion tizimi, Microsoft Word, Excel, PowerPoint, Google xizmatlari va internet xavfsizligi haqida bilib olasiz. Yangi boshlovchilar uchun mos va kundalik hayotda ham, ish jarayonida ham foydali bo‘ladi.",
+        "category": "Kampyuter Savodxonligi",
+         "name": "Muxlisa",
+      "role": "Kampyuter Savodhonlik Oqituvchi",
+      "module1": {
+        "name": "Modul 1: Kompyuter Asoslari",
+        "duration": "2 hafta"
+      },
+      "topics": {
+        "module1": "Windows asoslari",
+        "module2": "Fayl va papkalar bilan ishlash",
+        "module3": "Klaviatura va sichqoncha amaliyoti",
+        "module4": "Dasturlarni o‘rnatish va o‘chirish",
+        "module5": "Internet asoslari"
+       
+      },
+      "module2": {
+        "module": "Modul 2: Ofis Dasturlari",
+        "duration": "2 hafta"
+      },
+      "topics2": {
+        "module1": "Microsoft Word",
+        "module2": "Microsoft Excel",
+        "module3": "Microsoft PowerPoint",
+        "module4": "Google Docs",
+        "module5": "Google Sheets",
+        "module6":"Google Slides"
+      },
+      "features": {
+        "item1": "Full-stack bilimlar",
+        "item2": "Real loyihalar",
+        "item3": "Ma'lumotlar bazasi bilan ishlash",
+        "item4": "Xavfsizlik asoslari",
+        "item5": "Rasmiy sertifikat"
+      },
+      "requirements": {
+        "item1":  "Yangi boshlovchilar uchun mos",
+        "item2":  "Amaliy mashg'ulotlar",
+        "item3":  "Oson tushunarli darslar",
+        "item4":"Sertifikat"
+      }
+  
+    },
+    "korean": {
+      "title": "Koreys Tili",
+      "description": "Noldan koreys tilini o‘rganing va muloqot qila olish darajasiga chiqing"
+    }
+  }
 }

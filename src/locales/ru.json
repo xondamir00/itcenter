@@ -329,5 +329,38 @@
       "title": "Наш адрес — 35X8+85M, Зарбдор, Джизакская область, Узбекистан",
       "openLink": "Открыть в Google Maps"
     }
-  }
+  },
+ "card": {
+      "frontend": {
+        "title": "Frontend Разработка",
+        "description": "Научитесь создавать современные веб-интерфейсы с использованием HTML, CSS, JavaScript и React.js"
+      },
+      "backend": {
+        "title": "Backend Разработка",
+        "description": "Освойте серверную разработку с Angular, Node.js и Express.js"
+      },
+      "computers": {
+        "title": "Компьютерная Грамотность",
+        "description": "Научитесь эффективно пользоваться компьютером, офисными программами и интернетом"
+      },
+      "korean": {
+        "title": "Корейский Язык",
+        "description": "Изучите корейский язык с нуля и достигните уровня свободного общения"
+      },
+      "uiux": {
+        "title": "UI/UX Дизайн",
+        "description": "Научитесь создавать пользовательские интерфейсы в Figma и Adobe XD"
+      },
+      "datascience": {
+        "title": "Data Science",
+        "description": "Изучите основы Python, Pandas, NumPy и машинного обучения"
+      },
+      "level": {
+        "beginner": "Начальный",
+        "intermediate": "Средний",
+        "advanced": "Продвинутый"
+      }
+    }
+
+
 }
