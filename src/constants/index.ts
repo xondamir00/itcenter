@@ -190,7 +190,7 @@ export const coursess = [
     rating: "4.2",
     price: "275,000",
     originalPrice: "500,000",
-    image: "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
+    image: "https://codedamn.com/assets/images/learnpaths/og/frontend.png",
     instructor: {
       name: "card.frontend.name",
       role: "card.frontend.role",
@@ -254,7 +254,7 @@ export const coursess = [
     rating: "4.8",
     price: "275,000",
     originalPrice: "480,000",
-    image: "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=500",
+    image: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210430183018/Good-Coding-Practices-For-Backend-Developers.png",
     instructor: {
       name: "card.backend.name",
       role: "card.backend.role",
