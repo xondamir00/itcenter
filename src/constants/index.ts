@@ -13,19 +13,19 @@ export const courses = [
     id: 1,
     title_key: 'courses.frontend.title',
     description_key: 'courses.frontend.description',
-    duration_months: 6,
-    level_key: 'beginner', // courses.level.beginner deb ham yozsa bo'ladi
-    image: 'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg',
-    price_amount: '325,000'
+    duration_months: 10,
+    level_key: 'beginner', 
+    image: 'https://codedamn.com/assets/images/learnpaths/og/frontend.png',
+    price_amount: '275,000'
   },
   {
     id: 2,
     title_key: 'courses.backend.title',
     description_key: 'courses.backend.description',
-    duration_months: 8,
+    duration_months: 12,
     level_key: 'intermediate',
-    image: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg',
-    price_amount: '325,000'
+    image: 'https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210430183018/Good-Coding-Practices-For-Backend-Developers.png',
+    price_amount: '275,000'
   },
   {
     id: 3,
@@ -34,26 +34,8 @@ export const courses = [
     duration_months: 2,
     level_key: 'beginner',
     image: 'https://bilgi.uz/upload/resize_cache/iblock/a47/jgri9zvx35kcmqp6gw33ejq021i9rgcc/780_470_2/ZuhrStar.jpg',
-    price_amount: '250,000'
+    price_amount: '275,000'
   },
-  {
-    id: 4,
-    title_key: 'courses.ui_ux.title',
-    description_key: 'courses.ui_ux.description',
-    duration_months: 5,
-    level_key: 'beginner',
-    image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg',
-    price_amount: '350,000'
-  },
-  {
-    id: 6,
-    title_key: 'courses.korean.title',
-    description_key: 'courses.korean.description',
-    duration_months: 6,
-    level_key: 'beginner',
-    image: 'https://images.pexels.com/photos/4458420/pexels-photo-4458420.jpeg',
-    price_amount: '300,000'
-  }
 ];
 
 
