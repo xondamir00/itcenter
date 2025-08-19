@@ -4,13 +4,14 @@ import { motion } from 'framer-motion';
 import { Calendar, User, ArrowRight, Search, Tag } from 'lucide-react';
 import { blogPosts } from '@/constants';
 import { containerVariants, itemVariants } from '@/type';
+import { useTranslation } from 'react-i18next';
 
 const BlogPage = () => {
   const [selectedCategory, setSelectedCategory] = useState('Barchasi');
   const [searchTerm, setSearchTerm] = useState('');
 
-  const categories = ['Barchasi', 'Texnologiya', 'Dasturlash', 'Karyera', 'Yangiliklar', 'Maslahatlar'];
-
+  const categories = ['Barchasi', 'Dasturlash', 'Karyera', 'Yangiliklar', 'Maslahatlar'];
+  const {t}  = useTranslation()
 
   const filteredPosts = blogPosts.filter(post => {
     const categoryMatch = selectedCategory === 'Barchasi' || post.category === selectedCategory;
@@ -34,10 +35,10 @@ const BlogPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div variants={itemVariants} className="text-center">
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              IT Blog
+              {t('blog.title')}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              IT sohasidagi so'ngi yangiliklar, maslahatlar va foydali ma'lumotlar
+             {t('blog.subtitle')}
             </p>
           </motion.div>
         </div>
@@ -108,20 +109,20 @@ const BlogPage = () => {
                         <User className="h-4 w-4 mr-1" />
                         {filteredPosts[0].author}
                       </div>
-                      <span>{filteredPosts[0].readTime}</span>
+                      <span>{t(filteredPosts[0].readTime)}</span>
                     </div>
                     <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
-                      {filteredPosts[0].title}
+                      {t(filteredPosts[0].title)}
                     </h2>
                     <p className="text-gray-600 mb-6 leading-relaxed">
-                      {filteredPosts[0].excerpt}
+                      {t(filteredPosts[0].excerpt)}
                     </p>
                     <div className="flex items-center justify-between">
                       <div className="flex flex-wrap gap-2">
                         {filteredPosts[0].tags.slice(0, 3).map(tag => (
                           <span key={tag} className="flex items-center px-2 py-1 bg-gray-100 text-gray-600 rounded-lg text-xs">
                             <Tag className="h-3 w-3 mr-1" />
-                            {tag}
+                            {t(tag)}
                           </span>
                         ))}
                       </div>
@@ -170,19 +171,19 @@ const BlogPage = () => {
                       <User className="h-3 w-3 mr-1" />
                       {post.author}
                     </div>
-                    <span>{post.readTime}</span>
+                    <span>{t(post.readTime)}</span>
                   </div>
                   <h3 className="text-lg font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
-                    {post.title}
+                    {t(post.title)}
                   </h3>
                   <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                    {post.excerpt}
+                    {t(post.excerpt)}
                   </p>
                   <div className="flex flex-wrap gap-1 mb-4">
                     {post.tags.slice(0, 2).map(tag => (
                       <span key={tag} className="flex items-center px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs">
                         <Tag className="h-2 w-2 mr-1" />
-                        {tag}
+                        {t(tag)}
                       </span>
                     ))}
                   </div>
@@ -190,7 +191,7 @@ const BlogPage = () => {
                     to={`/course/${post.id}`}
                     className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-sm"
                   >
-                    Batafsil o'qish
+                    {t('blog.learnmore')}
                     <ArrowRight className="ml-1 h-3 w-3" />
                   </Link>
                 </div>

@@ -81,10 +81,10 @@ export const statsData = [
   }
 ];
 export const stats2 = [
-  { number: '50+', labelKey: "statsLabels1.teachersCount" },       // O'qituvchilar soni
-  { number: '100+', labelKey: "statsLabels1.yearsExperience" },    // Yillik tajriba
-  { number: '2500+', labelKey: "statsLabels1.students" },          // Talabalar
-  { number: '4.8', labelKey: "statsLabels1.averageRating" }        // O'rtacha reyting
+  { number: '50+', labelKey: "statsLabels1.teachersCount" },       
+  { number: '100+', labelKey: "statsLabels1.yearsExperience" },    
+  { number: '2500+', labelKey: "statsLabels1.students" },          
+  { number: '4.8', labelKey: "statsLabels1.averageRating" }        
 ];
 
 
@@ -157,456 +157,43 @@ export const oqituvchilar = [
   export   const blogPosts = [
     {
       id: 1,
-      title: 'React 18 da nima yangi? Asosiy o\'zgarishlar',
-      excerpt: 'React 18 versiyasidagi eng muhim yangiliklar va ularni qo\'llash yo\'llari haqida batafsil ma\'lumot.',
-      content: 'React 18 da Concurrent Features, Automatic Batching, Suspense kabi yangi imkoniyatlar...',
+      title: 'blog.cards1.name',
+      excerpt: "blog.cards1.excerpt",
+      content: 'blog.cards1.content',
       author: 'Akmal Rahimov',
       date: '2025-01-15',
       category: 'Dasturlash',
-      readTime: '5 daqiqa',
+      readTime: 'blog.cards1.readTime',
       image: 'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tags: ['React', 'JavaScript', 'Frontend']
+      tags: ["blog.cards2.tags.item1","blog.cards2.tags.item2","blog.cards2.tags.item3"]
     },
     {
       id: 2,
-      title: 'Junior Developer uchun karyera maslahatlar',
-      excerpt: 'IT sohasida ish boshlayotgan yoshlar uchun foydali maslahatlar va yo\'l-yo\'riqlar.',
-      content: 'IT sohasida muvaffaqiyatli karyera qurish uchun kerakli ko\'nikmalar...',
+      title: 'blog.cards2.name',
+      excerpt: 'blog.cards2.excerpt',
+      content: 'blog.cards2.content',
       author: 'Sevara Abdullayeva',
       date: '2025-01-12',
       category: 'Karyera',
-      readTime: '8 daqiqa',
+      readTime: 'blog.cards2.readTime',
       image: 'https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tags: ['Karyera', 'Maslahat', 'Junior']
+      tags: ["blog.cards2.tags.item1","blog.cards2.tags.item2","blog.cards2.tags.item3"]
     },
     {
       id: 3,
-      title: 'Python yoki JavaScript: Qaysi birini tanlash?',
-      excerpt: 'Dasturlashni o\'rganishni boshlayotganlar uchun Python va JavaScript taqqoslovi.',
-      content: 'Python va JavaScript tillarining afzalliklari va kamchiliklari...',
+      title: 'blog.cards3.name',
+      excerpt: 'blog.cards3.excerpt',
+      content: 'blog.cards3.content',
       author: 'Jasur Tursunov',
       date: '2025-01-10',
       category: 'Dasturlash',
-      readTime: '6 daqiqa',
+      readTime: 'blog.cards3.readTime',
       image: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tags: ['Python', 'JavaScript', 'Taqqoslash']
-    },
-    {
-      id: 4,
-      title: 'UI/UX Design trends 2025',
-      excerpt: '2025-yilda kuzatilishi kutilayotgan asosiy UI/UX design trendlari.',
-      content: 'Minimalizm, dark mode, 3D elementlar va boshqa trendlar...',
-      author: 'Dilnoza Karimova',
-      date: '2025-01-08',
-      category: 'Texnologiya',
-      readTime: '7 daqiqa',
-      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tags: ['UI/UX', 'Design', 'Trends']
-    },
-    {
-      id: 5,
-      title: 'Machine Learning bilan tanishish',
-      excerpt: 'Sun\'iy intellekt va machine learning asoslari haqida boshlang\'ich ma\'lumot.',
-      content: 'Machine learning nima va u qanday ishlaydi...',
-      author: 'Bobur Ahmedov',
-      date: '2025-01-05',
-      category: 'Texnologiya',
-      readTime: '10 daqiqa',
-      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tags: ['AI', 'Machine Learning', 'Data Science']
-    },
-    {
-      id: 6,
-      title: 'DevOps amaliyotlari: Docker va Kubernetes',
-      excerpt: 'Zamonaviy DevOps amaliyotlari va containerization texnologiyalari.',
-      content: 'Docker va Kubernetes yordamida ilovalarni deploy qilish...',
-      author: 'Madina Yusupova',
-      date: '2025-01-03',
-      category: 'Texnologiya',
-      readTime: '12 daqiqa',
-      image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600',
-      tags: ['DevOps', 'Docker', 'Kubernetes']
+      tags: ["blog.cards3.tags.item1","blog.cards3.tags.item2","blog.cards3.tags.item3"]
     }
   ];
 
-//   export const coursess = [
-//   {
-//     id: 1,
-//     title: "card.frontend.title",
-//     description:
-//       "card.frontend.description",
-//     fullDescription:
-//       "Ushbu kurs React.js ning barcha asosiy va ilg'or mavzularini qamrab oladi. Siz React hooks, context API, Redux, React Router kabi muhim texnologiyalarni o'rganasiz. Kurs davomida real loyihalar ustida ishlab, portfolio uchun professional loyihalar yaratasiz.",
-//     category: "Frontend",
-//     level: "card.level.beginner",
-//     duration: "8 oy",
-//     students: 730,
-//     rating: 4.9,
-//     price: "325,000",
-//     originalPrice: "500,000",
-//     image:
-//       "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=500",
-//     instructor: {
-//       name: "Nodir",
-//       role: "Senior Frontend Developer",
-//       avatar:
-//         "https://static.vecteezy.com/system/resources/previews/026/408/668/non_2x/man-fashion-smile-face-handsome-portrait-hipster-photo.jpg",
-//       experience: "2+ yil",
-//       courses: 2,
-//       students: 250,
-//     },
-//     curriculum: [
-//       {
-//         module: "Modul 1: React Asoslari",
-//         lessons: 8,
-//         duration: "3 hafta",
-//         topics: [
-//           "React ga kirish",
-//           "Components va JSX",
-//           "Props va State",
-//           "Event Handling",
-//           "Conditional Rendering",
-//           "Lists va Keys",
-//           "Forms bilan ishlash",
-//           "Lifecycle Methods",
-//         ],
-//       },
-//       {
-//         module: "Modul 2: React Hooks",
-//         lessons: 6,
-//         duration: "2 hafta",
-//         topics: [
-//           "useState Hook",
-//           "useEffect Hook",
-//           "useContext Hook",
-//           "useReducer Hook",
-//           "Custom Hooks",
-//           "Hook Rules va Best Practices",
-//         ],
-//       },
-//     ],
-//     features: [
-//       "Professional darajadagi bilimlar",
-//       "Real loyihalar ustida amaliyot",
-//       "Shaxsiy mentor yordami",
-//       "Rasmiy sertifikat",
-//       "Ish joyiga ko'mak",
-//     ],
-//     requirements: [
-//       "HTML va CSS bilimi (boshlang'ich daraja)",
-//       "JavaScript asoslari",
-//       "Kompyuter va internet aloqasi",
-//     ],
-//   },
-//   {
-//     id: 2,
-//     title: "Backend Development",
-//     description:
-//       "Angular Node.js va Express.js bilan server tomonni professional darajada rivojlantiring",
-//     fullDescription:
-//       "Ushbu kursda siz Node.js, Express.js, MongoDB va Angular yordamida zamonaviy backend tizimlarini yaratishni o'rganasiz. API yaratish, autentifikatsiya, xavfsizlik va ma'lumotlar bazasi bilan ishlash chuqur o‘rganiladi.",
-//     category: "Backend",
-//     level: "O'rta",
-//     duration: "7 oy",
-//     students: 320,
-//     rating: 4.8,
-//     price: "325,000",
-//     originalPrice: "480,000",
-//     image:
-//       "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=500",
-//     instructor: {
-//       name: "Temur Axmatov",
-//       role: "Senior Backend Developer",
-//       avatar:
-//         "https://images.stockcake.com/public/e/7/1/e71ca2d8-cda0-461f-9d70-1e3c0dcb2d3f_large/handsome-man-portrait-stockcake.jpg",
-//       experience: "7+ yil",
-//       courses: 8,
-//       students: 900,
-//     },
-//     curriculum: [
-//       {
-//         module: "Modul 1: Backend Asoslari",
-//         lessons: 6,
-//         duration: "3 hafta",
-//         topics: [
-//           "Node.js ga kirish",
-//           "Express.js asoslari",
-//           "REST API yaratish",
-//           "Middleware bilan ishlash",
-//           "Ma'lumotlar bazasi bilan ulanish",
-//           "Error handling",
-//         ],
-//       },
-//       {
-//         module: "Modul 2: Angular Integratsiyasi",
-//         lessons: 5,
-//         duration: "2 hafta",
-//         topics: [
-//           "Angular asoslari",
-//           "Frontend-backend integratsiyasi",
-//           "HTTP so'rovlar",
-//           "Token asosida autentifikatsiya",
-//           "Data binding va services",
-//         ],
-//       },
-//     ],
-//     features: [
-//       "Full-stack bilimlar",
-//       "Real loyihalar",
-//       "Ma'lumotlar bazasi bilan ishlash",
-//       "Xavfsizlik asoslari",
-//       "Rasmiy sertifikat",
-//     ],
-//     requirements: [
-//       "JavaScript asoslari",
-//       "Frontend asoslari",
-//       "Kompyuter va internet aloqasi",
-//     ],
-//   },
-//   {
-//     id: 3,
-//     title: "Kompyuter Savodxonligi",
-//     description:
-//       "Kompyuter, ofis dasturlari va internetdan samarali foydalanishni o'rganing",
-//     fullDescription:
-//       "Kurs davomida siz Windows operatsion tizimi, Microsoft Word, Excel, PowerPoint, Google xizmatlari va internet xavfsizligi haqida bilib olasiz. Yangi boshlovchilar uchun mos va kundalik hayotda ham, ish jarayonida ham foydali bo‘ladi.",
-//     category: "Kampyuter Savodxonligi",
-//     level: "Boshlang'ich",
-//     duration: "4 oy",
-//     students: 500,
-//     rating: 4.7,
-//     price: "200,000",
-//     originalPrice: "300,000",
-//     image:
-//       "https://bilgi.uz/upload/resize_cache/iblock/a47/jgri9zvx35kcmqp6gw33ejq021i9rgcc/780_470_2/ZuhrStar.jpg",
-//     instructor: {
-//       name: "Muxlisa",
-//       role: "IT O'qituvchi",
-//       avatar:
-//         "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=500",
-//       experience: "3+ yil",
-//       courses: 3,
-//       students: 400,
-//     },
-//     curriculum: [
-//       {
-//         module: "Modul 1: Kompyuter Asoslari",
-//         lessons: 5,
-//         duration: "2 hafta",
-//         topics: [
-//           "Windows asoslari",
-//           "Fayl va papkalar bilan ishlash",
-//           "Klaviatura va sichqoncha amaliyoti",
-//           "Dasturlarni o‘rnatish va o‘chirish",
-//           "Internet asoslari",
-//         ],
-//       },
-//       {
-//         module: "Modul 2: Ofis Dasturlari",
-//         lessons: 6,
-//         duration: "2 hafta",
-//         topics: [
-//           "Microsoft Word",
-//           "Microsoft Excel",
-//           "Microsoft PowerPoint",
-//           "Google Docs",
-//           "Google Sheets",
-//           "Google Slides",
-//         ],
-//       },
-//     ],
-//     features: [
-//       "Yangi boshlovchilar uchun mos",
-//       "Amaliy mashg'ulotlar",
-//       "Oson tushunarli darslar",
-//       "Sertifikat",
-//     ],
-//     requirements: ["Kompyuter va internet aloqasi"],
-//   },
-//   {
-//     id: 4,
-//     title: "Koreys Tili",
-//     description:
-//       "Noldan koreys tilini o‘rganing va muloqot qila olish darajasiga chiqing",
-//     fullDescription:
-//       "Ushbu kursda siz koreys alifbosi, grammatikasi, talaffuzi va kundalik so‘zlashuv iboralarini o‘rganasiz. Til amaliyotlari va audio-video materiallar yordamida eshitish, gapirish, o‘qish va yozish ko‘nikmalaringizni rivojlantirasiz.",
-//     category: "Koreys Tili",
-//     level: "Boshlang'ich",
-//     duration: "6 oy",
-//     students: 450,
-//     rating: 4.9,
-//     price: "300,000",
-//     originalPrice: "450,000",
-//     image:
-//       "https://toping.uz/storage/articles/230/JeNBJeQgAAf2zTBSXAWCWftRzvoP2hyK.webp",
-//     instructor: {
-//       name: "Aziza",
-//       role: "Koreys Tili O'qituvchisi",
-//       avatar:
-//         "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=500",
-//       experience: "5+ yil",
-//       courses: 5,
-//       students: 800,
-//     },
-//     curriculum: [
-//       {
-//         module: "Modul 1: Kirish",
-//         lessons: 4,
-//         duration: "2 hafta",
-//         topics: [
-//           "Hangul alifbosi",
-//           "Tovushlar va talaffuz",
-//           "O‘zini tanishtirish",
-//           "Oddiy salomlashuvlar",
-//         ],
-//       },
-//       {
-//         module: "Modul 2: Grammatik Asoslar",
-//         lessons: 6,
-//         duration: "3 hafta",
-//         topics: [
-//           "Otlar va fe’llar",
-//           "Gap tuzilishi",
-//           "Zamonlar",
-//           "Savol va inkor gaplar",
-//           "Sanash va vaqt",
-//           "Kunlik iboralar",
-//         ],
-//       },
-//     ],
-//     features: [
-//       "Talaffuz va tinglash mashqlari",
-//       "Audio-video materiallar",
-//       "Amaliy suhbat darslari",
-//       "Sertifikat",
-//     ],
-//     requirements: ["Qiziqish va muntazam mashq qilish istagi"],
-//   },
-//   {
-//     id: 5,
-//     title: "UI/UX Design",
-//     description:
-//       "Figma va Adobe XD yordamida foydalanuvchi interfeyslari yaratishni o‘rganing",
-//     fullDescription:
-//       "Kurs davomida siz zamonaviy UI/UX dizayn prinsiplari, rang tanlash, tipografiya va foydalanuvchi tajribasini oshirish usullarini o‘rganasiz. Real loyihalarda ishlash orqali portfoliongizni boyitasiz.",
-//     category: "Dizayn",
-//     level: "Boshlang'ich",
-//     duration: "5 oy",
-//     students: 380,
-//     rating: 4.8,
-//     price: "250,000",
-//     originalPrice: "400,000",
-//     image:
-//       "https://images.pexels.com/photos/3184451/pexels-photo-3184451.jpeg?auto=compress&cs=tinysrgb&w=500",
-//     instructor: {
-//       name: "Dilshod",
-//       role: "UI/UX Dizayner",
-//       avatar:
-//         "https://images.pexels.com/photos/3775534/pexels-photo-3775534.jpeg?auto=compress&cs=tinysrgb&w=500",
-//       experience: "4+ yil",
-//       courses: 4,
-//       students: 600,
-//     },
-//     curriculum: [
-//       {
-//         module: "Modul 1: Dizayn Asoslari",
-//         lessons: 5,
-//         duration: "2 hafta",
-//         topics: [
-//           "UI va UX farqi",
-//           "Dizayn prinsiplari",
-//           "Ranglar nazariyasi",
-//           "Tipografiya",
-//           "Layout va grid tizimlari",
-//         ],
-//       },
-//       {
-//         module: "Modul 2: Figma Asoslari",
-//         lessons: 6,
-//         duration: "3 hafta",
-//         topics: [
-//           "Figma interfeysi",
-//           "Frame va komponentlar",
-//           "Style va effektlar",
-//           "Prototype yaratish",
-//           "Responsive dizayn",
-//           "Amaliy loyiha",
-//         ],
-//       },
-//     ],
-//     features: [
-//       "Portfolioga ega bo‘lish imkoniyati",
-//       "Real loyihalarda amaliyot",
-//       "Mentor yordami",
-//       "Sertifikat",
-//     ],
-//     requirements: ["Kompyuter va internet aloqasi", "Ijodkorlik"],
-//   },
-//   {
-//     id: 6,
-//     title: "Data Science",
-//     description:
-//       "Python, Pandas, NumPy va Machine Learning asoslarini o‘rganing",
-//     fullDescription:
-//       "Kurs davomida siz ma’lumotlarni tahlil qilish, tozalash, vizualizatsiya qilish va mashinani o‘qitish asoslarini o‘rganasiz. Real datasetlar ustida ishlash orqali amaliy ko‘nikmalarga ega bo‘lasiz.",
-//     category: "Data",
-//     level: "Yuqori",
-//     duration: "9 oy",
-//     students: 210,
-//     rating: 4.9,
-//     price: "400,000",
-//     originalPrice: "600,000",
-//     image:
-//       "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=500",
-//     instructor: {
-//       name: "Javlon",
-//       role: "Data Scientist",
-//       avatar:
-//         "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=500",
-//       experience: "6+ yil",
-//       courses: 6,
-//       students: 450,
-//     },
-//     curriculum: [
-//       {
-//         module: "Modul 1: Python Asoslari",
-//         lessons: 5,
-//         duration: "3 hafta",
-//         topics: [
-//           "Python sintaksisi",
-//           "Ma’lumot turlari",
-//           "Funksiyalar",
-//           "Modullar",
-//           "Fayllar bilan ishlash",
-//         ],
-//       },
-//       {
-//         module: "Modul 2: Data Analysis Kutubxonalari",
-//         lessons: 6,
-//         duration: "3 hafta",
-//         topics: [
-//           "NumPy asoslari",
-//           "Pandas bilan ishlash",
-//           "Matplotlib va Seaborn",
-//           "Ma’lumotlarni tozalash",
-//           "Vizualizatsiya",
-//           "Statistik tahlil",
-//         ],
-//       },
-//     ],
-//     features: [
-//       "Amaliy datasetlar bilan ishlash",
-//       "Mashina o‘qitish asoslari",
-//       "Portfolio loyihasi",
-//       "Sertifikat",
-//     ],
-//     requirements: [
-//       "Python asoslari",
-//       "Matematika va statistika bilimlari",
-//       "Kompyuter va internet aloqasi",
-//     ],
-//   },
-// ];
+
 export const coursess = [
   
   {
@@ -695,7 +282,7 @@ export const coursess = [
     },
     curriculum: [
       {
-        module: "card.backend.module1.title",
+        module: "card.backend.module1.name",
         duration: "card.backend.module1.duration",
         topics: [
           "card.backend.topics.module1",
@@ -741,7 +328,7 @@ export const coursess = [
     duration: "4 oy",
     students: "80",
     rating: "4.5",
-    price: "200,000",
+    price: "275,000",
     originalPrice: "300,000",
     image: "https://bilgi.uz/upload/resize_cache/iblock/a47/jgri9zvx35kcmqp6gw33ejq021i9rgcc/780_470_2/ZuhrStar.jpg",
     instructor: {
@@ -836,7 +423,7 @@ export const instructors = [
  
 ];
 
-// instructors.ts
+
 export const instructorss = [
   {
     id: 1,

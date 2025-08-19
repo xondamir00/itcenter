@@ -476,6 +476,67 @@
       }
   
     }
+  },
+ "blog": {
+    "learnmore":"Читать далее",
+  "title": "IT Блог",
+  "subtitle": "Последние новости, советы и полезная информация в сфере IT",
+  "cards1": {
+    "name": "Что нового в React 18? Основные изменения",
+    "excerpt": "Подробная информация о самых важных нововведениях в React 18 и способах их применения",
+    "content": "В React 18 появились Concurrent Features, Automatic Batching, Suspense и другие возможности",
+    "readTime": "5 минут",
+    "tags": {
+      "item1": "Карьера",
+      "item2": "Совет",
+      "item3": "Junior"
+    }
+  },
+  "cards2": {
+    "name": "Карьерные советы для Junior разработчиков",
+    "excerpt": "Полезные рекомендации и советы для начинающих специалистов в сфере IT.",
+    "content": "Необходимые навыки для успешного построения карьеры в IT",
+    "readTime": "8 минут",
+    "tags": {
+      "item1": "Карьера",
+      "item2": "Совет",
+      "item3": "Junior"
+    }
+  },
+  "cards3": {
+    "name": "Python или JavaScript: что выбрать?",
+    "excerpt": "Сравнение Python и JavaScript для начинающих программистов.",
+    "content": "Преимущества и недостатки языков Python и JavaScript",
+    "readTime": "6 минут",
+    "tags": {
+      "item1": "Python",
+      "item2": "JavaScript",
+      "item3": "Сравнение"
+    }
+  }
+},
+"footers": {
+    "brand": "IT Центр",
+    "description": "Современный центр IT-образования. Подготовка профессиональных кадров в области программирования и компьютерной грамотности.",
+    "quickLinks": "Быстрые ссылки",
+    "courses": "Курсы",
+    "about": "О нас",
+    "instructors": "Преподаватели",
+    "blog": "Блог",
+    "contact": "Контакты",
+    "popularCourses": "Популярные курсы",
+    "courseList": {
+      "frontend": "Frontend разработка",
+      "backend": "Backend разработка",
+      "mobile": "Мобильная разработка",
+      "datascience": "Data Science",
+      "devops": "DevOps"
+    },
+    "contactInfo": "Контактная информация",
+    "address": "г. Джизак, Зарбдорский район, здание Государственных услуг, 1-й этаж",
+    "phone": "+998 (77) 030-43-21",
+    "email": "info@itmarkazi.uz",
+    "rights": "Все права защищены."
   }
 
 

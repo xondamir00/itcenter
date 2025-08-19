@@ -362,7 +362,67 @@
         "intermediate": "Intermediate",
         "advanced": "Advanced"
       }
+    },
+   "blog": {
+    "learnmore":"Read more",
+  "title": "IT Blog",
+  "subtitle": "The latest news, tips, and useful information in the IT field",
+  "cards1": {
+    "name": "What's New in React 18? Key Changes",
+    "excerpt": "Detailed information about the most important updates in React 18 and how to use them",
+    "content": "React 18 introduces Concurrent Features, Automatic Batching, Suspense, and more",
+    "readTime": "5 minutes",
+    "tags": {
+      "item1": "Career",
+      "item2": "Tips",
+      "item3": "Junior"
     }
-
+  },
+  "cards2": {
+    "name": "Career Tips for Junior Developers",
+    "excerpt": "Useful advice and guidance for beginners starting their career in IT.",
+    "content": "Essential skills needed to build a successful career in IT",
+    "readTime": "8 minutes",
+    "tags": {
+      "item1": "Career",
+      "item2": "Tips",
+      "item3": "Junior"
+    }
+  },
+  "cards3": {
+    "name": "Python or JavaScript: Which One to Choose?",
+    "excerpt": "A comparison of Python and JavaScript for those starting programming.",
+    "content": "Advantages and disadvantages of Python and JavaScript",
+    "readTime": "6 minutes",
+    "tags": {
+      "item1": "Python",
+      "item2": "JavaScript",
+      "item3": "Comparison"
+    }
+  }
+},
+ "footers": {
+    "brand": "IT Center",
+    "description": "A modern IT education center. Training professional specialists in programming and computer literacy.",
+    "quickLinks": "Quick Links",
+    "courses": "Courses",
+    "about": "About Us",
+    "instructors": "Instructors",
+    "blog": "Blog",
+    "contact": "Contact",
+    "popularCourses": "Popular Courses",
+    "courseList": {
+      "frontend": "Frontend Development",
+      "backend": "Backend Development",
+      "mobile": "Mobile Development",
+      "datascience": "Data Science",
+      "devops": "DevOps"
+    },
+    "contactInfo": "Contact Information",
+    "address": "Jizzakh city, Zarbdor district, Public Services building, 1st floor",
+    "phone": "+998 (77) 030-43-21",
+    "email": "info@itmarkazi.uz",
+    "rights": "All rights reserved."
+  }
 
 }

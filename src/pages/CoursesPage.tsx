@@ -1,3 +1,4 @@
+import { SiLevelsdotfyi } from "react-icons/si";
 import  { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -6,7 +7,7 @@ import { containerVariants, itemVariants } from "../type";
 import { coursess } from "@/constants";
 import { useTranslation } from "react-i18next";
 
-const categories = ['Barchasi', 'Frontend', 'Backend', 'Koreys Tili', 'Kampyuter Savodxonligi'];
+const categories = ['Barchasi', 'Frontend', 'Backend', 'Kampyuter Savodxonligi'];
 const levels = ['Barchasi', "Boshlang'ich", "O'rta", "Yuqori"];
 
 const CoursesPage = () => {
@@ -89,7 +90,8 @@ const CoursesPage = () => {
 
             <div className="flex flex-wrap gap-4">
               <div className="flex items-center space-x-2">
-                <span className="font-medium">Daraja:</span>
+                <SiLevelsdotfyi size={20} />
+                <span className="font-medium">Daraja: </span>
                 <div className="w-full flex items-center gap-3 flex-wrap">
                   {levels.map(level => (
                     <button
@@ -140,7 +142,7 @@ const CoursesPage = () => {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{t(course.title)}</h3>
-                  <p className="text-gray-600 mb-4  lg:h-[10vh]">{t(course.description)}</p>
+                  <p className="text-gray-600 mb-4  lg:h-[13vh]">{t(course.description)}</p>
 
                   <div className="flex items-center justify-between mb-4 text-sm text-gray-500">
                     <div className="flex items-center">
@@ -165,7 +167,7 @@ const CoursesPage = () => {
                     to={`/course/${course.id}`}
                     className="group w-full inline-flex items-center justify-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl transition-colors"
                   >
-                    Batafsil ma'lumot
+                    {t('blog.learnmore')}
                     <ChevronRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </div>

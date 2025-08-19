@@ -488,5 +488,65 @@
       }
   
     }
+  },
+  "blog":{
+    "learnmore":"Batafsil O'qish",
+    "title":"IT Blog",
+    "subtitle":" IT sohasidagi so'ngi yangiliklar, maslahatlar va foydali ma'lumotlar",
+    "cards1":{
+      "name":"React 18 da nima yangi? Asosiy o'zgarishlar",
+      "excerpt":"React 18 versiyasidagi eng muhim yangiliklar va ularni qo'llash yo'llari haqida batafsil ma'lumot",
+      "content":"React 18 da Concurrent Features, Automatic Batching, Suspense kabi yangi imkoniyatlar",
+      "readTime":"5 daqiqa",
+      "tags":{
+        "item1":"Karyera",
+        "item2":"Maslahat",
+        "item3":"Junior"
+      }
+    },
+    "cards2":{
+      "name":"Junior Developer uchun karyera maslahatlar",
+      "excerpt":"IT sohasida ish boshlayotgan yoshlar uchun foydali maslahatlar va yo'l-yo'riqlar.",
+      "content":"IT sohasida muvaffaqiyatli karyera qurish uchun kerakli ko'nikmalar",
+      "readTime":"8 daqiqa",
+      "tags":{
+        "item1":"Karyera",
+        "item2":"Maslahat",
+        "item3":"Junior"
+      }
+    }, "cards3":{
+      "name":"Python yoki JavaScript: Qaysi birini tanlash?",
+      "excerpt":"Dasturlashni o'rganishni boshlayotganlar uchun Python va JavaScript taqqoslovi.",
+      "content":"Python va JavaScript tillarining afzalliklari va kamchiliklari",
+      "readTime":"6 daqiqa",
+      "tags":{
+        "item1":"Python",
+        "item2":"JavaScript",
+        "item3":"Taqqoslash"
+      }
+    }
+  },
+  "footers": {
+    "brand": "IT Markazi",
+    "description": "Zamonaviy IT ta'lim markazi. Dasturlash va kompyuter savodxonligi yo'nalishida professional kadrlar tayyorlash.",
+    "quickLinks": "Tez havolalar",
+    "courses": "Kurslar",
+    "about": "Biz haqimizda",
+    "instructors": "O'qituvchilar",
+    "blog": "Blog",
+    "contact": "Aloqa",
+    "popularCourses": "Mashhur kurslar",
+    "courseList": {
+      "frontend": "Frontend Dasturlash",
+      "backend": "Backend Dasturlash",
+      "mobile": "Mobil Dasturlash",
+      "datascience": "Data Science",
+      "devops": "DevOps"
+    },
+    "contactInfo": "Aloqa ma'lumotlari",
+    "address": "Jizzax sh, Zarbdor tumani, Davlat xizmatlari binosi, 1-qavat",
+    "phone": "+998 (77) 030-43-21",
+    "email": "info@itmarkazi.uz",
+    "rights": "Barcha huquqlar himoyalangan."
   }
 }
