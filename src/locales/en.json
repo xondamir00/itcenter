@@ -8,6 +8,12 @@
     "contact": "Contact"
   },
   "home": {
+    "name":"Popular Courses",
+    "subtitle":"Gain deep knowledge and practical skills in the most in-demand areas of IT.",
+    "ctaname":"Start your IT career today!",
+    "ctasub":": Professional instructors, modern programs, and practical projects are waiting for you.",
+    "ctalink":"Start now",
+    "ctainfo":"Get a consultation",
     "hero": {
       "title1": "In the IT field",
       "title2": "your career",

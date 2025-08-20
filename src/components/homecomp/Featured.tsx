@@ -18,10 +18,10 @@ const {t} = useTranslation()
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div variants={itemVariants} className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold  mb-4">
-              Mashhur kurslar
+              {t("home.name")}
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              IT sohasining eng so'ralgan yo'nalishlarida chuqur bilim va amaliy ko'nikmalar oling
+              {t("home.subtitle")}
             </p>
           </motion.div>
 
@@ -58,7 +58,7 @@ const {t} = useTranslation()
                     to={`/course/${course.id}`}
                     className="group w-full inline-flex items-center justify-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl transition-colors"
                   >
-                    Batafsil ma'lumot
+                    {t("blog.learnmore")}
                     <ChevronRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Link>
                 </div>
@@ -71,7 +71,7 @@ const {t} = useTranslation()
               to="/courses"
               className="inline-flex items-center px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl transition-colors"
             >
-              Barcha kurslar
+              {t("blog.learnmore")}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </motion.div>

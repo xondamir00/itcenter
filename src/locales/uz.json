@@ -8,6 +8,12 @@
     "contact": "Aloqa"
   },
   "home": {
+    "name":"Mashhur kurslar",
+    "subtitle":"  IT sohasining eng so'ralgan yo'nalishlarida chuqur bilim va amaliy ko'nikmalar oling",
+    "ctaname":"IT karyerangizni bugun boshlang!",
+    "ctasub":"  Professional o'qituvchilar, zamonaviy dasturlar va amaliy loyihalar sizni kutmoqda",
+    "ctalink":"   Hoziroq boshlang",
+    "ctainfo":"Maslahat oling",
     "hero": {
       "title1": "IT sohasida",
       "title2": "karyerangizni",
