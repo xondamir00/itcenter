@@ -30,12 +30,12 @@ const ContactPage = () => {
     e.preventDefault();
 
     const message = `
-📩 Yangi xabar:
-👤 Ism: ${formData.name}
-👤 Familiya: ${formData.surname}
-📧 Email: ${formData.phone}
-📝 Mavzu: ${formData.subject}
-💬 Xabar: ${formData.message}
+Yangi xabar:
+Ism: ${formData.name}
+ telefon raqam: ${formData.phone}
+ Familiya: ${formData.surname} 
+ Mavzu: ${formData.subject}
+ Xabar: ${formData.message}
     `;
 
     try {
@@ -129,12 +129,10 @@ const ContactPage = () => {
           </motion.div>
         </div>
       </section>
-
-      {/* Contact Form & Map */}
-      <section className="py-20 ">
+      <section>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white dark:bg-transparent dark:border-2 border-white rounded-2xl my-5 shadow-lg p-6">
-            <h3 className="text-xl text-center font-bold mb-6">{t('contact.quickContact.title', 'Tezkor aloqa')}</h3>
+            <h3 className="lg:text-4xl text-xl text-center font-bold mb-6">{t('contact.quickContact.title', 'Tezkor aloqa')}</h3>
             <div className="space-y-4 flex w-full flex-wrap items-center justify-around">
               <div className="flex items-center py-4 px-8 bg-green-50 rounded-lg hover:bg-green-100 transition-colors group">
                 <Phone className="h-6 w-6 text-green-600 mr-4" />
